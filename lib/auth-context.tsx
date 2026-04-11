@@ -32,20 +32,36 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
+    let isMounted = true
+
     const checkAuth = async () => {
       try {
-        const res = await fetch("/api/auth/me")
+        const res = await fetch("/api/auth/me", {
+          credentials: "include",
+          cache: "no-store",
+        })
         if (res.ok) {
           const data = await res.json()
-          setUser(data.user)
+          if (isMounted) setUser(data.user)
         }
       } catch {
         // Not authenticated
       } finally {
-        setIsLoading(false)
+        if (isMounted) setIsLoading(false)
       }
     }
+
     checkAuth()
+
+    // Some browsers may apply Set-Cookie slightly after initial render.
+    const retryTimer = setTimeout(() => {
+      void checkAuth()
+    }, 1200)
+
+    return () => {
+      isMounted = false
+      clearTimeout(retryTimer)
+    }
   }, [])
 
   const login = useCallback(async (email: string, password: string) => {
@@ -53,11 +69,17 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       const res = await fetch("/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        credentials: "include",
         body: JSON.stringify({ email, password }),
       })
       const data = await res.json()
       if (res.ok) {
         setUser(data.user)
+        // Confirm the auth cookie is visible to subsequent navigations.
+        await fetch("/api/auth/me", {
+          credentials: "include",
+          cache: "no-store",
+        })
         return { success: true }
       }
       return { success: false, error: data.error }
@@ -71,11 +93,17 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       const res = await fetch("/api/auth/signup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        credentials: "include",
         body: JSON.stringify({ name, email, password }),
       })
       const data = await res.json()
       if (res.ok) {
         setUser(data.user)
+        // Confirm the auth cookie is visible to subsequent navigations.
+        await fetch("/api/auth/me", {
+          credentials: "include",
+          cache: "no-store",
+        })
         return { success: true }
       }
       return { success: false, error: data.error }
@@ -85,7 +113,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [])
 
   const logout = useCallback(async () => {
-    await fetch("/api/auth/logout", { method: "POST" })
+    await fetch("/api/auth/logout", {
+      method: "POST",
+      credentials: "include",
+    })
     setUser(null)
     router.push("/login")
   }, [router])
@@ -95,6 +126,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       const res = await fetch("/api/auth/update", {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
+        credentials: "include",
         body: JSON.stringify(data),
       })
       const result = await res.json()

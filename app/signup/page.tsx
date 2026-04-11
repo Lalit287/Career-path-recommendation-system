@@ -1,6 +1,6 @@
 "use client"
 
-import { Suspense, useState } from "react"
+import { Suspense, useEffect, useState } from "react"
 import Link from "next/link"
 import { useRouter, useSearchParams } from "next/navigation"
 import { Button } from "@/components/ui/button"
@@ -27,7 +27,7 @@ const PASSWORD_REQUIREMENTS: PasswordRequirement[] = [
 function SignupPageContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
-  const { signup } = useAuth()
+  const { user, isLoading: authLoading, signup } = useAuth()
   const [isLoading, setIsLoading] = useState(false)
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
@@ -50,6 +50,12 @@ function SignupPageContent() {
     !isLoading
 
   const redirectUrl = searchParams.get("redirect") || "/careers"
+
+  useEffect(() => {
+    if (!authLoading && user) {
+      window.location.replace(redirectUrl)
+    }
+  }, [authLoading, user, redirectUrl])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -88,7 +94,7 @@ function SignupPageContent() {
 
     if (result.success) {
       toast.success("Account created successfully!")
-      router.push(redirectUrl)
+      window.location.assign(redirectUrl)
     } else {
       toast.error(result.error || "Signup failed")
     }

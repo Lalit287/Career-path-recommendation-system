@@ -14,13 +14,19 @@ import { Compass, Loader2 } from "lucide-react"
 function LoginPageContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
-  const { login } = useAuth()
+  const { user, isLoading: authLoading, login } = useAuth()
   const [isLoading, setIsLoading] = useState(false)
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const canSubmit = email.trim().length > 0 && password.length > 0 && !isLoading
 
   const redirectUrl = searchParams.get("redirect") || "/careers"
+
+  useEffect(() => {
+    if (!authLoading && user) {
+      window.location.replace(redirectUrl)
+    }
+  }, [authLoading, user, redirectUrl])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -40,7 +46,7 @@ function LoginPageContent() {
 
     if (result.success) {
       toast.success("Welcome back!")
-      router.push(redirectUrl)
+      window.location.assign(redirectUrl)
     } else {
       toast.error(result.error || "Login failed")
     }

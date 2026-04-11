@@ -2,10 +2,8 @@ import { cookies } from "next/headers"
 import { NextRequest } from "next/server"
 import { createHmac, timingSafeEqual } from "node:crypto"
 
-const JWT_SECRET = process.env.JWT_SECRET?.trim() || ""
-
-if (!JWT_SECRET) {
-  throw new Error("JWT_SECRET is required and must be set in environment variables")
+function getJwtSecret(): string {
+  return process.env.JWT_SECRET?.trim() || ""
 }
 
 function base64UrlEncode(str: string): string {
@@ -17,8 +15,13 @@ function base64UrlDecode(str: string): string {
 }
 
 function createSignature(header: string, payload: string): string {
+  const secret = getJwtSecret()
+  if (!secret) {
+    return ""
+  }
+
   const data = `${header}.${payload}`
-  return createHmac("sha256", JWT_SECRET)
+  return createHmac("sha256", secret)
     .update(data)
     .digest("base64url")
 }
@@ -30,6 +33,10 @@ type TokenPayload = {
 }
 
 export function createToken(payload: TokenPayload): string {
+  if (!getJwtSecret()) {
+    throw new Error("JWT_SECRET is required and must be set in environment variables")
+  }
+
   const header = base64UrlEncode(JSON.stringify({ alg: "HS256", typ: "JWT" }))
   const payloadStr = base64UrlEncode(JSON.stringify({
     ...payload,
@@ -41,6 +48,10 @@ export function createToken(payload: TokenPayload): string {
 
 export function verifyToken(token: string): TokenPayload | null {
   try {
+    if (!getJwtSecret()) {
+      return null
+    }
+
     const [header, payload, signature] = token.split(".")
     if (!header || !payload || !signature) {
       return null
