@@ -2,7 +2,7 @@ import fs from "fs"
 import path from "path"
 import mongoose from "mongoose"
 
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://career_admin:Iw7roC27zFYqsQLa@se-project.gt6ivyp.mongodb.net/careerpath?retryWrites=true&w=majority"
+const MONGODB_URI = process.env.MONGODB_URI
 
 const SalaryRangeSchema = new mongoose.Schema(
   {
@@ -67,6 +67,10 @@ function transformJob(job) {
 
 async function seedDatabase(datasetFile) {
   try {
+    if (!MONGODB_URI) {
+      throw new Error("MONGODB_URI is not set. Please configure it in your environment.")
+    }
+
     console.log("🔗 Connecting to MongoDB...")
     await mongoose.connect(MONGODB_URI)
     console.log("✅ Connected to MongoDB")

@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
 
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://career_admin:Iw7roC27zFYqsQLa@se-project.gt6ivyp.mongodb.net/careerpath?retryWrites=true&w=majority"
+const MONGODB_URI = process.env.MONGODB_URI
 
 const SalaryRangeSchema = new mongoose.Schema(
   {
@@ -45,6 +45,10 @@ const JobProfile = mongoose.model("JobProfile", JobProfileSchema)
 
 async function checkDatabase() {
   try {
+    if (!MONGODB_URI) {
+      throw new Error("MONGODB_URI is not set. Please configure it in your environment.")
+    }
+
     console.log("🔗 Connecting to MongoDB...")
     await mongoose.connect(MONGODB_URI)
     console.log("✅ Connected to MongoDB\n")
