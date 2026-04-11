@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server"
-import { store } from "@/lib/store"
+import { connectToDatabase } from "@/lib/mongodb"
+import { User } from "@/models/User"
 import { getAuthCookie, verifyToken } from "@/lib/jwt"
 
 export async function GET() {
@@ -22,18 +23,20 @@ export async function GET() {
       )
     }
 
-    const user = store.users.find((u) => u.id === decoded.userId)
+    await connectToDatabase()
+    const adminUser = await User.findById(decoded.userId)
 
-    if (!user?.isAdmin) {
+    if (!adminUser?.isAdmin) {
       return NextResponse.json(
         { error: "Admin access required" },
         { status: 403 }
       )
     }
 
-    // Return users without passwords
-    const users = store.users.map((u) => ({
-      id: u.id,
+    // Fetch all users from database
+    const allUsers = await User.find({}).select("-password")
+    const users = allUsers.map((u) => ({
+      id: u._id.toString(),
       name: u.name,
       email: u.email,
       education: u.education,

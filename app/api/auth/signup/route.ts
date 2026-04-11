@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server"
-import { store, generateId } from "@/lib/store"
+import bcryptjs from "bcryptjs"
+import { connectToDatabase } from "@/lib/mongodb"
+import { User } from "@/models/User"
 import { createToken, setAuthCookie } from "@/lib/jwt"
 
 export async function POST(request: Request) {
@@ -31,8 +33,11 @@ export async function POST(request: Request) {
       )
     }
 
+    // Connect to database
+    await connectToDatabase()
+
     // Check if user already exists
-    const existingUser = store.users.find((u) => u.email.toLowerCase() === email)
+    const existingUser = await User.findOne({ email })
     if (existingUser) {
       return NextResponse.json(
         { error: "Email already registered" },
@@ -40,30 +45,29 @@ export async function POST(request: Request) {
       )
     }
 
+    // Hash password
+    const hashedPassword = await bcryptjs.hash(password, 10)
+
     // Create new user
-    const newUser = {
-      id: generateId(),
+    const newUser = await User.create({
       name,
       email,
-      password, // In production, hash with bcrypt
+      password: hashedPassword,
       education: "",
       skills: [],
       interests: [],
       savedCareers: [],
       savedRoadmaps: [],
       isAdmin: false,
-      createdAt: new Date(),
-    }
-
-    store.users.push(newUser)
+    })
 
     // Create token
-    const token = createToken({ userId: newUser.id, email: newUser.email })
+    const token = createToken({ userId: newUser._id.toString(), email: newUser.email, isAdmin: Boolean(newUser.isAdmin) })
     await setAuthCookie(token)
 
     return NextResponse.json({
       user: {
-        id: newUser.id,
+        id: newUser._id.toString(),
         name: newUser.name,
         email: newUser.email,
         education: newUser.education,

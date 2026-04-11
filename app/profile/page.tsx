@@ -25,6 +25,14 @@ interface Career {
   difficulty: string
 }
 
+interface SavedRoadmap {
+  id: string
+  careerId: string
+  careerName: string
+  totalDuration: string
+  createdAt: string
+}
+
 const educationOptions = [
   { value: "high-school", label: "High School" },
   { value: "bachelor", label: "Bachelor's Degree" },
@@ -39,10 +47,12 @@ export default function ProfilePage() {
   const [isEditing, setIsEditing] = useState(false)
   const [isSaving, setIsSaving] = useState(false)
   const [savedCareers, setSavedCareers] = useState<Career[]>([])
+  const [savedRoadmaps, setSavedRoadmaps] = useState<SavedRoadmap[]>([])
   const [careersLoading, setCareersLoading] = useState(true)
+  const [roadmapsLoading, setRoadmapsLoading] = useState(true)
 
   const [name, setName] = useState("")
-  const [education, setEducation] = useState("")
+  const [education, setEducation] = useState<string>("")
   const [skills, setSkills] = useState<string[]>([])
   const [interests, setInterests] = useState<string[]>([])
   const [skillInput, setSkillInput] = useState("")
@@ -56,14 +66,14 @@ export default function ProfilePage() {
 
   useEffect(() => {
     if (user) {
-      setName(user.name)
-      setEducation(user.education)
-      setSkills(user.skills)
-      setInterests(user.interests)
+      setName(user.name || "")
+      setEducation(user.education || "")
+      setSkills(Array.isArray(user.skills) ? user.skills : [])
+      setInterests(Array.isArray(user.interests) ? user.interests : [])
 
       // Fetch saved careers
       const fetchSavedCareers = async () => {
-        if (user.savedCareers.length === 0) {
+        if (!user.savedCareers || user.savedCareers.length === 0) {
           setCareersLoading(false)
           return
         }
@@ -82,7 +92,27 @@ export default function ProfilePage() {
         }
       }
 
+      const fetchSavedRoadmaps = async () => {
+        if (!user.savedRoadmaps || user.savedRoadmaps.length === 0) {
+          setRoadmapsLoading(false)
+          return
+        }
+
+        try {
+          const ids = user.savedRoadmaps.join(",")
+          const response = await fetch(`/api/roadmap?roadmapIds=${encodeURIComponent(ids)}`)
+          if (!response.ok) throw new Error("Failed to fetch saved roadmaps")
+          const data = await response.json()
+          setSavedRoadmaps(Array.isArray(data.roadmaps) ? data.roadmaps : [])
+        } catch (error) {
+          console.error("Failed to fetch saved roadmaps:", error)
+        } finally {
+          setRoadmapsLoading(false)
+        }
+      }
+
       fetchSavedCareers()
+      fetchSavedRoadmaps()
     }
   }, [user])
 
@@ -223,7 +253,7 @@ export default function ProfilePage() {
                   <div className="space-y-2">
                     <Label htmlFor="education">Education Level</Label>
                     {isEditing ? (
-                      <Select value={education} onValueChange={setEducation}>
+                      <Select value={education || ""} onValueChange={setEducation}>
                         <SelectTrigger>
                           <SelectValue placeholder="Select education level" />
                         </SelectTrigger>
@@ -237,7 +267,9 @@ export default function ProfilePage() {
                       </Select>
                     ) : (
                       <p className="text-muted-foreground">
-                        {educationOptions.find((e) => e.value === user.education)?.label || "Not specified"}
+                        {education && educationOptions.find((e) => e.value === education)?.label 
+                          ? educationOptions.find((e) => e.value === education)?.label 
+                          : "Not specified"}
                       </p>
                     )}
                   </div>
@@ -342,10 +374,10 @@ export default function ProfilePage() {
                         variant="outline"
                         onClick={() => {
                           setIsEditing(false)
-                          setName(user.name)
-                          setEducation(user.education)
-                          setSkills(user.skills)
-                          setInterests(user.interests)
+                          setName(user.name || "")
+                          setEducation(user.education || "")
+                          setSkills(Array.isArray(user.skills) ? user.skills : [])
+                          setInterests(Array.isArray(user.interests) ? user.interests : [])
                         }}
                       >
                         Cancel
@@ -431,18 +463,29 @@ export default function ProfilePage() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  {user.savedRoadmaps.length > 0 ? (
+                  {roadmapsLoading ? (
+                    <div className="space-y-4">
+                      <Skeleton className="h-16 w-full" />
+                      <Skeleton className="h-16 w-full" />
+                    </div>
+                  ) : savedRoadmaps.length > 0 ? (
                     <div className="space-y-3">
-                      {user.savedRoadmaps.map((roadmapId) => (
+                      {savedRoadmaps.map((roadmap) => (
                         <div
-                          key={roadmapId}
+                          key={roadmap.id}
                           className="flex items-center justify-between rounded-lg border p-4"
                         >
                           <div>
-                            <h3 className="font-medium">Roadmap #{roadmapId.slice(-6)}</h3>
+                            <h3 className="font-medium">{roadmap.careerName} Roadmap</h3>
+                            <p className="text-sm text-muted-foreground">
+                              Estimated Duration: {roadmap.totalDuration}
+                            </p>
                           </div>
-                          <Button size="sm" variant="outline">
-                            View Roadmap
+                          <Button asChild size="sm" variant="outline">
+                            <Link href={`/careers/${roadmap.careerId}/roadmap?roadmapId=${roadmap.id}`}>
+                              View Roadmap
+                              <ArrowRight className="ml-1 h-4 w-4" />
+                            </Link>
                           </Button>
                         </div>
                       ))}

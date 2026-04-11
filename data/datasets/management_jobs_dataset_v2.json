@@ -1,0 +1,4739 @@
+{
+  "metadata": {
+    "dataset_name": "Management Domain Jobs Dataset",
+    "version": "1.0",
+    "last_updated": "2026-03",
+    "currency": "INR",
+    "country": "India",
+    "purpose": "Career Path Recommendation System",
+    "total_domains": 15,
+    "domains_covered": [
+      "Product Management",
+      "Project Management",
+      "Operations Management",
+      "Marketing Management",
+      "HR Management",
+      "Finance Management",
+      "General & Strategy Management",
+      "Supply Chain Management",
+      "Sales Management",
+      "Technology & IT Management",
+      "Education Management",
+      "Healthcare Management",
+      "Hospitality Management",
+      "Real Estate Management",
+      "Non-Profit & Social Management"
+    ],
+    "onet_enriched": true,
+    "onet_source": "O*NET Online (US Department of Labor) - Management Occupations (SOC 11-XXXX)",
+    "note": "Skills, education levels, and experience ranges for ADM-series jobs are enriched from O*NET data. Salary ranges are India-specific (INR)."
+  },
+  "jobs": [
+    {
+      "id": "PM001",
+      "title": "Associate Product Manager",
+      "domain": "Product Management",
+      "description": "Entry-level product role focused on supporting senior PMs in research, documentation, and feature scoping for digital products.",
+      "roles_responsibilities": [
+        "Assist in defining product requirements and user stories",
+        "Conduct market and user research",
+        "Coordinate with engineering and design teams",
+        "Track and report on feature development progress",
+        "Analyze product metrics and prepare reports"
+      ],
+      "skills_required": [
+        "Product Thinking",
+        "Communication",
+        "Basic Data Analysis",
+        "User Research",
+        "Documentation",
+        "Agile Basics"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "B.Tech / B.E.",
+          "BBA",
+          "B.Sc"
+        ],
+        "alternative": [
+          "Internship in Product/Tech Role",
+          "APM Programs"
+        ]
+      },
+      "experience_level": "Entry",
+      "difficulty": "Entry",
+      "tools_technologies": [
+        "JIRA",
+        "Confluence",
+        "Figma",
+        "Google Analytics",
+        "Notion",
+        "Miro"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 1400000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "APMs typically graduate to full PM roles within 2 years. Strong demand from startups and product-led companies.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PM002",
+      "title": "Product Manager",
+      "domain": "Product Management",
+      "description": "Define product vision, prioritize features, and coordinate cross-functional teams to build and deliver successful digital products.",
+      "roles_responsibilities": [
+        "Define product roadmap and strategy",
+        "Gather and analyze user requirements",
+        "Collaborate with engineering, design, and marketing teams",
+        "Prioritize features based on business impact",
+        "Track product performance and iterate"
+      ],
+      "skills_required": [
+        "Product Thinking",
+        "Communication",
+        "Data Analysis",
+        "Problem Solving",
+        "Agile Methodologies",
+        "Stakeholder Management"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "MBA",
+          "B.Tech with PM experience"
+        ],
+        "alternative": [
+          "Work Experience in Related Domain"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "JIRA",
+        "Confluence",
+        "Figma",
+        "Google Analytics",
+        "Excel",
+        "Amplitude"
+      ],
+      "salary_range": {
+        "min": 1200000,
+        "max": 3000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Product management roles are expanding rapidly as companies focus on building user-centric products.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PM003",
+      "title": "Senior Product Manager",
+      "domain": "Product Management",
+      "description": "Lead product strategy for complex product lines, mentor junior PMs, and drive cross-org alignment on multi-quarter roadmaps.",
+      "roles_responsibilities": [
+        "Own end-to-end product lifecycle for key product areas",
+        "Define OKRs and success metrics",
+        "Influence executive stakeholders",
+        "Mentor APMs and PMs",
+        "Drive go-to-market strategy with marketing and sales"
+      ],
+      "skills_required": [
+        "Strategic Thinking",
+        "Leadership",
+        "Advanced Data Analysis",
+        "Stakeholder Management",
+        "Go-to-Market Strategy",
+        "Roadmapping"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "MBA",
+          "M.Tech"
+        ],
+        "alternative": [
+          "5+ Years PM Experience"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "JIRA",
+        "Confluence",
+        "Mixpanel",
+        "Amplitude",
+        "Figma",
+        "SQL",
+        "Tableau"
+      ],
+      "salary_range": {
+        "min": 2500000,
+        "max": 5000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Pathway to Group PM, Director of Product, or VP of Product. Senior PMs are among the most sought-after roles in tech.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PM004",
+      "title": "Group Product Manager",
+      "domain": "Product Management",
+      "description": "Oversee a portfolio of products or a major product area, managing a team of PMs and aligning product strategy with company goals.",
+      "roles_responsibilities": [
+        "Manage and mentor a team of Product Managers",
+        "Own product portfolio strategy and roadmap",
+        "Align product vision with business strategy",
+        "Present to C-level stakeholders",
+        "Drive cross-functional collaboration across multiple teams"
+      ],
+      "skills_required": [
+        "People Management",
+        "Product Strategy",
+        "Executive Communication",
+        "Portfolio Management",
+        "Data-Driven Decision Making",
+        "Organizational Influence"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA from Premier Institute"
+        ],
+        "alternative": [
+          "8+ Years PM Experience with Leadership Track"
+        ]
+      },
+      "experience_level": "Lead",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "JIRA",
+        "Confluence",
+        "Tableau",
+        "SQL",
+        "Amplitude",
+        "PowerPoint"
+      ],
+      "salary_range": {
+        "min": 4000000,
+        "max": 8000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Direct pathway to Director of Product or VP Product. Highly valuable in product-led growth companies.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PM005",
+      "title": "Director of Product Management",
+      "domain": "Product Management",
+      "description": "Lead the entire product function for a business unit, setting product culture, strategy, and building high-performing PM teams.",
+      "roles_responsibilities": [
+        "Define product vision and multi-year strategy",
+        "Build and scale PM organization",
+        "Partner with CTO, CEO, and CMO on company direction",
+        "Manage Group PMs and set performance standards",
+        "Drive product-market fit and revenue growth"
+      ],
+      "skills_required": [
+        "Executive Leadership",
+        "Strategic Vision",
+        "P&L Understanding",
+        "Organizational Design",
+        "Market Analysis",
+        "Investor Communication"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA from IIM or Equivalent"
+        ],
+        "alternative": [
+          "10+ Years in Product with Senior Leadership Experience"
+        ]
+      },
+      "experience_level": "Director",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "Tableau",
+        "SQL",
+        "PowerPoint",
+        "Confluence",
+        "JIRA",
+        "Salesforce"
+      ],
+      "salary_range": {
+        "min": 6000000,
+        "max": 15000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Pathway to VP of Product, Chief Product Officer (CPO), or founding a startup.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PM006",
+      "title": "VP of Product",
+      "domain": "Product Management",
+      "description": "Executive responsible for all product lines, representing product at the board level and aligning product investments with company strategy.",
+      "roles_responsibilities": [
+        "Set company-wide product strategy",
+        "Represent product to board and investors",
+        "Manage Directors and Group PMs",
+        "Define product culture and hiring bar",
+        "Drive revenue and growth through product"
+      ],
+      "skills_required": [
+        "C-Suite Communication",
+        "P&L Ownership",
+        "M&A Due Diligence",
+        "Organizational Leadership",
+        "Market Expansion Strategy",
+        "Board Presentations"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA from IIM/ISB or Top Global School"
+        ],
+        "alternative": [
+          "Proven Track Record as Director of Product"
+        ]
+      },
+      "experience_level": "Executive",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "Tableau",
+        "Salesforce",
+        "PowerPoint",
+        "SQL",
+        "Confluence"
+      ],
+      "salary_range": {
+        "min": 12000000,
+        "max": 30000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Pathway to CPO or CEO. VPs of Product are highly compensated and frequently sought by funded startups.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PM007",
+      "title": "Chief Product Officer (CPO)",
+      "domain": "Product Management",
+      "description": "The top product executive in an organization, accountable for all product decisions, innovation, and the product P&L.",
+      "roles_responsibilities": [
+        "Own entire product portfolio and vision",
+        "Drive product-led growth",
+        "Align product with business, tech, and marketing",
+        "Represent product on the executive leadership team",
+        "Set innovation agenda and build product culture"
+      ],
+      "skills_required": [
+        "Executive Leadership",
+        "Innovation Strategy",
+        "P&L Management",
+        "Board Communication",
+        "Talent Development",
+        "Business Strategy"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA from Tier-1 Institute"
+        ],
+        "alternative": [
+          "Proven CPO / VP Product Track Record"
+        ]
+      },
+      "experience_level": "C-Suite",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "Tableau",
+        "Salesforce",
+        "PowerPoint",
+        "SQL"
+      ],
+      "salary_range": {
+        "min": 20000000,
+        "max": 60000000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Top of the product career ladder. Potential pivot to CEO or startup founder.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PM008",
+      "title": "Product Analyst",
+      "domain": "Product Management",
+      "description": "Supports product teams with data analysis, user behavior insights, A/B test analysis, and dashboards to drive product decisions.",
+      "roles_responsibilities": [
+        "Analyze product usage data and user behavior",
+        "Build dashboards and reports for PM teams",
+        "Design and analyze A/B experiments",
+        "Identify growth opportunities through data",
+        "Work with engineering to ensure data instrumentation"
+      ],
+      "skills_required": [
+        "SQL",
+        "Data Analysis",
+        "Statistical Analysis",
+        "A/B Testing",
+        "Product Metrics",
+        "Communication"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Sc / B.Tech",
+        "preferred": [
+          "Statistics",
+          "Computer Science",
+          "Economics"
+        ],
+        "alternative": [
+          "Data Analytics Certifications"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "SQL",
+        "Amplitude",
+        "Mixpanel",
+        "Tableau",
+        "Python",
+        "Google Analytics",
+        "Excel"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 1800000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Strong transition path to Product Manager, Data Scientist, or Growth Analyst roles.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PM009",
+      "title": "Technical Product Manager",
+      "domain": "Product Management",
+      "description": "A PM with deep technical expertise who manages APIs, infrastructure products, developer tools, or platform products requiring close engineering collaboration.",
+      "roles_responsibilities": [
+        "Define technical requirements and system design trade-offs",
+        "Work closely with architects and engineers",
+        "Manage platform, API, or infrastructure product roadmaps",
+        "Translate business needs into technical specifications",
+        "Conduct technical feasibility assessments"
+      ],
+      "skills_required": [
+        "Software Development Understanding",
+        "System Design",
+        "API Knowledge",
+        "Product Thinking",
+        "Agile / Scrum",
+        "SQL"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.E.",
+        "preferred": [
+          "Computer Science",
+          "Software Engineering"
+        ],
+        "alternative": [
+          "Engineering Background + PM Experience"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "JIRA",
+        "GitHub",
+        "Swagger/OpenAPI",
+        "Confluence",
+        "SQL",
+        "Postman"
+      ],
+      "salary_range": {
+        "min": 1800000,
+        "max": 4500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High demand in SaaS, fintech, and platform companies. Strong career growth to Senior TPM or Engineering Director.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PM010",
+      "title": "Growth Product Manager",
+      "domain": "Product Management",
+      "description": "Focuses on user acquisition, activation, retention, and monetization through rapid experimentation and data-driven product changes.",
+      "roles_responsibilities": [
+        "Own growth metrics: DAU, MAU, retention, conversion",
+        "Run rapid A/B tests across the funnel",
+        "Collaborate with marketing and data teams",
+        "Identify and prioritize growth levers",
+        "Build self-serve and viral growth loops"
+      ],
+      "skills_required": [
+        "Growth Hacking",
+        "A/B Testing",
+        "Funnel Analysis",
+        "SQL",
+        "User Behavior Analysis",
+        "Product Analytics"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "MBA",
+          "Engineering"
+        ],
+        "alternative": [
+          "Demonstrated Growth Results in Prior Role"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Amplitude",
+        "Mixpanel",
+        "Optimizely",
+        "SQL",
+        "Tableau",
+        "HubSpot"
+      ],
+      "salary_range": {
+        "min": 1500000,
+        "max": 4000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Growth PM is one of the most in-demand niches in product, especially in B2C and SaaS companies.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PJM001",
+      "title": "Project Coordinator",
+      "domain": "Project Management",
+      "description": "Supports project managers in planning, scheduling, tracking, and reporting on project activities across teams.",
+      "roles_responsibilities": [
+        "Maintain project schedules and timelines",
+        "Coordinate meetings and documentation",
+        "Track project milestones and deliverables",
+        "Assist in resource allocation",
+        "Communicate status updates to stakeholders"
+      ],
+      "skills_required": [
+        "Organization",
+        "Communication",
+        "MS Office",
+        "Time Management",
+        "Basic Project Management",
+        "Documentation"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "BBA",
+          "B.Tech",
+          "B.Sc"
+        ],
+        "alternative": [
+          "Administrative or Coordination Work Experience"
+        ]
+      },
+      "experience_level": "Entry",
+      "difficulty": "Entry",
+      "tools_technologies": [
+        "MS Project",
+        "JIRA",
+        "Trello",
+        "Excel",
+        "Google Workspace",
+        "Asana"
+      ],
+      "salary_range": {
+        "min": 350000,
+        "max": 800000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Clear pathway to Project Manager and eventually PMP-certified Senior PM.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PJM002",
+      "title": "Project Manager",
+      "domain": "Project Management",
+      "description": "Plan, execute, monitor, and close projects on time, within scope and budget across industries including IT, construction, consulting, and manufacturing.",
+      "roles_responsibilities": [
+        "Define project scope, goals, and deliverables",
+        "Develop and manage project plans and schedules",
+        "Manage project budget and resources",
+        "Identify and mitigate risks",
+        "Communicate with stakeholders and report progress"
+      ],
+      "skills_required": [
+        "Project Planning",
+        "Risk Management",
+        "Budgeting",
+        "Stakeholder Management",
+        "Leadership",
+        "Agile / Waterfall Methodologies"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "B.Tech",
+          "MBA",
+          "PMP Certification"
+        ],
+        "alternative": [
+          "PRINCE2",
+          "CAPM Certification"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "MS Project",
+        "JIRA",
+        "Asana",
+        "Trello",
+        "Smartsheet",
+        "Excel"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Project management is universally needed across industries \u2014 IT, construction, consulting, healthcare, and government.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PJM003",
+      "title": "Senior Project Manager",
+      "domain": "Project Management",
+      "description": "Manages large, complex, multi-team projects with significant budget responsibility and senior stakeholder engagement.",
+      "roles_responsibilities": [
+        "Lead large-scale projects with cross-functional teams",
+        "Manage multi-crore project budgets",
+        "Drive executive stakeholder communication",
+        "Mentor junior PMs",
+        "Establish PMO practices and standards"
+      ],
+      "skills_required": [
+        "Advanced Project Planning",
+        "Budget Management",
+        "Executive Communication",
+        "Change Management",
+        "Team Leadership",
+        "Risk Mitigation"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA",
+          "PMP + 7 Years Experience"
+        ],
+        "alternative": [
+          "PRINCE2 Practitioner",
+          "MSP Certification"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "MS Project",
+        "Primavera P6",
+        "JIRA",
+        "Smartsheet",
+        "Power BI",
+        "Excel"
+      ],
+      "salary_range": {
+        "min": 1500000,
+        "max": 3500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Progresses to Program Manager, Portfolio Manager, or PMO Lead roles.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PJM004",
+      "title": "Program Manager",
+      "domain": "Project Management",
+      "description": "Oversees a portfolio of related projects to ensure they are aligned with business strategy and delivered cohesively.",
+      "roles_responsibilities": [
+        "Manage interdependencies across multiple projects",
+        "Align program goals with organizational strategy",
+        "Govern program-level budget and timelines",
+        "Lead program steering committees",
+        "Drive organizational change management"
+      ],
+      "skills_required": [
+        "Program Governance",
+        "Strategic Thinking",
+        "Change Management",
+        "Executive Stakeholder Management",
+        "Risk & Issue Management",
+        "Leadership"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA",
+          "PgMP Certification"
+        ],
+        "alternative": [
+          "10+ Years in Project Management"
+        ]
+      },
+      "experience_level": "Lead",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Primavera P6",
+        "MS Project",
+        "Power BI",
+        "SharePoint",
+        "Smartsheet"
+      ],
+      "salary_range": {
+        "min": 2000000,
+        "max": 5000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Pathway to PMO Director, Portfolio Manager, or Operations VP.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PJM005",
+      "title": "PMO Manager (Project Management Office Manager)",
+      "domain": "Project Management",
+      "description": "Establishes and manages the Project Management Office, setting standards, governance, and methodologies for project delivery across an organization.",
+      "roles_responsibilities": [
+        "Define and enforce PM standards and methodologies",
+        "Maintain project portfolio visibility for leadership",
+        "Train and coach project managers",
+        "Track portfolio-level KPIs and performance",
+        "Support resource capacity planning"
+      ],
+      "skills_required": [
+        "PMO Governance",
+        "Portfolio Management",
+        "Process Improvement",
+        "Leadership",
+        "Data Reporting",
+        "Change Management"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA",
+          "PMP",
+          "PgMP Certification"
+        ],
+        "alternative": [
+          "10+ Years PM Experience in Governance Roles"
+        ]
+      },
+      "experience_level": "Senior-Lead",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Planview",
+        "MS Project",
+        "Power BI",
+        "SharePoint",
+        "Smartsheet",
+        "ServiceNow PPM"
+      ],
+      "salary_range": {
+        "min": 2500000,
+        "max": 6000000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "PMO Managers are critical in large enterprises. Pathway to Director of PMO or Chief of Staff.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PJM006",
+      "title": "Scrum Master",
+      "domain": "Project Management",
+      "description": "Facilitates Agile/Scrum ceremonies, removes impediments, and coaches teams to self-organize and continuously improve delivery.",
+      "roles_responsibilities": [
+        "Facilitate sprint planning, daily standups, retrospectives",
+        "Remove team impediments and blockers",
+        "Coach teams on Agile principles",
+        "Track and report sprint velocity and burndown",
+        "Protect team from scope creep and distractions"
+      ],
+      "skills_required": [
+        "Agile / Scrum",
+        "Facilitation",
+        "Coaching",
+        "Conflict Resolution",
+        "Servant Leadership",
+        "Communication"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "CSM / PSM Certification",
+          "B.Tech"
+        ],
+        "alternative": [
+          "Agile Coaching Experience"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "JIRA",
+        "Confluence",
+        "Trello",
+        "Azure DevOps",
+        "Miro",
+        "Slack"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Strong demand in IT and product companies. Career path toward Agile Coach, RTE (Release Train Engineer), or PM.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PJM007",
+      "title": "Agile Coach",
+      "domain": "Project Management",
+      "description": "An experienced Agile practitioner who coaches multiple teams and leadership on adopting and scaling Agile practices across the organization.",
+      "roles_responsibilities": [
+        "Coach leadership and teams on Agile mindset",
+        "Drive Agile transformation programs",
+        "Scale Agile using SAFe, LeSS, or Spotify model",
+        "Conduct Agile maturity assessments",
+        "Train and certify Scrum Masters and PMs"
+      ],
+      "skills_required": [
+        "SAFe / LeSS / Scrum@Scale",
+        "Organizational Change Management",
+        "Coaching & Mentoring",
+        "Agile Metrics",
+        "Facilitation",
+        "Leadership"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "ICP-ACC",
+          "SAFe SPC",
+          "ICAgile Certification"
+        ],
+        "alternative": [
+          "8+ Years in Agile Delivery Roles"
+        ]
+      },
+      "experience_level": "Senior-Lead",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "JIRA",
+        "Azure DevOps",
+        "Miro",
+        "Confluence",
+        "Rally",
+        "Scaled Agile Platform"
+      ],
+      "salary_range": {
+        "min": 1800000,
+        "max": 4500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High demand in large enterprises undergoing digital transformation. Can move into Director of Delivery or Consulting.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PJM008",
+      "title": "IT Project Manager",
+      "domain": "Project Management",
+      "description": "Manages technology-specific projects including software development, infrastructure rollouts, ERP implementations, and digital transformation initiatives.",
+      "roles_responsibilities": [
+        "Manage IT project scope, budget, and timelines",
+        "Coordinate with development, QA, and infrastructure teams",
+        "Handle vendor and third-party management",
+        "Drive SDLC compliance and release management",
+        "Manage change requests and escalations"
+      ],
+      "skills_required": [
+        "SDLC Understanding",
+        "Risk Management",
+        "Vendor Management",
+        "ITIL Basics",
+        "Budgeting",
+        "Stakeholder Communication"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.E.",
+        "preferred": [
+          "PMP",
+          "ITIL Certification",
+          "MBA IT"
+        ],
+        "alternative": [
+          "IT Experience + Project Management Certification"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "MS Project",
+        "JIRA",
+        "ServiceNow",
+        "Confluence",
+        "Azure DevOps",
+        "Excel"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "IT PMs are in high demand across BFSI, IT services, and enterprise sectors. Growth path to Program Manager.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "OM001",
+      "title": "Operations Executive",
+      "domain": "Operations Management",
+      "description": "Entry-level operations role supporting day-to-day business processes, process documentation, and operational reporting.",
+      "roles_responsibilities": [
+        "Support daily operational activities",
+        "Maintain operational records and reports",
+        "Coordinate with internal departments",
+        "Monitor process adherence",
+        "Assist in process improvement initiatives"
+      ],
+      "skills_required": [
+        "Communication",
+        "MS Office",
+        "Process Adherence",
+        "Attention to Detail",
+        "Time Management",
+        "Data Entry"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "BBA",
+          "B.Com",
+          "B.Sc"
+        ],
+        "alternative": [
+          "Diploma in Business Administration"
+        ]
+      },
+      "experience_level": "Entry",
+      "difficulty": "Entry",
+      "tools_technologies": [
+        "Excel",
+        "Google Workspace",
+        "ERP Basics",
+        "MS Office"
+      ],
+      "salary_range": {
+        "min": 250000,
+        "max": 600000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Foundation for moving into operations analyst, team lead, or supply chain roles.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "OM002",
+      "title": "Operations Manager",
+      "domain": "Operations Management",
+      "description": "Oversees daily business operations, manages teams, drives process improvements, and ensures efficiency and quality across the organization.",
+      "roles_responsibilities": [
+        "Manage day-to-day operations and team performance",
+        "Identify and implement process improvements",
+        "Manage budgets and operational costs",
+        "Ensure SLA and KPI compliance",
+        "Coordinate with cross-functional teams"
+      ],
+      "skills_required": [
+        "Process Improvement",
+        "Team Management",
+        "Budgeting",
+        "Lean / Six Sigma",
+        "Data Analysis",
+        "Problem Solving"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "MBA Operations",
+          "B.Tech + MBA"
+        ],
+        "alternative": [
+          "5+ Years in Operations or Relevant Domain"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "SAP",
+        "Oracle ERP",
+        "Excel",
+        "Power BI",
+        "Lean Tools",
+        "Tableau"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Operations managers are in demand across all industries. Growth path to Director of Operations or COO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "OM003",
+      "title": "Senior Operations Manager",
+      "domain": "Operations Management",
+      "description": "Leads operations strategy for a business unit, manages large teams, and drives significant cost efficiency and quality improvements.",
+      "roles_responsibilities": [
+        "Lead operations strategy and transformation",
+        "Manage large teams (50+)",
+        "Drive cost reduction and efficiency programs",
+        "Present to senior leadership and board",
+        "Manage multiple operational functions simultaneously"
+      ],
+      "skills_required": [
+        "Strategic Operations",
+        "P&L Management",
+        "Lean Six Sigma (Black Belt)",
+        "Change Management",
+        "Leadership",
+        "Vendor Management"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA Operations",
+          "Six Sigma Black Belt"
+        ],
+        "alternative": [
+          "10+ Years Operations Experience"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "SAP",
+        "Oracle",
+        "Power BI",
+        "Tableau",
+        "Lean Tools",
+        "Primavera"
+      ],
+      "salary_range": {
+        "min": 1500000,
+        "max": 3500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Moves into VP Operations or COO tracks. High value in manufacturing, logistics, and BFSI sectors.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "OM004",
+      "title": "Director of Operations",
+      "domain": "Operations Management",
+      "description": "Senior executive responsible for the entire operational efficiency of an organization or large business unit, reporting to COO or CEO.",
+      "roles_responsibilities": [
+        "Define and execute operational strategy",
+        "Manage P&L for operations division",
+        "Lead organizational restructuring and transformation",
+        "Manage vendor and partner relationships",
+        "Set KPIs and operational standards company-wide"
+      ],
+      "skills_required": [
+        "Executive Leadership",
+        "P&L Ownership",
+        "Business Strategy",
+        "Organizational Design",
+        "Change Management",
+        "Stakeholder Management"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA from Tier-1 Institute"
+        ],
+        "alternative": [
+          "15+ Years in Operations Leadership"
+        ]
+      },
+      "experience_level": "Director",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "SAP",
+        "Oracle ERP",
+        "Tableau",
+        "Power BI",
+        "Excel"
+      ],
+      "salary_range": {
+        "min": 3500000,
+        "max": 9000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Direct pathway to COO. Highly valued in manufacturing, retail, logistics, and financial services.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "OM005",
+      "title": "Chief Operating Officer (COO)",
+      "domain": "Operations Management",
+      "description": "The second-highest executive in an organization, responsible for overseeing daily operations, aligning teams, and executing on the CEO's vision.",
+      "roles_responsibilities": [
+        "Oversee all business operations",
+        "Implement CEO's strategic vision operationally",
+        "Manage cross-functional department heads",
+        "Drive operational efficiency and growth",
+        "Represent operations at board level"
+      ],
+      "skills_required": [
+        "Executive Leadership",
+        "Business Strategy",
+        "P&L Management",
+        "Organizational Scaling",
+        "Board Communication",
+        "Change Leadership"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA from IIM / ISB / Global Top 20"
+        ],
+        "alternative": [
+          "Proven Record as Director / VP Operations"
+        ]
+      },
+      "experience_level": "C-Suite",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "ERP (SAP/Oracle)",
+        "Power BI",
+        "Salesforce",
+        "Tableau"
+      ],
+      "salary_range": {
+        "min": 15000000,
+        "max": 60000000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Top of operations career ladder. COOs often transition to CEO roles.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "OM006",
+      "title": "Business Process Manager",
+      "domain": "Operations Management",
+      "description": "Designs, documents, analyzes, and improves business processes to enhance efficiency, reduce waste, and ensure compliance.",
+      "roles_responsibilities": [
+        "Map and document current business processes (As-Is)",
+        "Design optimized future-state processes (To-Be)",
+        "Lead process improvement initiatives using Lean / Six Sigma",
+        "Develop process KPIs and monitoring frameworks",
+        "Train teams on new processes"
+      ],
+      "skills_required": [
+        "Business Process Mapping",
+        "Lean Six Sigma",
+        "Change Management",
+        "Data Analysis",
+        "Stakeholder Communication",
+        "Process Automation Tools"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "MBA Operations",
+          "Six Sigma Green/Black Belt"
+        ],
+        "alternative": [
+          "Relevant Process Management Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Visio",
+        "Lucidchart",
+        "SAP",
+        "Excel",
+        "Lean Tools",
+        "Power Automate"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 2200000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Strong in consulting, BFSI, and IT services. Path to Senior BPM or Operations Director.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "OM007",
+      "title": "Quality Manager",
+      "domain": "Operations Management",
+      "description": "Ensures products and services meet quality standards through audits, QMS implementation, and continuous improvement programs.",
+      "roles_responsibilities": [
+        "Develop and maintain Quality Management Systems (ISO 9001, etc.)",
+        "Conduct internal and external quality audits",
+        "Lead root cause analysis and corrective actions",
+        "Train staff on quality standards and procedures",
+        "Report quality metrics to leadership"
+      ],
+      "skills_required": [
+        "Quality Management Systems",
+        "Lean Six Sigma",
+        "Auditing",
+        "Root Cause Analysis",
+        "ISO Standards",
+        "Statistical Process Control"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.E.",
+        "preferred": [
+          "ISO Lead Auditor Certification",
+          "Six Sigma Black Belt"
+        ],
+        "alternative": [
+          "Relevant Industry Quality Certifications"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Minitab",
+        "SAP QM",
+        "Excel",
+        "Visio",
+        "Lean Tools"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Critical in manufacturing, pharma, automotive, and IT services. Path to VP Quality or Director of Quality.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "MM001",
+      "title": "Marketing Executive",
+      "domain": "Marketing Management",
+      "description": "Entry-level role supporting marketing campaigns, social media, content, and market research activities.",
+      "roles_responsibilities": [
+        "Execute marketing campaigns across channels",
+        "Manage social media profiles and content calendar",
+        "Assist in market research and competitor analysis",
+        "Coordinate with creative and content teams",
+        "Track campaign performance metrics"
+      ],
+      "skills_required": [
+        "Social Media Marketing",
+        "Content Writing",
+        "Basic SEO",
+        "MS Office",
+        "Communication",
+        "Market Research"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "BBA Marketing",
+          "Mass Communication",
+          "B.Sc"
+        ],
+        "alternative": [
+          "Google Digital Marketing Certification"
+        ]
+      },
+      "experience_level": "Entry",
+      "difficulty": "Entry",
+      "tools_technologies": [
+        "Canva",
+        "Google Ads",
+        "Facebook Ads Manager",
+        "Mailchimp",
+        "HubSpot",
+        "Google Analytics"
+      ],
+      "salary_range": {
+        "min": 300000,
+        "max": 700000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Clear path to Marketing Manager, Digital Marketing Manager, or Brand Manager within 2-3 years.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "MM002",
+      "title": "Marketing Manager",
+      "domain": "Marketing Management",
+      "description": "Leads marketing strategy and execution across channels \u2014 digital, offline, and brand \u2014 to drive awareness and revenue growth.",
+      "roles_responsibilities": [
+        "Develop and execute integrated marketing plans",
+        "Manage marketing budget and ROI",
+        "Lead a team of marketing executives",
+        "Oversee brand communication and positioning",
+        "Analyze campaign performance and optimize"
+      ],
+      "skills_required": [
+        "Campaign Management",
+        "Digital Marketing",
+        "Brand Strategy",
+        "Budget Management",
+        "Team Leadership",
+        "Data Analysis"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA Marketing",
+          "BBA Marketing"
+        ],
+        "alternative": [
+          "5+ Years in Marketing with Demonstrated Results"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "HubSpot",
+        "Google Analytics",
+        "Salesforce",
+        "SEMrush",
+        "Tableau",
+        "Mailchimp"
+      ],
+      "salary_range": {
+        "min": 900000,
+        "max": 2200000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Broad demand across all industries. Career path to Senior Marketing Manager, VP Marketing, or CMO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "MM003",
+      "title": "Digital Marketing Manager",
+      "domain": "Marketing Management",
+      "description": "Leads all digital marketing initiatives including SEO, paid ads, email marketing, content, and social media to drive online growth.",
+      "roles_responsibilities": [
+        "Plan and execute digital campaigns (SEO, SEM, social, email)",
+        "Manage digital marketing budget and agency partners",
+        "Analyze web traffic, conversions, and user behavior",
+        "Oversee content strategy and SEO",
+        "Drive lead generation and customer acquisition"
+      ],
+      "skills_required": [
+        "SEO / SEM",
+        "Paid Advertising (Google, Meta)",
+        "Email Marketing",
+        "Content Strategy",
+        "Web Analytics",
+        "Marketing Automation"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "MBA Marketing",
+          "Digital Marketing Certifications"
+        ],
+        "alternative": [
+          "Proven Digital Marketing Results + Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Google Ads",
+        "Meta Ads Manager",
+        "SEMrush",
+        "HubSpot",
+        "Google Analytics",
+        "Mailchimp"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Digital-first economy means enormous demand. Path to Growth Lead, VP Marketing, or CMO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "MM004",
+      "title": "Brand Manager",
+      "domain": "Marketing Management",
+      "description": "Manages brand identity, positioning, and equity across all touchpoints to build a consistent and compelling brand in the market.",
+      "roles_responsibilities": [
+        "Develop and execute brand strategy",
+        "Manage brand guidelines and visual identity",
+        "Coordinate with agencies for brand campaigns",
+        "Conduct brand health tracking and consumer research",
+        "Manage product launches and brand extensions"
+      ],
+      "skills_required": [
+        "Brand Strategy",
+        "Consumer Insights",
+        "Creative Briefing",
+        "Market Research",
+        "Campaign Management",
+        "Communication"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA Marketing",
+          "Mass Communication"
+        ],
+        "alternative": [
+          "Marketing Agency Experience"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Canva",
+        "Adobe Creative Suite",
+        "Nielsen/IRI Tools",
+        "Excel",
+        "Google Analytics"
+      ],
+      "salary_range": {
+        "min": 900000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High demand in FMCG, BFSI, and e-commerce. Growth path to Senior Brand Manager or VP Brand.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "MM005",
+      "title": "Content Marketing Manager",
+      "domain": "Marketing Management",
+      "description": "Develops and executes a content strategy that drives brand awareness, engagement, and inbound lead generation across digital channels.",
+      "roles_responsibilities": [
+        "Develop and own the content strategy",
+        "Manage content calendar across blogs, social, video, email",
+        "Oversee a team of writers and content creators",
+        "Optimize content for SEO",
+        "Measure content performance and ROI"
+      ],
+      "skills_required": [
+        "Content Strategy",
+        "SEO Writing",
+        "Editorial Planning",
+        "Social Media",
+        "Analytics",
+        "Team Management"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "Mass Communication",
+          "English / Journalism",
+          "MBA Marketing"
+        ],
+        "alternative": [
+          "Strong Portfolio + Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "WordPress",
+        "SEMrush",
+        "HubSpot",
+        "Ahrefs",
+        "Google Analytics",
+        "Canva"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 1800000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Content-led growth is a dominant strategy. Path to Head of Content, VP Marketing.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "MM006",
+      "title": "VP of Marketing",
+      "domain": "Marketing Management",
+      "description": "Senior executive driving company-wide marketing strategy, managing large teams and budgets, and accountable for brand and revenue growth.",
+      "roles_responsibilities": [
+        "Define and execute go-to-market strategy",
+        "Own marketing P&L",
+        "Manage marketing department across channels",
+        "Drive brand equity and market share growth",
+        "Report marketing performance to CEO and board"
+      ],
+      "skills_required": [
+        "Marketing Leadership",
+        "P&L Management",
+        "Brand Building",
+        "Digital Strategy",
+        "Executive Stakeholder Management",
+        "Data-Driven Marketing"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA Marketing from Premier Institute"
+        ],
+        "alternative": [
+          "15+ Years Marketing with C-Suite Experience"
+        ]
+      },
+      "experience_level": "Executive",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "Salesforce",
+        "HubSpot",
+        "Tableau",
+        "Google Analytics",
+        "SEMrush"
+      ],
+      "salary_range": {
+        "min": 8000000,
+        "max": 25000000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Pathway to CMO. High compensation, especially in tech, FMCG, and D2C companies.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "MM007",
+      "title": "Chief Marketing Officer (CMO)",
+      "domain": "Marketing Management",
+      "description": "The highest marketing executive, responsible for brand, growth, demand generation, and customer experience strategy at the company level.",
+      "roles_responsibilities": [
+        "Set the company's overall marketing vision",
+        "Drive brand equity and customer acquisition strategy",
+        "Own marketing budget and revenue attribution",
+        "Represent marketing at board and investor level",
+        "Lead and mentor VP-level marketing leaders"
+      ],
+      "skills_required": [
+        "Executive Communication",
+        "Brand Vision",
+        "Revenue Attribution",
+        "Organizational Leadership",
+        "Market Expansion",
+        "Digital + Traditional Marketing"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA from IIM / ISB / Global Top 20"
+        ],
+        "alternative": [
+          "Proven VP Marketing Track Record"
+        ]
+      },
+      "experience_level": "C-Suite",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "Salesforce",
+        "Tableau",
+        "HubSpot",
+        "Adobe Experience Cloud"
+      ],
+      "salary_range": {
+        "min": 18000000,
+        "max": 60000000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Top of marketing career. Potential move to CEO or Board Advisor.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HR001",
+      "title": "HR Executive",
+      "domain": "HR Management",
+      "description": "Entry-level HR role responsible for recruitment support, onboarding, payroll processing, and employee record management.",
+      "roles_responsibilities": [
+        "Assist in recruitment and interview scheduling",
+        "Manage employee onboarding and documentation",
+        "Handle payroll and attendance records",
+        "Resolve basic employee queries",
+        "Maintain HRMS data"
+      ],
+      "skills_required": [
+        "Recruitment Basics",
+        "Communication",
+        "MS Office",
+        "Attention to Detail",
+        "Payroll Basics",
+        "HRMS Tools"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "BBA HR",
+          "MBA HR",
+          "B.Sc Psychology"
+        ],
+        "alternative": [
+          "HR Certification Courses"
+        ]
+      },
+      "experience_level": "Entry",
+      "difficulty": "Entry",
+      "tools_technologies": [
+        "Keka",
+        "Darwinbox",
+        "Excel",
+        "Zoho People",
+        "LinkedIn Recruiter"
+      ],
+      "salary_range": {
+        "min": 250000,
+        "max": 600000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Foundation for specializing in recruitment, L&D, compensation, or generalist HR roles.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HR002",
+      "title": "HR Manager",
+      "domain": "HR Management",
+      "description": "Manages HR operations including talent acquisition, performance management, employee relations, and policy implementation.",
+      "roles_responsibilities": [
+        "Lead end-to-end recruitment for key positions",
+        "Manage performance appraisal cycles",
+        "Implement HR policies and ensure compliance",
+        "Handle employee relations and grievances",
+        "Drive employee engagement initiatives"
+      ],
+      "skills_required": [
+        "Talent Acquisition",
+        "Performance Management",
+        "Employment Law",
+        "Employee Relations",
+        "HRIS Tools",
+        "Communication"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA HR",
+          "MSW",
+          "PG Diploma in HR"
+        ],
+        "alternative": [
+          "5+ Years in HR with Demonstrated Results"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Keka",
+        "Darwinbox",
+        "SAP SuccessFactors",
+        "LinkedIn Recruiter",
+        "Excel",
+        "Workday"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 1800000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "HR Managers are needed across all industries. Growth path to Senior HR Manager, HRBP, or HR Director.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HR003",
+      "title": "HR Business Partner (HRBP)",
+      "domain": "HR Management",
+      "description": "Acts as a strategic HR advisor to business unit leaders, aligning HR strategy with business goals and driving people-centric outcomes.",
+      "roles_responsibilities": [
+        "Partner with business leaders on people strategy",
+        "Drive workforce planning and talent management",
+        "Lead organizational design initiatives",
+        "Handle complex employee relations issues",
+        "Use HR analytics to inform business decisions"
+      ],
+      "skills_required": [
+        "Strategic HR",
+        "Organizational Design",
+        "HR Analytics",
+        "Stakeholder Management",
+        "Change Management",
+        "Business Acumen"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA HR",
+          "MSW"
+        ],
+        "alternative": [
+          "8+ Years in HR with Business Partnering Experience"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "SAP SuccessFactors",
+        "Workday",
+        "Power BI",
+        "Excel",
+        "LinkedIn"
+      ],
+      "salary_range": {
+        "min": 1200000,
+        "max": 3000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "HRBPs are among the most valued HR professionals in large organizations. Path to HR Director or CHRO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HR004",
+      "title": "Talent Acquisition Manager",
+      "domain": "HR Management",
+      "description": "Leads the organization's hiring strategy, employer branding, and recruitment team to attract and hire top talent at scale.",
+      "roles_responsibilities": [
+        "Build and execute talent acquisition strategy",
+        "Manage a team of recruiters",
+        "Drive employer branding initiatives",
+        "Manage campus and lateral hiring pipelines",
+        "Track and improve recruitment metrics (TTH, quality of hire)"
+      ],
+      "skills_required": [
+        "Full-Cycle Recruitment",
+        "Employer Branding",
+        "Team Management",
+        "Recruitment Analytics",
+        "Stakeholder Management",
+        "LinkedIn Sourcing"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA HR",
+          "MSW"
+        ],
+        "alternative": [
+          "8+ Years in Recruitment"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "LinkedIn Recruiter",
+        "Greenhouse",
+        "Lever",
+        "Keka",
+        "HackerRank",
+        "iCIMS"
+      ],
+      "salary_range": {
+        "min": 1200000,
+        "max": 3000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High demand in IT, e-commerce, and startups. Growth path to Head of TA or CHRO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HR005",
+      "title": "Learning & Development Manager",
+      "domain": "HR Management",
+      "description": "Designs and drives employee learning programs, leadership development, and organizational capability building.",
+      "roles_responsibilities": [
+        "Conduct training needs assessments",
+        "Design and deliver learning programs",
+        "Manage LMS and e-learning content",
+        "Drive leadership development programs",
+        "Measure training effectiveness and ROI"
+      ],
+      "skills_required": [
+        "Instructional Design",
+        "Training Facilitation",
+        "LMS Management",
+        "Leadership Development",
+        "Change Management",
+        "Content Creation"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA HR",
+          "Psychology",
+          "Education / Instructional Design"
+        ],
+        "alternative": [
+          "L&D Certifications (ATD, CPLP)"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Workday Learning",
+        "Cornerstone LMS",
+        "Articulate 360",
+        "Moodle",
+        "Excel",
+        "Zoom"
+      ],
+      "salary_range": {
+        "min": 900000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Growing importance in skills-based organizations. Path to Head of L&D or Chief Learning Officer.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HR006",
+      "title": "Compensation & Benefits Manager",
+      "domain": "HR Management",
+      "description": "Designs, manages, and benchmarks compensation structures, benefits programs, and rewards strategies to attract and retain talent.",
+      "roles_responsibilities": [
+        "Design and administer compensation structures",
+        "Conduct compensation benchmarking surveys",
+        "Manage employee benefits programs (insurance, PF, ESOP)",
+        "Ensure payroll accuracy and statutory compliance",
+        "Provide compensation analysis to HR leadership"
+      ],
+      "skills_required": [
+        "Compensation Analysis",
+        "Salary Benchmarking",
+        "Payroll Management",
+        "Labour Law Compliance",
+        "Excel / Data Analysis",
+        "HR Analytics"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA HR",
+          "B.Com",
+          "Statistics"
+        ],
+        "alternative": [
+          "Compensation & Benefits Certifications"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "SAP HR",
+        "Workday",
+        "Excel",
+        "Radford / Mercer Tools",
+        "Keka"
+      ],
+      "salary_range": {
+        "min": 1000000,
+        "max": 2800000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Specialized and high-value role. Path to Total Rewards Director or CHRO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HR007",
+      "title": "Chief Human Resources Officer (CHRO)",
+      "domain": "HR Management",
+      "description": "The top HR executive in an organization, responsible for people strategy, culture, talent, and organizational development at the company level.",
+      "roles_responsibilities": [
+        "Define people strategy aligned to business goals",
+        "Build and manage organizational culture",
+        "Lead all HR functions: TA, L&D, C&B, ER, HRBP",
+        "Report to CEO and board on people metrics",
+        "Drive DEI, succession planning, and leadership development"
+      ],
+      "skills_required": [
+        "Executive Leadership",
+        "People Strategy",
+        "Organizational Culture",
+        "Board Communication",
+        "Succession Planning",
+        "Business Acumen"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA HR from Tier-1 Institute"
+        ],
+        "alternative": [
+          "Proven Track Record as HR Director / VP HR"
+        ]
+      },
+      "experience_level": "C-Suite",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "Workday",
+        "SAP SuccessFactors",
+        "Tableau",
+        "Power BI"
+      ],
+      "salary_range": {
+        "min": 12000000,
+        "max": 50000000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Top of HR career ladder. CHROs are increasingly joining boards and advisory positions.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "FM001",
+      "title": "Finance Executive / Accounts Executive",
+      "domain": "Finance Management",
+      "description": "Entry-level finance role handling bookkeeping, accounts payable/receivable, reconciliation, and basic financial reporting.",
+      "roles_responsibilities": [
+        "Maintain books of accounts",
+        "Process invoices and payments",
+        "Bank reconciliation and ledger management",
+        "Assist in preparation of financial statements",
+        "Ensure GST and TDS compliance"
+      ],
+      "skills_required": [
+        "Bookkeeping",
+        "Tally / ERP",
+        "MS Excel",
+        "GST Knowledge",
+        "TDS Basics",
+        "Attention to Detail"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Com",
+        "preferred": [
+          "B.Com (Hons)",
+          "CA Inter"
+        ],
+        "alternative": [
+          "Diploma in Accounts / Finance"
+        ]
+      },
+      "experience_level": "Entry",
+      "difficulty": "Entry",
+      "tools_technologies": [
+        "Tally ERP",
+        "Excel",
+        "SAP FI",
+        "Zoho Books",
+        "QuickBooks"
+      ],
+      "salary_range": {
+        "min": 250000,
+        "max": 600000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Foundation for moving into financial analysis, cost accounting, or audit tracks.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "FM002",
+      "title": "Financial Analyst",
+      "domain": "Finance Management",
+      "description": "Analyzes financial data, builds models, and provides insights to support business decision-making, planning, and investment analysis.",
+      "roles_responsibilities": [
+        "Build and maintain financial models",
+        "Analyze financial statements and business performance",
+        "Support budgeting and forecasting processes",
+        "Prepare management reports and dashboards",
+        "Assist in investment analysis and valuations"
+      ],
+      "skills_required": [
+        "Financial Modeling",
+        "Excel / Advanced Excel",
+        "Financial Statement Analysis",
+        "Budgeting & Forecasting",
+        "Valuation Techniques",
+        "Data Analysis"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Com / B.B.A Finance",
+        "preferred": [
+          "CA",
+          "CFA",
+          "MBA Finance"
+        ],
+        "alternative": [
+          "Financial Modeling Certifications"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Excel",
+        "Power BI",
+        "SAP",
+        "Tableau",
+        "Bloomberg",
+        "Python (basic)"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 1500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Excellent path into investment banking, corporate finance, FP&A, or CFO track.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "FM003",
+      "title": "Finance Manager",
+      "domain": "Finance Management",
+      "description": "Oversees financial operations, reporting, budgeting, and compliance, providing strategic financial guidance to business leadership.",
+      "roles_responsibilities": [
+        "Manage financial planning and analysis (FP&A)",
+        "Oversee accounting and reporting teams",
+        "Lead budget preparation and variance analysis",
+        "Ensure statutory and tax compliance",
+        "Provide financial insights to management"
+      ],
+      "skills_required": [
+        "FP&A",
+        "Financial Reporting",
+        "Team Management",
+        "Budgeting",
+        "Compliance (Income Tax, GST)",
+        "Stakeholder Management"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Com / B.B.A Finance",
+        "preferred": [
+          "CA",
+          "MBA Finance",
+          "CMA"
+        ],
+        "alternative": [
+          "7+ Years in Finance with Supervisory Experience"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "SAP FICO",
+        "Tally ERP",
+        "Power BI",
+        "Excel",
+        "Oracle Financials"
+      ],
+      "salary_range": {
+        "min": 1000000,
+        "max": 2800000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Core corporate finance role. Path to Senior Finance Manager, VP Finance, or CFO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "FM004",
+      "title": "Senior Finance Manager / Head of Finance",
+      "domain": "Finance Management",
+      "description": "Leads the finance function for a business unit or mid-sized company, owning P&L, treasury, compliance, and financial strategy.",
+      "roles_responsibilities": [
+        "Own P&L and financial health of the business unit",
+        "Lead treasury and cash flow management",
+        "Drive cost optimization programs",
+        "Manage statutory audits and regulatory compliance",
+        "Present financials to board and leadership"
+      ],
+      "skills_required": [
+        "Strategic Financial Planning",
+        "Treasury Management",
+        "P&L Ownership",
+        "Audit Management",
+        "Leadership",
+        "Regulatory Compliance"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "CA",
+          "MBA Finance from Premier Institute"
+        ],
+        "alternative": [
+          "10+ Years Finance with Leadership Experience"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "SAP",
+        "Oracle",
+        "Power BI",
+        "Excel",
+        "Bloomberg"
+      ],
+      "salary_range": {
+        "min": 2000000,
+        "max": 5000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Pathway to VP Finance or CFO. Extremely high demand in funded startups and large enterprises.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "FM005",
+      "title": "VP Finance",
+      "domain": "Finance Management",
+      "description": "Senior finance executive overseeing all financial functions, investor relations, fundraising strategy, and financial risk management.",
+      "roles_responsibilities": [
+        "Lead all finance functions across the organization",
+        "Manage investor relations and fundraising",
+        "Drive M&A due diligence and financial structuring",
+        "Present financials at board and investor meetings",
+        "Set financial controls and governance frameworks"
+      ],
+      "skills_required": [
+        "Financial Strategy",
+        "Investor Relations",
+        "M&A",
+        "Risk Management",
+        "Executive Communication",
+        "Fundraising"
+      ],
+      "educational_qualification": {
+        "minimum": "CA / MBA Finance",
+        "preferred": [
+          "CA + MBA",
+          "CFA + MBA from Top Institute"
+        ],
+        "alternative": [
+          "15+ Years Finance Leadership"
+        ]
+      },
+      "experience_level": "Executive",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "SAP",
+        "Oracle",
+        "Tableau",
+        "Bloomberg",
+        "Excel",
+        "PowerPoint"
+      ],
+      "salary_range": {
+        "min": 6000000,
+        "max": 20000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Clear path to CFO. VPs of Finance are critical in scaling startups and public companies.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "FM006",
+      "title": "Chief Financial Officer (CFO)",
+      "domain": "Finance Management",
+      "description": "The top financial executive, responsible for financial strategy, risk management, capital allocation, and representing the company to investors.",
+      "roles_responsibilities": [
+        "Own company-wide financial strategy",
+        "Manage fundraising, IPO, and investor relations",
+        "Oversee all finance, accounting, tax, and treasury functions",
+        "Represent company to board, auditors, and regulators",
+        "Drive M&A strategy and execution"
+      ],
+      "skills_required": [
+        "Financial Strategy",
+        "Capital Markets",
+        "M&A",
+        "Board Communication",
+        "Regulatory Compliance",
+        "Organizational Leadership"
+      ],
+      "educational_qualification": {
+        "minimum": "CA / CPA",
+        "preferred": [
+          "CA + MBA (IIM/ISB)",
+          "CFA + Executive Leadership"
+        ],
+        "alternative": [
+          "Proven VP Finance / Finance Director Track Record"
+        ]
+      },
+      "experience_level": "C-Suite",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "SAP",
+        "Oracle Financials",
+        "Bloomberg",
+        "Tableau",
+        "PowerPoint"
+      ],
+      "salary_range": {
+        "min": 15000000,
+        "max": 80000000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Top of finance career. CFOs often transition to CEO or board positions.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "FM007",
+      "title": "FP&A Manager (Financial Planning & Analysis)",
+      "domain": "Finance Management",
+      "description": "Leads budgeting, forecasting, and financial modeling to support strategic business planning and management decision-making.",
+      "roles_responsibilities": [
+        "Lead annual budgeting and quarterly forecasting",
+        "Build and maintain financial models",
+        "Analyze actuals vs. budget and present variance analysis",
+        "Support strategic planning and scenario analysis",
+        "Develop financial dashboards for leadership"
+      ],
+      "skills_required": [
+        "Financial Modeling",
+        "Budgeting & Forecasting",
+        "Advanced Excel",
+        "Power BI / Tableau",
+        "Scenario Analysis",
+        "Presentation Skills"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Com / BBA Finance",
+        "preferred": [
+          "CA",
+          "MBA Finance",
+          "CFA"
+        ],
+        "alternative": [
+          "FP&A Certifications (AFP, CFA)"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Excel",
+        "Power BI",
+        "Tableau",
+        "SAP BPC",
+        "Anaplan",
+        "Oracle Hyperion"
+      ],
+      "salary_range": {
+        "min": 1200000,
+        "max": 3500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "FP&A is a high-value specialization. Path to Finance Director or VP Finance.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SM001",
+      "title": "Management Trainee",
+      "domain": "General & Strategy Management",
+      "description": "Rotational entry-level management program that exposes graduates to multiple business functions before placement into a core management role.",
+      "roles_responsibilities": [
+        "Rotate across business functions (finance, ops, marketing, HR)",
+        "Work on live business projects",
+        "Present findings to senior management",
+        "Learn business operations and culture",
+        "Assist in analysis and reporting"
+      ],
+      "skills_required": [
+        "Business Acumen",
+        "Communication",
+        "Analytical Thinking",
+        "Adaptability",
+        "Leadership Potential",
+        "MS Office"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "MBA from Premier Institute"
+        ],
+        "alternative": [
+          "Top Academic Performance + Aptitude"
+        ]
+      },
+      "experience_level": "Entry",
+      "difficulty": "Entry",
+      "tools_technologies": [
+        "Excel",
+        "PowerPoint",
+        "Google Workspace",
+        "ERP Basics"
+      ],
+      "salary_range": {
+        "min": 400000,
+        "max": 1000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Gateway to fast-track management careers in large corporates like Unilever, HUL, Tata, ITC.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SM002",
+      "title": "Business Analyst",
+      "domain": "General & Strategy Management",
+      "description": "Bridges the gap between business needs and technology/process solutions through analysis, requirements gathering, and process improvement.",
+      "roles_responsibilities": [
+        "Gather and document business requirements",
+        "Analyze business processes and identify gaps",
+        "Propose and design process / system solutions",
+        "Facilitate workshops with stakeholders",
+        "Create functional specs and user stories"
+      ],
+      "skills_required": [
+        "Requirements Analysis",
+        "Process Mapping",
+        "SQL",
+        "Stakeholder Communication",
+        "Problem Solving",
+        "Agile Basics"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "B.Tech",
+          "MBA",
+          "BBA"
+        ],
+        "alternative": [
+          "CBAP Certification",
+          "ECBA Certification"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Visio",
+        "JIRA",
+        "Confluence",
+        "SQL",
+        "Excel",
+        "Lucidchart",
+        "Tableau"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 1500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Versatile role that transitions into PM, Consulting, Product, or Data Analytics tracks.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SM003",
+      "title": "Strategy Manager",
+      "domain": "General & Strategy Management",
+      "description": "Develops and drives strategic initiatives, market analysis, and business planning to position the company for sustainable competitive advantage.",
+      "roles_responsibilities": [
+        "Lead strategic planning and execution",
+        "Conduct competitive and market landscape analysis",
+        "Support CEO/leadership on strategic decisions",
+        "Build business cases for new initiatives",
+        "Track strategy execution and KPIs"
+      ],
+      "skills_required": [
+        "Strategic Thinking",
+        "Business Case Development",
+        "Market Analysis",
+        "Executive Communication",
+        "Financial Modeling",
+        "Problem Solving"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA from IIM / ISB / Top Global School"
+        ],
+        "alternative": [
+          "Management Consulting Experience"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "PowerPoint",
+        "Excel",
+        "Tableau",
+        "Bloomberg",
+        "IBIS World",
+        "PitchBook"
+      ],
+      "salary_range": {
+        "min": 2000000,
+        "max": 5000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High-prestige role. Path to Director Strategy, VP Strategy, or CSO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SM004",
+      "title": "Management Consultant",
+      "domain": "General & Strategy Management",
+      "description": "Advises client organizations on strategy, operations, finance, and technology to solve complex business problems and drive transformation.",
+      "roles_responsibilities": [
+        "Diagnose client business problems",
+        "Develop and present strategic recommendations",
+        "Lead project workstreams in consulting engagements",
+        "Build financial models and business cases",
+        "Manage client relationships"
+      ],
+      "skills_required": [
+        "Problem Structuring (MECE / Pyramid Principle)",
+        "Data Analysis",
+        "Business Case Development",
+        "Client Management",
+        "Presentation Skills",
+        "Industry Research"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA from IIM / ISB / Top Tier"
+        ],
+        "alternative": [
+          "Domain Expertise + Consulting Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "PowerPoint",
+        "Excel",
+        "Tableau",
+        "Visio",
+        "Miro",
+        "IBIS World"
+      ],
+      "salary_range": {
+        "min": 1500000,
+        "max": 5000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Consulting is a highly respected and well-compensated career. Path to Partner or CSO in corporates.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SM005",
+      "title": "Chief of Staff",
+      "domain": "General & Strategy Management",
+      "description": "Trusted operational right-hand to the CEO or a senior executive, managing strategic priorities, cross-functional projects, and executive communication.",
+      "roles_responsibilities": [
+        "Manage CEO/executive's strategic priorities",
+        "Drive cross-functional initiatives on behalf of leadership",
+        "Prepare board presentations and leadership communications",
+        "Facilitate leadership team meetings and decision-making",
+        "Act as liaison between leadership and functional teams"
+      ],
+      "skills_required": [
+        "Executive Communication",
+        "Strategic Thinking",
+        "Project Management",
+        "Stakeholder Management",
+        "Discretion & Judgment",
+        "Cross-Functional Coordination"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA from Premier Institute"
+        ],
+        "alternative": [
+          "Management Consulting or Strategy Experience"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "PowerPoint",
+        "Excel",
+        "Notion",
+        "Slack",
+        "Google Workspace",
+        "JIRA"
+      ],
+      "salary_range": {
+        "min": 2000000,
+        "max": 6000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Highly sought after in startups and corporates. Pathway to VP, GM, or co-founder track.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SM006",
+      "title": "General Manager (GM)",
+      "domain": "General & Strategy Management",
+      "description": "Responsible for the overall management of a business unit, division, or P&L segment, integrating strategy, operations, and people leadership.",
+      "roles_responsibilities": [
+        "Own P&L for the business unit",
+        "Set business goals and strategy",
+        "Manage cross-functional teams (sales, ops, finance, marketing)",
+        "Drive growth and profitability",
+        "Report to CEO / Business Head"
+      ],
+      "skills_required": [
+        "P&L Management",
+        "Cross-Functional Leadership",
+        "Business Strategy",
+        "Team Building",
+        "Customer & Market Orientation",
+        "Financial Acumen"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA from Tier-1 Institute"
+        ],
+        "alternative": [
+          "15+ Years in Domain with P&L Experience"
+        ]
+      },
+      "experience_level": "Senior-Lead",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "SAP / ERP",
+        "Tableau",
+        "Salesforce",
+        "Excel",
+        "PowerPoint"
+      ],
+      "salary_range": {
+        "min": 4000000,
+        "max": 12000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "GMs often transition into CEO, MD, or Business Head roles.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SM007",
+      "title": "Chief Executive Officer (CEO)",
+      "domain": "General & Strategy Management",
+      "description": "The highest-ranking executive in an organization, responsible for overall vision, strategy, culture, and performance of the company.",
+      "roles_responsibilities": [
+        "Set company vision, mission, and culture",
+        "Drive business strategy and growth",
+        "Manage the executive leadership team",
+        "Report to the board of directors",
+        "Lead fundraising, M&A, and external partnerships"
+      ],
+      "skills_required": [
+        "Vision & Leadership",
+        "Business Strategy",
+        "P&L Ownership",
+        "Board Management",
+        "Fundraising",
+        "Organizational Culture"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA from IIM / ISB / Top Global Institute"
+        ],
+        "alternative": [
+          "Proven entrepreneurial or C-suite track record"
+        ]
+      },
+      "experience_level": "C-Suite",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "ERP (SAP/Oracle)",
+        "Salesforce",
+        "Tableau",
+        "PowerPoint",
+        "Board Reporting Tools"
+      ],
+      "salary_range": {
+        "min": 20000000,
+        "max": 200000000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Top of the corporate career ladder. Pathway to board member, serial entrepreneur, or investor.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SCM001",
+      "title": "Supply Chain Executive",
+      "domain": "Supply Chain Management",
+      "description": "Entry-level supply chain role supporting procurement, logistics coordination, inventory tracking, and vendor communication.",
+      "roles_responsibilities": [
+        "Coordinate with vendors and suppliers",
+        "Track inventory and stock levels",
+        "Support procurement activities and purchase orders",
+        "Assist in logistics planning and dispatch",
+        "Maintain supply chain records and MIS"
+      ],
+      "skills_required": [
+        "Basic Supply Chain Knowledge",
+        "Communication",
+        "Excel",
+        "Inventory Management",
+        "ERP Basics",
+        "Attention to Detail"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "B.Tech",
+          "BBA",
+          "B.Sc Logistics"
+        ],
+        "alternative": [
+          "Diploma in Supply Chain / Logistics"
+        ]
+      },
+      "experience_level": "Entry",
+      "difficulty": "Entry",
+      "tools_technologies": [
+        "Excel",
+        "SAP MM (basic)",
+        "Tally",
+        "Google Sheets"
+      ],
+      "salary_range": {
+        "min": 280000,
+        "max": 700000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Entry point into procurement, logistics, demand planning, or SCM analytics tracks.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SCM002",
+      "title": "Procurement Manager",
+      "domain": "Supply Chain Management",
+      "description": "Manages strategic sourcing, vendor negotiations, and purchasing to ensure cost-effective procurement of goods and services.",
+      "roles_responsibilities": [
+        "Develop and execute procurement strategy",
+        "Negotiate contracts and pricing with vendors",
+        "Manage vendor evaluation and selection",
+        "Ensure procurement compliance and controls",
+        "Track procurement KPIs (cost savings, lead time)"
+      ],
+      "skills_required": [
+        "Strategic Sourcing",
+        "Contract Negotiation",
+        "Vendor Management",
+        "Cost Analysis",
+        "Risk Management",
+        "ERP Procurement Modules"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA SCM / Operations",
+          "B.Tech + MBA"
+        ],
+        "alternative": [
+          "CIPS Certification",
+          "5+ Years Procurement Experience"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "SAP MM",
+        "Ariba",
+        "Coupa",
+        "Excel",
+        "Oracle Procurement"
+      ],
+      "salary_range": {
+        "min": 900000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High demand in manufacturing, retail, pharma, and tech. Path to SCM Director or CPO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SCM003",
+      "title": "Logistics Manager",
+      "domain": "Supply Chain Management",
+      "description": "Oversees the transportation, distribution, and warehousing operations to ensure timely and cost-effective delivery of goods.",
+      "roles_responsibilities": [
+        "Manage inbound and outbound logistics operations",
+        "Coordinate with 3PL and freight partners",
+        "Optimize delivery routes and transportation costs",
+        "Oversee warehouse operations and inventory accuracy",
+        "Track and improve logistics KPIs (OTD, freight cost)"
+      ],
+      "skills_required": [
+        "Logistics Operations",
+        "Transportation Management",
+        "Vendor Management",
+        "Route Optimization",
+        "Warehouse Management",
+        "ERP Tools"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA SCM",
+          "B.Tech Logistics",
+          "CSCMP Certification"
+        ],
+        "alternative": [
+          "5+ Years in Logistics with Team Management"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "SAP TM",
+        "Oracle TMS",
+        "Excel",
+        "WMS Software",
+        "Fleet Management Tools"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 2200000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High demand in e-commerce, FMCG, and manufacturing. Path to Head of Logistics or VP SCM.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SCM004",
+      "title": "Supply Chain Manager",
+      "domain": "Supply Chain Management",
+      "description": "Manages the end-to-end supply chain including demand planning, procurement, production, logistics, and distribution to optimize cost and service.",
+      "roles_responsibilities": [
+        "Manage end-to-end supply chain operations",
+        "Drive demand and supply planning",
+        "Reduce supply chain costs and lead times",
+        "Manage supplier relationships and risks",
+        "Implement supply chain visibility tools"
+      ],
+      "skills_required": [
+        "End-to-End SCM",
+        "Demand Planning",
+        "S&OP",
+        "Lean / Six Sigma",
+        "ERP Systems",
+        "Data Analysis"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA Operations / SCM",
+          "APICS CPIM / CSCP Certification"
+        ],
+        "alternative": [
+          "7+ Years in Supply Chain with Leadership Experience"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "SAP SCM",
+        "Oracle SCM",
+        "Kinaxis",
+        "Excel",
+        "Power BI",
+        "Tableau"
+      ],
+      "salary_range": {
+        "min": 1200000,
+        "max": 3500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "SCM is critical across all manufacturing and distribution sectors. Growth path to VP SCM.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SCM005",
+      "title": "VP Supply Chain / Head of Supply Chain",
+      "domain": "Supply Chain Management",
+      "description": "Senior executive owning the entire supply chain strategy, driving efficiency, cost optimization, and resilience across global supply networks.",
+      "roles_responsibilities": [
+        "Define multi-year supply chain strategy",
+        "Drive cost reduction and network optimization",
+        "Manage supply chain risk and resilience",
+        "Oversee procurement, logistics, and planning functions",
+        "Lead supply chain digital transformation"
+      ],
+      "skills_required": [
+        "Supply Chain Strategy",
+        "Global Sourcing",
+        "Digital Supply Chain",
+        "P&L Management",
+        "Organizational Leadership",
+        "Risk Management"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA Operations / SCM from Top Institute",
+          "APICS CSCP"
+        ],
+        "alternative": [
+          "15+ Years in SCM with Senior Leadership Experience"
+        ]
+      },
+      "experience_level": "Executive",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "SAP SCM",
+        "Oracle SCM",
+        "Kinaxis",
+        "Power BI",
+        "Tableau",
+        "Control Tower Platforms"
+      ],
+      "salary_range": {
+        "min": 5000000,
+        "max": 18000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Path to COO or Chief Supply Chain Officer. Very high demand post-pandemic for resilient SCM leaders.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SL001",
+      "title": "Sales Executive",
+      "domain": "Sales Management",
+      "description": "Entry-level sales role focused on prospecting, client outreach, and closing deals to meet individual sales targets.",
+      "roles_responsibilities": [
+        "Prospect and generate new leads",
+        "Conduct product demos and sales pitches",
+        "Manage sales pipeline and follow-ups",
+        "Meet monthly and quarterly sales targets",
+        "Maintain CRM records"
+      ],
+      "skills_required": [
+        "Communication",
+        "Persuasion",
+        "CRM Basics",
+        "Objection Handling",
+        "Time Management",
+        "Product Knowledge"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "BBA",
+          "B.Com",
+          "MBA Marketing/Sales"
+        ],
+        "alternative": [
+          "Strong Sales Aptitude + Internship"
+        ]
+      },
+      "experience_level": "Entry",
+      "difficulty": "Entry",
+      "tools_technologies": [
+        "Salesforce CRM",
+        "HubSpot",
+        "Excel",
+        "LinkedIn Sales Navigator",
+        "WhatsApp Business"
+      ],
+      "salary_range": {
+        "min": 250000,
+        "max": 700000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Fast-track career based on performance. Path to Senior Executive, Team Lead, and Sales Manager.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SL002",
+      "title": "Sales Manager",
+      "domain": "Sales Management",
+      "description": "Leads a team of sales executives, sets targets, coaches performance, and drives revenue growth across a region or product line.",
+      "roles_responsibilities": [
+        "Manage and coach a team of sales executives",
+        "Set and monitor sales targets (monthly, quarterly, annual)",
+        "Drive new business acquisition and client retention",
+        "Develop sales strategies and go-to-market plans",
+        "Report on pipeline health and revenue forecasts"
+      ],
+      "skills_required": [
+        "Team Management",
+        "Sales Forecasting",
+        "CRM Management",
+        "Negotiation",
+        "Coaching & Mentoring",
+        "Business Development"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA Marketing/Sales",
+          "BBA"
+        ],
+        "alternative": [
+          "Strong Sales Track Record + Leadership Experience"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Salesforce",
+        "HubSpot",
+        "Zoho CRM",
+        "Excel",
+        "LinkedIn Sales Navigator",
+        "Tableau"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High demand across all industries. Path to Regional Sales Manager, VP Sales, and CSO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SL003",
+      "title": "Regional Sales Manager (RSM)",
+      "domain": "Sales Management",
+      "description": "Oversees sales operations across a geographic region, managing multiple sales teams and driving regional revenue targets.",
+      "roles_responsibilities": [
+        "Own revenue targets for the region",
+        "Manage a team of Sales Managers and Executives",
+        "Build and grow the regional client base",
+        "Develop channel and distribution partners",
+        "Analyze regional sales data and report to national leadership"
+      ],
+      "skills_required": [
+        "Regional Business Development",
+        "Channel Management",
+        "Team Leadership",
+        "Revenue Forecasting",
+        "P&L Management",
+        "Negotiation"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA Sales/Marketing"
+        ],
+        "alternative": [
+          "10+ Years Sales with Regional Experience"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Salesforce",
+        "HubSpot",
+        "Power BI",
+        "Excel",
+        "Tableau"
+      ],
+      "salary_range": {
+        "min": 1500000,
+        "max": 4000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Pathway to National Sales Manager, VP Sales, or Chief Sales Officer.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SL004",
+      "title": "National Sales Manager (NSM)",
+      "domain": "Sales Management",
+      "description": "Heads the sales function across the entire country, managing a large distributed sales force and owning national revenue targets.",
+      "roles_responsibilities": [
+        "Own national revenue and growth targets",
+        "Manage Regional Sales Managers",
+        "Define national go-to-market strategy",
+        "Build and manage key account relationships",
+        "Develop channel partner and distribution network"
+      ],
+      "skills_required": [
+        "National Sales Strategy",
+        "P&L Management",
+        "Channel Development",
+        "Key Account Management",
+        "Executive Leadership",
+        "Sales Analytics"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA from Premier Institute"
+        ],
+        "alternative": [
+          "15+ Years in Sales with National-Level Experience"
+        ]
+      },
+      "experience_level": "Lead-Director",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "Salesforce",
+        "Power BI",
+        "Tableau",
+        "Excel",
+        "SAP SD"
+      ],
+      "salary_range": {
+        "min": 3000000,
+        "max": 8000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Path to VP Sales or Chief Sales Officer in large organizations.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SL005",
+      "title": "VP Sales / Chief Sales Officer (CSO)",
+      "domain": "Sales Management",
+      "description": "Top sales executive driving the entire revenue strategy, managing a large sales organization, and reporting to the CEO.",
+      "roles_responsibilities": [
+        "Own company-wide revenue and growth strategy",
+        "Build and scale the sales organization",
+        "Drive enterprise and key account acquisition",
+        "Develop incentive and compensation structures",
+        "Present revenue forecasts to board and investors"
+      ],
+      "skills_required": [
+        "Revenue Strategy",
+        "Sales Organization Design",
+        "Executive Stakeholder Management",
+        "Fundraising / Investor Communication",
+        "Compensation Design",
+        "Sales Analytics"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA from IIM / ISB / Tier-1 Global School"
+        ],
+        "alternative": [
+          "Proven Track Record as NSM / VP Sales"
+        ]
+      },
+      "experience_level": "C-Suite",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "Salesforce",
+        "Tableau",
+        "Power BI",
+        "HubSpot",
+        "Clari"
+      ],
+      "salary_range": {
+        "min": 8000000,
+        "max": 30000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Top of sales career. CSOs often move to CEO or board roles.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SL006",
+      "title": "Key Account Manager (KAM)",
+      "domain": "Sales Management",
+      "description": "Manages and grows relationships with the company's most strategic, high-revenue clients through consultative selling and long-term partnership development.",
+      "roles_responsibilities": [
+        "Own and grow revenue from key accounts",
+        "Develop deep relationships with client stakeholders",
+        "Identify upsell and cross-sell opportunities",
+        "Coordinate with delivery, operations, and product teams",
+        "Create account development plans"
+      ],
+      "skills_required": [
+        "Relationship Management",
+        "Consultative Selling",
+        "Negotiation",
+        "Strategic Account Planning",
+        "Cross-Functional Coordination",
+        "CRM Tools"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA Marketing/Sales",
+          "BBA"
+        ],
+        "alternative": [
+          "5+ Years in B2B Sales"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Salesforce",
+        "HubSpot",
+        "LinkedIn Sales Navigator",
+        "Excel",
+        "Tableau"
+      ],
+      "salary_range": {
+        "min": 900000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "KAMs are critical in B2B, SaaS, pharma, and enterprise sales. Path to Senior KAM or Sales Manager.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "TM001",
+      "title": "IT Manager",
+      "domain": "Technology & IT Management",
+      "description": "Manages IT infrastructure, systems, and support teams to ensure technology reliability, security, and alignment with business needs.",
+      "roles_responsibilities": [
+        "Manage IT infrastructure and operations",
+        "Oversee helpdesk and IT support teams",
+        "Ensure cybersecurity and data protection",
+        "Manage IT budgets and vendor contracts",
+        "Plan and execute IT projects"
+      ],
+      "skills_required": [
+        "IT Infrastructure",
+        "Cybersecurity Basics",
+        "Vendor Management",
+        "ITIL",
+        "Team Management",
+        "Budgeting"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.E.",
+        "preferred": [
+          "ITIL Certification",
+          "MBA IT",
+          "PMP"
+        ],
+        "alternative": [
+          "MCA + IT Management Experience"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "ServiceNow",
+        "JIRA",
+        "Azure",
+        "AWS",
+        "Active Directory",
+        "VMware"
+      ],
+      "salary_range": {
+        "min": 900000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "IT Managers are in demand across all sectors. Path to IT Director or CTO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "TM002",
+      "title": "Engineering Manager",
+      "domain": "Technology & IT Management",
+      "description": "Leads software engineering teams, manages delivery, coaches engineers, and balances technical and people leadership responsibilities.",
+      "roles_responsibilities": [
+        "Lead and manage engineering teams (8-15 engineers)",
+        "Own sprint delivery and quality",
+        "Hire, mentor, and grow engineering talent",
+        "Collaborate with Product Managers on roadmap",
+        "Remove blockers and drive technical excellence"
+      ],
+      "skills_required": [
+        "Engineering Leadership",
+        "Agile / Scrum",
+        "Technical Architecture Understanding",
+        "Performance Management",
+        "Stakeholder Communication",
+        "Hiring & Talent Development"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.E.",
+        "preferred": [
+          "M.Tech",
+          "Computer Science"
+        ],
+        "alternative": [
+          "Strong Engineering Track Record + Leadership Experience"
+        ]
+      },
+      "experience_level": "Senior-Lead",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "JIRA",
+        "GitHub",
+        "Confluence",
+        "AWS/GCP/Azure",
+        "Slack",
+        "Datadog"
+      ],
+      "salary_range": {
+        "min": 3000000,
+        "max": 8000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Engineering Managers are among the highest paid in tech. Path to Director of Engineering or CTO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "TM003",
+      "title": "Director of Engineering",
+      "domain": "Technology & IT Management",
+      "description": "Oversees multiple engineering teams and managers, drives technical roadmap, and bridges engineering with business strategy.",
+      "roles_responsibilities": [
+        "Manage a portfolio of engineering teams",
+        "Define engineering OKRs and technical strategy",
+        "Collaborate with CPO and VP Product on roadmap",
+        "Drive organizational engineering culture",
+        "Hire and develop Engineering Managers"
+      ],
+      "skills_required": [
+        "Technical Vision",
+        "Organizational Leadership",
+        "Product-Engineering Collaboration",
+        "Hiring & Organizational Design",
+        "Executive Communication",
+        "Budget Management"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.E.",
+        "preferred": [
+          "M.Tech / MS Computer Science"
+        ],
+        "alternative": [
+          "10+ Years Engineering with Management Track Record"
+        ]
+      },
+      "experience_level": "Director",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "JIRA",
+        "GitHub",
+        "AWS/GCP/Azure",
+        "Datadog",
+        "Confluence",
+        "Tableau"
+      ],
+      "salary_range": {
+        "min": 7000000,
+        "max": 20000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Direct path to VP Engineering or CTO. Extremely high compensation in product companies.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "TM004",
+      "title": "VP Engineering",
+      "domain": "Technology & IT Management",
+      "description": "Senior engineering executive responsible for all engineering delivery, technical direction, and building a world-class engineering organization.",
+      "roles_responsibilities": [
+        "Own all engineering delivery and technical roadmap",
+        "Build and scale engineering organization",
+        "Drive technical strategy aligned with business goals",
+        "Partner with CPO and CEO on product-engineering alignment",
+        "Manage engineering budget and vendor relationships"
+      ],
+      "skills_required": [
+        "Engineering Strategy",
+        "Organizational Scaling",
+        "Technical Architecture",
+        "Executive Communication",
+        "Budget Management",
+        "Hiring Leadership"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.E.",
+        "preferred": [
+          "M.Tech / MS from Premier Institute"
+        ],
+        "alternative": [
+          "Proven Director of Engineering Track Record"
+        ]
+      },
+      "experience_level": "Executive",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "AWS/GCP/Azure",
+        "GitHub",
+        "JIRA",
+        "Datadog",
+        "Tableau",
+        "Slack"
+      ],
+      "salary_range": {
+        "min": 12000000,
+        "max": 35000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Clear path to CTO. VPs of Engineering are the most sought-after executives in the tech industry.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "TM005",
+      "title": "Chief Technology Officer (CTO)",
+      "domain": "Technology & IT Management",
+      "description": "The top technology executive, responsible for all technology strategy, innovation, engineering, and aligning tech with the company's vision.",
+      "roles_responsibilities": [
+        "Define and own the technology vision and roadmap",
+        "Lead all engineering, data, and infrastructure teams",
+        "Drive technology innovation and R&D",
+        "Represent technology to board and investors",
+        "Build and scale the technical organization"
+      ],
+      "skills_required": [
+        "Technology Vision",
+        "Organizational Leadership",
+        "Innovation Strategy",
+        "Board Communication",
+        "Architecture Oversight",
+        "Talent Strategy"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.E.",
+        "preferred": [
+          "M.Tech / PhD / MS from Top Global University"
+        ],
+        "alternative": [
+          "Proven VP Engineering or Technical Founder Track Record"
+        ]
+      },
+      "experience_level": "C-Suite",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "AWS/GCP/Azure",
+        "GitHub",
+        "Terraform",
+        "Datadog",
+        "Tableau"
+      ],
+      "salary_range": {
+        "min": 18000000,
+        "max": 80000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Top of the technology career ladder. CTOs often move to CEO, CTO-in-Residence, or VC roles.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "TM006",
+      "title": "IT Director",
+      "domain": "Technology & IT Management",
+      "description": "Leads the IT department for a large organization, overseeing infrastructure, security, enterprise systems, and IT governance.",
+      "roles_responsibilities": [
+        "Own IT strategy and governance for the organization",
+        "Manage IT infrastructure, security, and enterprise applications",
+        "Lead IT teams across helpdesk, network, and systems",
+        "Drive digital transformation and cloud adoption",
+        "Manage IT budget and vendor contracts"
+      ],
+      "skills_required": [
+        "IT Strategy",
+        "Enterprise Architecture",
+        "Cybersecurity",
+        "Budget Management",
+        "Vendor Management",
+        "Leadership"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / MCA",
+        "preferred": [
+          "ITIL Expert",
+          "MBA IT",
+          "CISM / CISSP"
+        ],
+        "alternative": [
+          "12+ Years IT with Director-Level Experience"
+        ]
+      },
+      "experience_level": "Director",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "ServiceNow",
+        "Azure/AWS",
+        "SAP",
+        "Splunk",
+        "Cisco",
+        "VMware"
+      ],
+      "salary_range": {
+        "min": 4000000,
+        "max": 12000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Path to CIO or CTO. Critical in large enterprises, BFSI, and government organizations.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "TM007",
+      "title": "Chief Information Officer (CIO)",
+      "domain": "Technology & IT Management",
+      "description": "The top IT executive, responsible for all information technology systems, data governance, and digital strategy across the enterprise.",
+      "roles_responsibilities": [
+        "Own enterprise IT strategy and digital transformation",
+        "Manage all IT systems, infrastructure, and data",
+        "Drive cybersecurity and data governance",
+        "Report to CEO and board on technology investments",
+        "Align IT investments with business strategy"
+      ],
+      "skills_required": [
+        "Digital Strategy",
+        "Enterprise Architecture",
+        "Cybersecurity Leadership",
+        "Board Communication",
+        "Budget Governance",
+        "Organizational Leadership"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / MCA",
+        "preferred": [
+          "MBA IT or MBA from Tier-1",
+          "CISM / CGEIT Certification"
+        ],
+        "alternative": [
+          "Proven IT Director Track Record"
+        ]
+      },
+      "experience_level": "C-Suite",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "SAP",
+        "ServiceNow",
+        "AWS / Azure",
+        "Splunk",
+        "Tableau",
+        "ITSM Platforms"
+      ],
+      "salary_range": {
+        "min": 15000000,
+        "max": 60000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "CIOs are increasingly strategic. Path to CEO of tech-first companies or board advisor.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM001",
+      "onet_soc_code": "11-2011.00",
+      "title": "Advertising & Promotions Manager",
+      "domain": "Marketing Management",
+      "description": "Plan, direct, or coordinate advertising policies and programs or produce collateral materials such as posters, contests, coupons, or giveaways to create extra interest in the purchase of a product or service.",
+      "roles_responsibilities": [
+        "Plan and oversee advertising campaigns across digital and offline media",
+        "Coordinate with creative agencies and media buying teams",
+        "Develop promotional strategies and go-to-market plans",
+        "Manage advertising budgets and measure ROI",
+        "Align promotional activities with brand and product strategy"
+      ],
+      "skills_required": [
+        "Active Listening",
+        "Social Perceptiveness",
+        "Speaking",
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Writing"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA Marketing",
+          "Mass Communication",
+          "BBA Marketing"
+        ],
+        "alternative": [
+          "4-6 Years in Advertising or Marketing Roles"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Google Ads",
+        "Meta Ads Manager",
+        "SEMrush",
+        "HubSpot",
+        "Canva",
+        "Adobe Creative Suite"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 2200000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Digital advertising is growing rapidly in India. Strong path to VP Marketing or CMO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM002",
+      "onet_soc_code": "11-2032.00",
+      "title": "Public Relations Manager",
+      "domain": "Marketing Management",
+      "description": "Plan, direct, or coordinate activities designed to create or maintain a favorable public image or raise issue awareness for an organization, company, or client.",
+      "roles_responsibilities": [
+        "Develop and execute PR strategies and media plans",
+        "Manage relationships with journalists, influencers, and media houses",
+        "Draft press releases, speeches, and official communications",
+        "Handle crisis communication and reputation management",
+        "Coordinate internal and external communications"
+      ],
+      "skills_required": [
+        "Speaking",
+        "Writing",
+        "Critical Thinking",
+        "Social Perceptiveness",
+        "Active Listening",
+        "Reading Comprehension"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "Mass Communication",
+          "Journalism",
+          "MBA Marketing"
+        ],
+        "alternative": [
+          "4+ Years in PR or Corporate Communications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Meltwater",
+        "Cision",
+        "Canva",
+        "Microsoft Office",
+        "LinkedIn",
+        "Google Analytics"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "PR is critical for brand equity in the digital age. Path to Head of Communications or VP Corporate Affairs.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM003",
+      "onet_soc_code": "11-3012.00",
+      "title": "Administrative Services Manager",
+      "domain": "Operations Management",
+      "description": "Plan, direct, or coordinate one or more administrative services of an organization, such as records management, mail distribution, facilities, printing, and payroll.",
+      "roles_responsibilities": [
+        "Oversee administrative functions including facilities, mail, printing, and office services",
+        "Develop and enforce administrative policies and procedures",
+        "Manage administrative budgets and vendor contracts",
+        "Coordinate office space planning and maintenance",
+        "Supervise administrative support staff"
+      ],
+      "skills_required": [
+        "Time Management",
+        "Reading Comprehension",
+        "Active Listening",
+        "Speaking",
+        "Writing",
+        "Coordination"
+      ],
+      "educational_qualification": {
+        "minimum": "High School Diploma / 10+2",
+        "preferred": [
+          "BBA",
+          "B.Com",
+          "Any Bachelor's Degree"
+        ],
+        "alternative": [
+          "2-4 Years in Administrative or Office Management Roles"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Entry-Intermediate",
+      "tools_technologies": [
+        "MS Office",
+        "SAP",
+        "ERP Tools",
+        "Google Workspace",
+        "ServiceNow",
+        "Excel"
+      ],
+      "salary_range": {
+        "min": 400000,
+        "max": 1200000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Stable demand in large corporates, government, and BPO. Path to Operations Manager.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM004",
+      "onet_soc_code": "11-3013.00",
+      "title": "Facilities Manager",
+      "domain": "Operations Management",
+      "description": "Plan, direct, or coordinate operations and functionalities of facilities and buildings. Oversees maintenance, security, space planning, and building services.",
+      "roles_responsibilities": [
+        "Manage building maintenance, repairs, and services",
+        "Oversee facility security, housekeeping, and safety",
+        "Coordinate space allocation and office planning",
+        "Manage facilities budget and vendor contracts",
+        "Ensure compliance with health, safety, and environmental regulations"
+      ],
+      "skills_required": [
+        "Speaking",
+        "Monitoring",
+        "Reading Comprehension",
+        "Active Listening",
+        "Critical Thinking",
+        "Coordination"
+      ],
+      "educational_qualification": {
+        "minimum": "Diploma / Associate's Degree",
+        "preferred": [
+          "B.Tech Civil / Electrical",
+          "BBA",
+          "Facilities Management Certification"
+        ],
+        "alternative": [
+          "2-4 Years in Facilities or Property Management"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "CMMS",
+        "AutoCAD",
+        "MS Office",
+        "SAP",
+        "Excel"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 1500000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "High demand in IT parks, real estate, hospitals, and corporates. Path to VP Facilities or COO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM005",
+      "onet_soc_code": "11-3013.01",
+      "title": "Security Manager",
+      "domain": "Operations Management",
+      "description": "Direct an organization's security functions, including physical security, safety of employees and facilities, and security policy enforcement.",
+      "roles_responsibilities": [
+        "Develop and implement physical security policies and procedures",
+        "Manage security personnel and third-party security vendors",
+        "Conduct risk assessments and security audits",
+        "Oversee CCTV, access control, and incident management systems",
+        "Ensure compliance with safety and security regulations"
+      ],
+      "skills_required": [
+        "Critical Thinking",
+        "Judgment and Decision Making",
+        "Active Listening",
+        "Reading Comprehension",
+        "Monitoring",
+        "Complex Problem Solving"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "B.Sc Security Management",
+          "Defense/Police Background",
+          "CPP Certification"
+        ],
+        "alternative": [
+          "4-6 Years in Security or Law Enforcement"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "CCTV Systems",
+        "Access Control Software",
+        "Incident Management Tools",
+        "MS Office",
+        "ERP Security Modules"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 1800000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Growing demand in IT campuses, manufacturing, retail chains, and banking. Path to Head of Security.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM006",
+      "onet_soc_code": "11-3031.01",
+      "title": "Treasurer / Controller",
+      "domain": "Finance Management",
+      "description": "Direct financial activities such as planning, procurement, and investments for all or part of an organization. Manages treasury operations, cash flow, and financial controls.",
+      "roles_responsibilities": [
+        "Manage treasury operations and cash flow planning",
+        "Oversee financial controls and accounting policies",
+        "Manage banking relationships and debt instruments",
+        "Prepare financial statements and statutory reports",
+        "Ensure tax compliance and statutory filings (GST, TDS, ROC)"
+      ],
+      "skills_required": [
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Complex Problem Solving",
+        "Judgment and Decision Making",
+        "Speaking",
+        "Management of Financial Resources"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Com / BBA Finance",
+        "preferred": [
+          "CA",
+          "CMA",
+          "MBA Finance"
+        ],
+        "alternative": [
+          "6-8 Years in Finance with Treasury/Controllership Experience"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "SAP FICO",
+        "Oracle Financials",
+        "Tally ERP",
+        "Bloomberg",
+        "Excel",
+        "Power BI"
+      ],
+      "salary_range": {
+        "min": 1500000,
+        "max": 4000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Critical role in large enterprises and listed companies. Path to CFO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM007",
+      "onet_soc_code": "11-3031.03",
+      "title": "Investment Fund Manager",
+      "domain": "Finance Management",
+      "description": "Plan, direct, or coordinate investment strategy or operations for a large pool of liquid assets such as mutual funds, pension funds, or hedge funds.",
+      "roles_responsibilities": [
+        "Manage investment portfolio and asset allocation strategy",
+        "Analyze market trends, securities, and investment opportunities",
+        "Make buy/sell decisions based on research and mandates",
+        "Report portfolio performance to investors and stakeholders",
+        "Ensure compliance with SEBI and regulatory guidelines"
+      ],
+      "skills_required": [
+        "Reading Comprehension",
+        "Active Listening",
+        "Critical Thinking",
+        "Judgment and Decision Making",
+        "Speaking",
+        "Complex Problem Solving"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree in Finance / Economics",
+        "preferred": [
+          "CA",
+          "CFA",
+          "MBA Finance from Premier Institute"
+        ],
+        "alternative": [
+          "8-10 Years in Asset Management or Investment Research"
+        ]
+      },
+      "experience_level": "Senior-Lead",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "Bloomberg Terminal",
+        "Reuters Eikon",
+        "Excel",
+        "Python",
+        "Portfolio Management Systems",
+        "SEBI Reporting Tools"
+      ],
+      "salary_range": {
+        "min": 2500000,
+        "max": 12000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High demand in AMCs, PMS providers, hedge funds, and family offices. Path to CIO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM008",
+      "onet_soc_code": "11-3051.00",
+      "title": "Industrial Production Manager",
+      "domain": "Operations Management",
+      "description": "Plan, direct, or coordinate the work activities and resources necessary for manufacturing products in accordance with cost, quality, and production specifications.",
+      "roles_responsibilities": [
+        "Plan and schedule manufacturing production activities",
+        "Manage production teams and allocate resources",
+        "Monitor quality, cost, and output KPIs",
+        "Identify and implement process improvements on the shop floor",
+        "Coordinate with procurement, maintenance, and quality teams"
+      ],
+      "skills_required": [
+        "Monitoring",
+        "Judgment and Decision Making",
+        "Critical Thinking",
+        "Coordination",
+        "Speaking",
+        "Time Management"
+      ],
+      "educational_qualification": {
+        "minimum": "Diploma / B.Tech",
+        "preferred": [
+          "B.Tech Mechanical / Production / Industrial Engineering",
+          "MBA Operations"
+        ],
+        "alternative": [
+          "1-5 Years in Manufacturing with Supervisory Experience"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "SAP PP",
+        "ERP Systems",
+        "Lean Tools",
+        "Excel",
+        "MES (Manufacturing Execution Systems)"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 1800000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Core role in manufacturing. Path to Plant Manager, VP Manufacturing, or COO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM009",
+      "onet_soc_code": "11-3051.01",
+      "title": "Quality Control Systems Manager",
+      "domain": "Operations Management",
+      "description": "Plan, direct, or coordinate quality assurance programs. Formulate quality control policies and control quality of laboratory and production efforts.",
+      "roles_responsibilities": [
+        "Design and manage Quality Management Systems (QMS)",
+        "Lead quality audits and certifications (ISO, IATF, etc.)",
+        "Analyze quality data and implement corrective actions",
+        "Train production teams on quality standards",
+        "Ensure product compliance with industry and regulatory standards"
+      ],
+      "skills_required": [
+        "Reading Comprehension",
+        "Quality Control Analysis",
+        "Judgment and Decision Making",
+        "Monitoring",
+        "Active Listening",
+        "Writing"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.E.",
+        "preferred": [
+          "Six Sigma Black Belt",
+          "ISO Lead Auditor",
+          "B.Tech Quality Engineering"
+        ],
+        "alternative": [
+          "4-6 Years in Quality Management with Certification"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Minitab",
+        "SAP QM",
+        "Excel",
+        "8D / CAPA Tools",
+        "Statistical Process Control Software"
+      ],
+      "salary_range": {
+        "min": 900000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Critical in pharma, automotive, aerospace, and FMCG. Path to Head of Quality or VP Quality.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM010",
+      "onet_soc_code": "11-9021.00",
+      "title": "Construction Manager",
+      "domain": "Project Management",
+      "description": "Plan, direct, or coordinate construction projects including residential, commercial, and infrastructure builds. Manages contractors, timelines, budgets, and compliance.",
+      "roles_responsibilities": [
+        "Oversee all phases of construction projects from planning to handover",
+        "Manage contractors, subcontractors, and site teams",
+        "Track project budget, schedule, and quality",
+        "Ensure compliance with building codes and safety regulations",
+        "Coordinate with architects, engineers, and clients"
+      ],
+      "skills_required": [
+        "Judgment and Decision Making",
+        "Management of Personnel Resources",
+        "Active Listening",
+        "Complex Problem Solving",
+        "Coordination",
+        "Critical Thinking"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech Civil Engineering",
+        "preferred": [
+          "B.Tech Civil + PMP Certification",
+          "MBA Construction Management"
+        ],
+        "alternative": [
+          "4-6 Years in Construction Site Management"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Primavera P6",
+        "AutoCAD",
+        "MS Project",
+        "Procore",
+        "Revit",
+        "Excel"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "India's infrastructure boom creates massive demand. Path to Project Director or VP Construction.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM011",
+      "onet_soc_code": "11-9032.00",
+      "title": "Education Administrator (School / K-12)",
+      "domain": "Education Management",
+      "description": "Plan, direct, or coordinate academic, administrative, and auxiliary activities of schools from kindergarten through secondary level.",
+      "roles_responsibilities": [
+        "Manage school operations, staff, and academic programs",
+        "Develop and implement curriculum and assessment policies",
+        "Oversee student admissions, attendance, and welfare",
+        "Build relationships with parents, community, and regulatory bodies",
+        "Manage school budget, facilities, and resources"
+      ],
+      "skills_required": [
+        "Speaking",
+        "Active Listening",
+        "Learning Strategies",
+        "Judgment and Decision Making",
+        "Critical Thinking",
+        "Reading Comprehension"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree + B.Ed",
+        "preferred": [
+          "M.Ed",
+          "MBA Education Management",
+          "MA Education"
+        ],
+        "alternative": [
+          "2-4 Years as Senior Teacher or Department Head"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "School ERP (Fedena, Schoology)",
+        "MS Office",
+        "Google Workspace",
+        "Student Information Systems"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 1500000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "India's growing private school sector creates demand. Path to Principal or Director of Education.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM012",
+      "onet_soc_code": "11-9033.00",
+      "title": "Education Administrator (Higher Education / University)",
+      "domain": "Education Management",
+      "description": "Plan, direct, or coordinate student instruction, administration, and services in universities, colleges, and other postsecondary institutions.",
+      "roles_responsibilities": [
+        "Manage academic departments, faculty, and programs",
+        "Oversee student admissions, registrar, and examination processes",
+        "Develop academic policies and curriculum standards",
+        "Manage research programs and partnerships",
+        "Handle accreditation, NAAC, and regulatory compliance"
+      ],
+      "skills_required": [
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Monitoring",
+        "Instructing",
+        "Time Management",
+        "Speaking"
+      ],
+      "educational_qualification": {
+        "minimum": "Master's Degree",
+        "preferred": [
+          "PhD",
+          "MBA Education Management",
+          "UGC NET Qualified"
+        ],
+        "alternative": [
+          "4-6 Years in Academic Administration"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "University ERP (SAP, Oracle)",
+        "LMS (Moodle, Blackboard)",
+        "MS Office",
+        "Google Scholar"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "NEP 2020 is transforming higher education in India. Path to Dean, Registrar, or Vice Chancellor.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM013",
+      "onet_soc_code": "11-9041.00",
+      "title": "Architectural & Engineering Manager",
+      "domain": "Technology & IT Management",
+      "description": "Plan, direct, or coordinate activities in architecture, engineering, or research and development. Manages technical teams and projects in design and engineering domains.",
+      "roles_responsibilities": [
+        "Lead engineering or architecture project teams",
+        "Define technical standards, design guidelines, and review processes",
+        "Manage project budgets, timelines, and resources",
+        "Coordinate between clients, design teams, and contractors",
+        "Drive R&D initiatives and innovation programs"
+      ],
+      "skills_required": [
+        "Reading Comprehension",
+        "Speaking",
+        "Complex Problem Solving",
+        "Writing",
+        "Active Listening",
+        "Judgment and Decision Making"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.Arch",
+        "preferred": [
+          "M.Tech",
+          "MBA + Engineering Degree",
+          "PMP Certification"
+        ],
+        "alternative": [
+          "10+ Years in Engineering with Leadership Experience"
+        ]
+      },
+      "experience_level": "Senior-Lead",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "AutoCAD",
+        "Revit",
+        "MS Project",
+        "MATLAB",
+        "SAP",
+        "Primavera"
+      ],
+      "salary_range": {
+        "min": 1500000,
+        "max": 4500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High demand in infrastructure, EPC, R&D, and tech companies. Path to VP Engineering or Technical Director.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM014",
+      "onet_soc_code": "11-9081.00",
+      "title": "Hotel / Lodging Manager",
+      "domain": "Hospitality Management",
+      "description": "Plan, direct, or coordinate activities of an organization or department that provides lodging and other accommodations, including rooms, food, and guest services.",
+      "roles_responsibilities": [
+        "Manage day-to-day hotel or lodging operations",
+        "Oversee front desk, housekeeping, F&B, and maintenance teams",
+        "Drive guest satisfaction and handle escalations",
+        "Manage hotel budgets, pricing, and revenue targets",
+        "Coordinate with sales and marketing to maximize occupancy"
+      ],
+      "skills_required": [
+        "Active Listening",
+        "Service Orientation",
+        "Speaking",
+        "Management of Personnel Resources",
+        "Social Perceptiveness",
+        "Writing"
+      ],
+      "educational_qualification": {
+        "minimum": "Diploma in Hotel Management",
+        "preferred": [
+          "B.Sc Hotel Management",
+          "MBA Hospitality",
+          "IHM Degree"
+        ],
+        "alternative": [
+          "2-4 Years in Hotel Operations with Supervisory Role"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Opera Hotel Software",
+        "OTA Platforms",
+        "PMS (Property Management System)",
+        "MS Office",
+        "Excel"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 1800000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "India's tourism sector is growing rapidly. Path to GM Hotel, Area Manager, or VP Operations.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM015",
+      "onet_soc_code": "11-9111.00",
+      "title": "Medical & Health Services Manager",
+      "domain": "Healthcare Management",
+      "description": "Plan, direct, or coordinate medical and health services in hospitals, clinics, managed care organizations, or public health agencies.",
+      "roles_responsibilities": [
+        "Manage clinical and administrative operations of healthcare facilities",
+        "Ensure regulatory compliance (NABH, NABL, clinical protocols)",
+        "Oversee staffing, budgets, and resource allocation",
+        "Drive patient satisfaction and quality improvement programs",
+        "Coordinate between departments: clinical, lab, pharmacy, admin"
+      ],
+      "skills_required": [
+        "Speaking",
+        "Critical Thinking",
+        "Active Listening",
+        "Writing",
+        "Complex Problem Solving",
+        "Social Perceptiveness"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA Hospital Management",
+          "MHA (Master of Hospital Administration)",
+          "MBBS + MHA"
+        ],
+        "alternative": [
+          "4-6 Years in Healthcare Administration"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Hospital Information Systems (HIS)",
+        "SAP Healthcare",
+        "Meditech",
+        "Excel",
+        "Tableau"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "India's healthcare sector is among the fastest growing. Path to CEO of Hospital or Healthcare Network.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM016",
+      "onet_soc_code": "11-9141.00",
+      "title": "Real Estate & Property Manager",
+      "domain": "Real Estate Management",
+      "description": "Plan, direct, or coordinate the selling, buying, leasing, or governance activities of commercial, industrial, or residential properties.",
+      "roles_responsibilities": [
+        "Manage residential or commercial property portfolios",
+        "Oversee tenant relations, lease agreements, and rent collection",
+        "Coordinate maintenance, renovation, and facility services",
+        "Identify and evaluate new property investment opportunities",
+        "Ensure legal and regulatory compliance in property transactions"
+      ],
+      "skills_required": [
+        "Speaking",
+        "Reading Comprehension",
+        "Active Listening",
+        "Coordination",
+        "Writing",
+        "Critical Thinking"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "B.Com",
+          "MBA Real Estate",
+          "Certified Property Manager (CPM)"
+        ],
+        "alternative": [
+          "4-6 Years in Real Estate with Portfolio Management Experience"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "MagicBricks",
+        "99acres",
+        "Tally",
+        "Excel",
+        "CRM Tools",
+        "Legal Documentation Software"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Real estate is one of India's largest sectors. Path to Head of Real Estate or VP Asset Management.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM017",
+      "onet_soc_code": "11-9161.00",
+      "title": "Emergency Management Director",
+      "domain": "General & Strategy Management",
+      "description": "Plan and direct disaster response or crisis management activities, provide disaster preparedness training, and prepare emergency plans and procedures.",
+      "roles_responsibilities": [
+        "Develop and maintain organizational emergency response plans",
+        "Coordinate crisis response across departments during incidents",
+        "Conduct emergency drills and preparedness training",
+        "Liaise with government agencies and emergency services",
+        "Assess risks and implement business continuity measures"
+      ],
+      "skills_required": [
+        "Service Orientation",
+        "Complex Problem Solving",
+        "Speaking",
+        "Monitoring",
+        "Coordination",
+        "Social Perceptiveness"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA / MPA with Emergency Management",
+          "Disaster Management Certification"
+        ],
+        "alternative": [
+          "Defense / Government Background + 4-6 Years Experience"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Emergency Management Software",
+        "GIS Tools",
+        "Incident Command Systems",
+        "MS Office",
+        "Communication Systems"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Growing importance in large corporates, government, and manufacturing. Path to Chief Risk Officer or COO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM018",
+      "onet_soc_code": "11-9199.01",
+      "title": "Regulatory Affairs Manager",
+      "domain": "General & Strategy Management",
+      "description": "Plan, direct, or coordinate production activities to ensure compliance with regulations and standards in industries such as pharma, BFSI, food, and tech.",
+      "roles_responsibilities": [
+        "Ensure organization's compliance with industry regulations",
+        "Prepare and submit regulatory filings and dossiers",
+        "Monitor regulatory changes and update internal policies",
+        "Liaise with SEBI, RBI, CDSCO, FSSAI, or other regulators",
+        "Train teams on compliance obligations and regulatory updates"
+      ],
+      "skills_required": [
+        "Writing",
+        "Reading Comprehension",
+        "Active Listening",
+        "Speaking",
+        "Critical Thinking",
+        "Judgment and Decision Making"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree in relevant domain",
+        "preferred": [
+          "B.Pharma + M.Pharma",
+          "MBA + Law",
+          "RAC Certification (Regulatory Affairs Professional)"
+        ],
+        "alternative": [
+          "2-4 Years in Regulatory Affairs in Pharma, BFSI, or Tech"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Veeva Vault",
+        "Regulatory Submission Tools",
+        "MS Office",
+        "CTMS",
+        "Electronic Dossiers"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Critical in pharma, biotech, fintech, and food sectors. Path to VP Regulatory or Chief Compliance Officer.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM019",
+      "onet_soc_code": "11-9199.02",
+      "title": "Compliance Manager",
+      "domain": "General & Strategy Management",
+      "description": "Plan, direct, or coordinate activities of an organization to ensure compliance with ethical or regulatory standards, including internal policies, laws, and industry codes.",
+      "roles_responsibilities": [
+        "Develop and maintain the compliance framework and policies",
+        "Conduct compliance audits and risk assessments",
+        "Ensure adherence to applicable laws (Companies Act, SEBI, RBI, GDPR)",
+        "Investigate compliance violations and recommend corrective actions",
+        "Train employees on compliance policies and ethics"
+      ],
+      "skills_required": [
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Active Listening",
+        "Writing",
+        "Speaking",
+        "Active Learning"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "LLB / CS (Company Secretary)",
+          "CA",
+          "MBA with Compliance/Risk Specialization"
+        ],
+        "alternative": [
+          "2-4 Years in Legal, Risk, or Audit Functions"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "GRC Tools (RSA Archer)",
+        "Compliance Management Software",
+        "SAP GRC",
+        "MS Office",
+        "Excel"
+      ],
+      "salary_range": {
+        "min": 900000,
+        "max": 2800000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Compliance is mandatory across BFSI, pharma, and tech. Path to Chief Compliance Officer or General Counsel.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM020",
+      "onet_soc_code": "11-9199.08",
+      "title": "Loss Prevention Manager",
+      "domain": "Operations Management",
+      "description": "Plan and direct policies, procedures, or systems to prevent the loss of assets due to theft, fraud, damage, or shrinkage. Common in retail and BFSI.",
+      "roles_responsibilities": [
+        "Develop and implement loss prevention policies and controls",
+        "Investigate internal and external theft, fraud, and shrinkage cases",
+        "Conduct store audits and vulnerability assessments",
+        "Train staff on loss prevention procedures",
+        "Analyze loss data and report to management"
+      ],
+      "skills_required": [
+        "Speaking",
+        "Active Listening",
+        "Reading Comprehension",
+        "Critical Thinking",
+        "Monitoring",
+        "Complex Problem Solving"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "B.Com",
+          "BBA",
+          "Loss Prevention Certification (LPC)"
+        ],
+        "alternative": [
+          "4-6 Years in Retail Operations or Security Management"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "CCTV Systems",
+        "Loss Prevention Software",
+        "POS Analytics",
+        "MS Office",
+        "Excel"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 1800000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "In demand in retail chains, BFSI, and e-commerce. Path to Head of Loss Prevention or Security Director.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM021",
+      "onet_soc_code": "11-9151.00",
+      "title": "Social & Community Service Manager",
+      "domain": "Non-Profit & Social Management",
+      "description": "Plan, direct, or coordinate the activities of a social service program or community outreach organization, including NGOs, CSR teams, and social enterprises.",
+      "roles_responsibilities": [
+        "Manage community programs and social initiatives",
+        "Develop and oversee program budgets and resource allocation",
+        "Build partnerships with government, donors, and communities",
+        "Monitor program impact and prepare donor reports",
+        "Lead and coordinate teams of social workers and volunteers"
+      ],
+      "skills_required": [
+        "Social Perceptiveness",
+        "Service Orientation",
+        "Critical Thinking",
+        "Coordination",
+        "Active Listening",
+        "Judgment and Decision Making"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MSW (Master of Social Work)",
+          "MBA Non-Profit Management",
+          "Development Studies"
+        ],
+        "alternative": [
+          "4-6 Years in NGO or CSR Program Management"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Salesforce Nonprofit",
+        "MS Office",
+        "Google Workspace",
+        "Survey Tools",
+        "Budget Management Tools"
+      ],
+      "salary_range": {
+        "min": 400000,
+        "max": 1200000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Growing CSR mandates and NGO sector. Path to Director of Programs or Executive Director.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM022",
+      "onet_soc_code": "11-9121.01",
+      "title": "Clinical Research Coordinator / Manager",
+      "domain": "Healthcare Management",
+      "description": "Plan, direct, or coordinate clinical research projects. Manages clinical trials, ethical compliance, data collection, and research team activities.",
+      "roles_responsibilities": [
+        "Coordinate and manage clinical trial operations",
+        "Ensure compliance with ICH-GCP, CDSCO, and IRB guidelines",
+        "Manage data collection, entry, and quality review",
+        "Liaise with sponsors, CROs, and investigators",
+        "Prepare regulatory documents and trial master files"
+      ],
+      "skills_required": [
+        "Writing",
+        "Reading Comprehension",
+        "Active Listening",
+        "Coordination",
+        "Speaking",
+        "Critical Thinking"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree in Life Sciences",
+        "preferred": [
+          "B.Pharma / M.Pharma",
+          "MBBS + Clinical Research Certification",
+          "M.Sc Life Sciences"
+        ],
+        "alternative": [
+          "1-2 Years in Clinical Research or CRO with GCP Training"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "CTMS",
+        "EDC (Electronic Data Capture)",
+        "Medidata Rave",
+        "Excel",
+        "SAS Basics"
+      ],
+      "salary_range": {
+        "min": 400000,
+        "max": 1500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "India is a major hub for global clinical trials. Path to Clinical Project Manager or Head of Clinical Operations.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM023",
+      "onet_soc_code": "11-1011.03",
+      "title": "Chief Sustainability Officer (CSO)",
+      "domain": "General & Strategy Management",
+      "description": "Communicate and coordinate with management, shareholders, customers, and employees to address sustainability issues. Enacts or oversees a corporate ESG strategy.",
+      "roles_responsibilities": [
+        "Define and lead the company's ESG and sustainability strategy",
+        "Drive carbon reduction, circular economy, and green initiatives",
+        "Manage sustainability reporting (GRI, BRSR, TCFD frameworks)",
+        "Engage investors, board, and regulators on ESG performance",
+        "Embed sustainability into supply chain and operations"
+      ],
+      "skills_required": [
+        "Critical Thinking",
+        "Writing",
+        "Complex Problem Solving",
+        "Active Listening",
+        "Reading Comprehension",
+        "Speaking"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA Sustainability",
+          "Environmental Management",
+          "Engineering + MBA"
+        ],
+        "alternative": [
+          "4-6 Years in ESG, Sustainability, or CSR Leadership"
+        ]
+      },
+      "experience_level": "Senior-Executive",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "ESG Reporting Platforms",
+        "CDP Tools",
+        "GRI Software",
+        "Excel",
+        "Tableau",
+        "PowerPoint"
+      ],
+      "salary_range": {
+        "min": 2500000,
+        "max": 10000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Fastest growing C-suite role globally. SEBI's BRSR mandates are driving demand in India.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM024",
+      "onet_soc_code": "11-9072.00",
+      "title": "Entertainment & Recreation Manager",
+      "domain": "Hospitality Management",
+      "description": "Plan, direct, or coordinate entertainment and recreational activities and operations of a recreational facility, including sports clubs, multiplexes, resorts, and event venues.",
+      "roles_responsibilities": [
+        "Manage operations of entertainment or recreation facilities",
+        "Plan and coordinate events, activities, and programs",
+        "Oversee staff, vendors, and facility maintenance",
+        "Drive membership, ticket sales, and revenue growth",
+        "Ensure guest safety and regulatory compliance"
+      ],
+      "skills_required": [
+        "Active Listening",
+        "Speaking",
+        "Service Orientation",
+        "Social Perceptiveness",
+        "Coordination",
+        "Reading Comprehension"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "B.Sc Sports Management",
+          "BBA Event Management",
+          "IHM Degree"
+        ],
+        "alternative": [
+          "2-4 Years in Events, Sports, or Hospitality Management"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Event Management Software",
+        "POS Systems",
+        "MS Office",
+        "Ticketing Platforms",
+        "Excel"
+      ],
+      "salary_range": {
+        "min": 400000,
+        "max": 1500000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Growing entertainment and sports industry in India. Path to General Manager or VP Operations.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ADM025",
+      "onet_soc_code": "11-2033.00",
+      "title": "Fundraising Manager",
+      "domain": "Non-Profit & Social Management",
+      "description": "Plan, direct, or coordinate activities to solicit and maintain funds for special projects or nonprofit organizations through grants, donor engagement, and campaigns.",
+      "roles_responsibilities": [
+        "Develop and execute fundraising campaigns and donor outreach",
+        "Identify and apply for government and CSR grants",
+        "Manage donor relationships and stewardship programs",
+        "Organize fundraising events and awareness campaigns",
+        "Track fundraising metrics and report to leadership"
+      ],
+      "skills_required": [
+        "Speaking",
+        "Critical Thinking",
+        "Social Perceptiveness",
+        "Persuasion",
+        "Active Listening",
+        "Writing"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "MSW",
+          "MBA Non-Profit",
+          "Development Studies"
+        ],
+        "alternative": [
+          "2-4 Years in Fundraising, CSR, or NGO Sector"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Salesforce Nonprofit",
+        "Raiser's Edge",
+        "Excel",
+        "Email Marketing Tools",
+        "CRM"
+      ],
+      "salary_range": {
+        "min": 400000,
+        "max": 1200000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "India's growing NGO and social sector. Path to Executive Director or CSR Head.",
+      "last_updated": "2026-03"
+    }
+  ]
+}

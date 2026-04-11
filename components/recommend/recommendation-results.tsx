@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
-import { ArrowLeft, ArrowRight, TrendingUp, DollarSign, BarChart3, Bookmark, BookmarkCheck } from "lucide-react"
+import { ArrowLeft, ArrowRight, TrendingUp, IndianRupee, BarChart3, Bookmark, BookmarkCheck } from "lucide-react"
 import { useAuth } from "@/lib/auth-context"
 import { toast } from "sonner"
 import { useState } from "react"
@@ -45,6 +45,9 @@ const growthColors: Record<string, string> = {
 export function RecommendationResults({ recommendations, onReset }: Props) {
   const { user, updateUser } = useAuth()
   const [savedCareers, setSavedCareers] = useState<string[]>(user?.savedCareers || [])
+  const [visibleCount, setVisibleCount] = useState(12)
+
+  const visibleRecommendations = recommendations.slice(0, visibleCount)
 
   const handleSave = async (careerId: string) => {
     if (!user) {
@@ -64,12 +67,11 @@ export function RecommendationResults({ recommendations, onReset }: Props) {
   }
 
   const formatSalary = (min: number, max: number) => {
-    const formatter = new Intl.NumberFormat("en-US", {
-      style: "currency",
-      currency: "USD",
+    const formatter = new Intl.NumberFormat("en-IN", {
+      notation: "compact",
       maximumFractionDigits: 0,
     })
-    return `${formatter.format(min)} - ${formatter.format(max)}`
+    return `₹${formatter.format(min)} - ₹${formatter.format(max)}`
   }
 
   return (
@@ -95,7 +97,7 @@ export function RecommendationResults({ recommendations, onReset }: Props) {
       </div>
 
       <div className="grid gap-6 md:grid-cols-2">
-        {recommendations.map((career, index) => (
+        {visibleRecommendations.map((career, index) => (
           <Card
             key={career.id}
             className="group relative overflow-hidden transition-all hover:border-primary/50 hover:shadow-lg"
@@ -158,7 +160,7 @@ export function RecommendationResults({ recommendations, onReset }: Props) {
               {/* Stats */}
               <div className="grid grid-cols-3 gap-2 text-sm">
                 <div className="rounded-lg bg-muted/50 p-2 text-center">
-                  <DollarSign className="mx-auto mb-1 h-4 w-4 text-muted-foreground" />
+                  <IndianRupee className="mx-auto mb-1 h-4 w-4 text-muted-foreground" />
                   <p className="text-xs text-muted-foreground">Salary</p>
                   <p className="font-medium text-xs">
                     {formatSalary(career.salary.min, career.salary.max).replace(' - ', '-')}
@@ -196,6 +198,17 @@ export function RecommendationResults({ recommendations, onReset }: Props) {
           </Card>
         ))}
       </div>
+
+      {recommendations.length > visibleCount && (
+        <div className="flex justify-center">
+          <Button
+            variant="outline"
+            onClick={() => setVisibleCount((prev) => Math.min(prev + 12, recommendations.length))}
+          >
+            Show More ({recommendations.length - visibleCount} left)
+          </Button>
+        </div>
+      )}
     </div>
   )
 }

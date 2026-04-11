@@ -105,10 +105,10 @@ export default function ContactPage() {
                           Mon-Fri from 9am to 6pm
                         </p>
                         <a 
-                          href="tel:+1-555-123-4567" 
+                          href="tel:+919876543210" 
                           className="text-primary hover:underline text-sm"
                         >
-                          +1 (555) 123-4567
+                          +91 98765 43210
                         </a>
                       </div>
                     </div>
@@ -127,8 +127,8 @@ export default function ContactPage() {
                           Our headquarters
                         </p>
                         <p className="text-sm text-foreground">
-                          123 Innovation Drive<br />
-                          San Francisco, CA 94102
+                          Benz Circle<br />
+                          Vijayawada, Andhra Pradesh
                         </p>
                       </div>
                     </div>

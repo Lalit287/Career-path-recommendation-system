@@ -37,12 +37,67 @@ const educationLevels = [
   { value: "self-taught", label: "Self-Taught", description: "Learning through online resources and practice" },
 ]
 
-const interestOptions = [
-  "Artificial Intelligence", "Web Development", "Mobile Apps", "Data Science",
-  "Cloud Computing", "Cybersecurity", "Game Development", "DevOps",
-  "Blockchain", "IoT", "Machine Learning", "Product Management",
-  "UX Design", "Digital Marketing", "Finance Tech", "Healthcare Tech"
-]
+const interestCategories = {
+  "Technology & IT": [
+    "Software Development",
+    "Data Science & Analytics",
+    "Machine Learning & AI",
+    "Cloud & DevOps",
+    "Cybersecurity",
+    "Web Development",
+    "Mobile App Development",
+    "Game Development",
+    "UI/UX Design",
+    "Product Management",
+  ],
+  "Management & Business": [
+    "Project Management",
+    "Product Management",
+    "Operations Management",
+    "Marketing Management",
+    "HR Management",
+    "Finance Management",
+    "Sales Management",
+    "Business Strategy",
+  ],
+  "Healthcare & Science": [
+    "Healthcare & Medicine",
+    "Nursing",
+    "Psychology",
+    "Engineering (Non-IT)",
+    "Environmental Science",
+    "Agriculture",
+  ],
+  "Creative & Media": [
+    "Creative Arts & Design",
+    "Media & Communication",
+    "Graphic Design",
+    "Content Creation",
+    "Photography",
+    "Video Production",
+  ],
+  "Finance & Accounting": [
+    "Finance & Accounting (Non-Management)",
+    "Financial Analysis",
+    "Auditing",
+    "Tax Consulting",
+    "Investment Banking",
+  ],
+  "Education & Social": [
+    "Education & Teaching",
+    "Social & Community Services",
+    "Legal & Law",
+    "Non-Profit & Social Work",
+    "Public Administration",
+  ],
+  "Hospitality & Services": [
+    "Hospitality & Food Services",
+    "Tourism Management",
+    "Event Management",
+    "Real Estate Management",
+    "Retail Management",
+  ],
+}
 
 const steps = [
   { id: 1, title: "Education", icon: GraduationCap },
@@ -51,10 +106,13 @@ const steps = [
   { id: 4, title: "Generate", icon: Sparkles },
 ]
 
+const RECOMMEND_PROFILE_STORAGE_KEY = "careerpath-recommend-profile-v1"
+
 export function RecommendationForm({ onSubmit, isLoading, setIsLoading }: Props) {
   const [currentStep, setCurrentStep] = useState(1)
   const [education, setEducation] = useState("")
   const [interests, setInterests] = useState<string[]>([])
+  const [customInterestInput, setCustomInterestInput] = useState("")
   const [skills, setSkills] = useState<string[]>([])
   const [skillInput, setSkillInput] = useState("")
 
@@ -69,7 +127,8 @@ export function RecommendationForm({ onSubmit, isLoading, setIsLoading }: Props)
       toast.error("Please select at least one interest")
       return
     }
-    if (currentStep === 3 && skills.length === 0) {
+    // Skills are optional for high school students
+    if (currentStep === 3 && education !== "high-school" && skills.length === 0) {
       toast.error("Please add at least one skill")
       return
     }
@@ -86,6 +145,15 @@ export function RecommendationForm({ onSubmit, isLoading, setIsLoading }: Props)
         ? prev.filter((i) => i !== interest)
         : [...prev, interest]
     )
+  }
+
+  const addCustomInterest = () => {
+    const value = customInterestInput.trim()
+    if (!value) return
+    if (!interests.includes(value)) {
+      setInterests((prev) => [...prev, value])
+    }
+    setCustomInterestInput("")
   }
 
   const addSkill = () => {
@@ -109,6 +177,15 @@ export function RecommendationForm({ onSubmit, isLoading, setIsLoading }: Props)
   const handleGenerate = async () => {
     setIsLoading(true)
     try {
+      try {
+        localStorage.setItem(
+          RECOMMEND_PROFILE_STORAGE_KEY,
+          JSON.stringify({ education, interests, skills })
+        )
+      } catch {
+        // Ignore localStorage write failures.
+      }
+
       const response = await fetch("/api/recommendations", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -203,26 +280,81 @@ export function RecommendationForm({ onSubmit, isLoading, setIsLoading }: Props)
 
           {/* Step 2: Interests */}
           {currentStep === 2 && (
-            <div className="flex flex-wrap gap-2">
-              {interestOptions.map((interest) => (
-                <Badge
-                  key={interest}
-                  variant={interests.includes(interest) ? "default" : "outline"}
-                  className={cn(
-                    "cursor-pointer px-3 py-2 text-sm transition-all",
-                    interests.includes(interest) && "bg-primary"
-                  )}
-                  onClick={() => toggleInterest(interest)}
-                >
-                  {interest}
-                </Badge>
+            <div className="space-y-6">
+              {Object.entries(interestCategories).map(([category, categoryInterests]) => (
+                <div key={category}>
+                  <h4 className="mb-3 font-semibold text-sm text-foreground">
+                    {category}
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {categoryInterests.map((interest) => (
+                      <Badge
+                        key={interest}
+                        variant={
+                          interests.includes(interest)
+                            ? "default"
+                            : "outline"
+                        }
+                        className={cn(
+                          "cursor-pointer px-3 py-2 text-sm transition-all",
+                          interests.includes(interest) && "bg-primary"
+                        )}
+                        onClick={() => toggleInterest(interest)}
+                      >
+                        {interest}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
               ))}
+
+              <div className="rounded-lg border p-4 space-y-3">
+                <h4 className="font-semibold text-sm text-foreground">Add a custom interest</h4>
+                <div className="flex gap-2">
+                  <Input
+                    placeholder="Type your interest if not listed (e.g., Robotics, Civil Services)"
+                    value={customInterestInput}
+                    onChange={(e) => setCustomInterestInput(e.target.value)}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter") {
+                        e.preventDefault()
+                        addCustomInterest()
+                      }
+                    }}
+                  />
+                  <Button type="button" variant="secondary" onClick={addCustomInterest}>
+                    Add
+                  </Button>
+                </div>
+
+                {interests.length > 0 && (
+                  <div className="flex flex-wrap gap-2">
+                    {interests.map((interest) => (
+                      <Badge key={interest} variant="secondary" className="gap-1 px-3 py-2">
+                        {interest}
+                        <button
+                          type="button"
+                          onClick={() => toggleInterest(interest)}
+                          className="ml-1 rounded-full hover:bg-muted"
+                        >
+                          <X className="h-3 w-3" />
+                        </button>
+                      </Badge>
+                    ))}
+                  </div>
+                )}
+              </div>
             </div>
           )}
 
           {/* Step 3: Skills */}
           {currentStep === 3 && (
             <div className="space-y-4">
+              {education === "high-school" && (
+                <div className="rounded-lg bg-blue-500/10 border border-blue-500/20 p-3 text-sm text-blue-700 dark:text-blue-400">
+                  💡 <strong>Tip:</strong> Skills are optional for high school students. Recommendations will be based on your selected interests.
+                </div>
+              )}
               <div className="flex gap-2">
                 <Input
                   placeholder="Type a skill and press Enter (e.g., Python, React, SQL)"
@@ -287,7 +419,7 @@ export function RecommendationForm({ onSubmit, isLoading, setIsLoading }: Props)
                     Skills
                   </div>
                   <p className="text-muted-foreground">
-                    {skills.length} added
+                    {skills.length > 0 ? `${skills.length} added` : "Optional"}
                   </p>
                 </div>
               </div>
@@ -296,7 +428,10 @@ export function RecommendationForm({ onSubmit, isLoading, setIsLoading }: Props)
                 <h4 className="mb-2 font-medium">Your Profile Summary</h4>
                 <div className="space-y-2 text-sm text-muted-foreground">
                   <p><strong>Interests:</strong> {interests.join(", ")}</p>
-                  <p><strong>Skills:</strong> {skills.join(", ")}</p>
+                  {skills.length > 0 && <p><strong>Skills:</strong> {skills.join(", ")}</p>}
+                  {education === "high-school" && skills.length === 0 && (
+                    <p className="text-xs italic">Skills: Not provided (optional for high school)</p>
+                  )}
                 </div>
               </div>
             </div>

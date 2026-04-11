@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server"
-import { store } from "@/lib/store"
+import { connectToDatabase } from "@/lib/mongodb"
+import { User } from "@/models/User"
 import { getAuthCookie, verifyToken } from "@/lib/jwt"
 
 export async function GET() {
@@ -22,7 +23,11 @@ export async function GET() {
       )
     }
 
-    const user = store.users.find((u) => u.id === decoded.userId)
+    // Connect to database
+    await connectToDatabase()
+
+    // Find user by ID
+    const user = await User.findById(decoded.userId)
 
     if (!user) {
       return NextResponse.json(
@@ -33,7 +38,7 @@ export async function GET() {
 
     return NextResponse.json({
       user: {
-        id: user.id,
+        id: user._id.toString(),
         name: user.name,
         email: user.email,
         education: user.education,

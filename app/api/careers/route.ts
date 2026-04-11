@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server"
 import { store, generateId } from "@/lib/store"
 import { getAuthCookie, verifyToken } from "@/lib/jwt"
+import { connectToDatabase } from "@/lib/mongodb"
+import { User } from "@/models/User"
 import {
   getCareersList,
   invalidateCareersCache,
@@ -9,6 +11,93 @@ import {
   jobProfileToApiCareer,
 } from "@/lib/careers-data"
 import { JobProfile } from "@/models/JobProfile"
+
+const DOMAIN_ALIASES: Record<string, string[]> = {
+  "artificial intelligence": ["Artificial Intelligence", "Machine Learning & AI"],
+  "web development": ["Web Development", "Software Development"],
+  "data science": ["Data Science", "Data Science & Analytics"],
+  "cloud computing": ["Cloud Computing", "Cloud & DevOps"],
+  "cybersecurity": ["Cybersecurity"],
+  design: ["Design", "UI/UX & Product Design"],
+}
+
+function matchesDomainFilter(careerDomain: string, rawDomainFilter: string): boolean {
+  const career = careerDomain.toLowerCase().trim()
+  const filter = rawDomainFilter.toLowerCase().trim()
+
+  const aliases = DOMAIN_ALIASES[filter] ?? [rawDomainFilter]
+  const normalizedAliases = aliases.map((a) => a.toLowerCase().trim())
+
+  if (normalizedAliases.some((a) => a === career)) return true
+
+  // Fuzzy fallback for near-matches (e.g. "Data Science" vs "Data Science & Analytics")
+  return normalizedAliases.some((a) => career.includes(a) || a.includes(career))
+}
+
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+}
+
+function tokenMatchesInText(text: string, token: string): boolean {
+  if (token.length <= 2) {
+    const termPattern = new RegExp(`(^|[^a-z0-9])${escapeRegExp(token)}([^a-z0-9]|$)`, "i")
+    return termPattern.test(text)
+  }
+  return text.includes(token)
+}
+
+function scoreCareerForSearch(
+  career: {
+    name: string
+    description: string
+    domain: string
+    scope: string
+    growth: string
+    difficulty: string
+    skills: string[]
+  },
+  normalizedSearch: string,
+  tokens: string[]
+): number {
+  const name = career.name.toLowerCase()
+  const description = career.description.toLowerCase()
+  const domain = career.domain.toLowerCase()
+  const scope = career.scope.toLowerCase()
+  const growth = career.growth.toLowerCase()
+  const difficulty = career.difficulty.toLowerCase()
+  const skills = career.skills.map((s) => s.toLowerCase())
+
+  let score = 0
+
+  if (name === normalizedSearch) score += 260
+  else if (name.startsWith(normalizedSearch)) score += 180
+  else if (name.includes(normalizedSearch)) score += 120
+
+  if (domain.includes(normalizedSearch)) score += 80
+  if (skills.some((s) => s.includes(normalizedSearch))) score += 90
+  if (description.includes(normalizedSearch)) score += 40
+  if (scope.includes(normalizedSearch)) score += 25
+  if (growth.includes(normalizedSearch)) score += 10
+  if (difficulty.includes(normalizedSearch)) score += 10
+
+  for (const token of tokens) {
+    if (tokenMatchesInText(name, token)) score += 30
+    else if (name.includes(token)) score += 12
+
+    if (skills.some((s) => tokenMatchesInText(s, token))) score += 16
+    else if (skills.some((s) => s.includes(token))) score += 8
+
+    if (tokenMatchesInText(domain, token)) score += 12
+    else if (domain.includes(token)) score += 6
+
+    if (tokenMatchesInText(description, token)) score += 6
+    else if (description.includes(token)) score += 3
+
+    if (tokenMatchesInText(scope, token)) score += 4
+  }
+
+  return score
+}
 
 export async function GET(request: Request) {
   try {
@@ -20,7 +109,7 @@ export async function GET(request: Request) {
     let careers = await getCareersList()
 
     if (domain && domain !== "all") {
-      careers = careers.filter((c) => c.domain.toLowerCase() === domain.toLowerCase())
+      careers = careers.filter((c) => matchesDomainFilter(c.domain, domain))
     }
 
     if (difficulty && difficulty !== "all") {
@@ -28,13 +117,40 @@ export async function GET(request: Request) {
     }
 
     if (search) {
-      const searchLower = search.toLowerCase()
-      careers = careers.filter(
-        (c) =>
-          c.name.toLowerCase().includes(searchLower) ||
-          c.description.toLowerCase().includes(searchLower) ||
-          c.skills.some((s) => s.toLowerCase().includes(searchLower))
-      )
+      const normalizedSearch = search.trim().toLowerCase()
+      if (normalizedSearch) {
+        const tokens = normalizedSearch.split(/\s+/).filter(Boolean)
+
+        const ranked = careers
+          .map((c) => {
+            const haystack = [
+              c.name,
+              c.description,
+              c.domain,
+              c.scope,
+              c.growth,
+              c.difficulty,
+              ...c.skills,
+            ]
+              .join(" ")
+              .toLowerCase()
+
+            const matches = tokens.every((token) => tokenMatchesInText(haystack, token))
+            if (!matches) return null
+
+            return {
+              career: c,
+              score: scoreCareerForSearch(c, normalizedSearch, tokens),
+            }
+          })
+          .filter((item): item is { career: (typeof careers)[number]; score: number } => item !== null)
+          .sort((a, b) => {
+            if (b.score !== a.score) return b.score - a.score
+            return a.career.name.localeCompare(b.career.name)
+          })
+
+        careers = ranked.map((item) => item.career)
+      }
     }
 
     return NextResponse.json({ careers })
@@ -67,7 +183,8 @@ export async function POST(request: Request) {
       )
     }
 
-    const user = store.users.find((u) => u.id === decoded.userId)
+    await connectToDatabase()
+    const user = await User.findById(decoded.userId)
 
     if (!user?.isAdmin) {
       return NextResponse.json(

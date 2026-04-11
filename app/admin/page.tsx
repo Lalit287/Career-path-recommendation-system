@@ -74,7 +74,7 @@ export default function AdminPage() {
     name: "",
     description: "",
     skills: [] as string[],
-    salary: { min: 0, max: 0, currency: "USD" },
+    salary: { min: 0, max: 0, currency: "INR" },
     difficulty: "Intermediate",
     scope: "",
     domain: "",
@@ -129,7 +129,7 @@ export default function AdminPage() {
       name: "",
       description: "",
       skills: [],
-      salary: { min: 0, max: 0, currency: "USD" },
+      salary: { min: 0, max: 0, currency: "INR" },
       difficulty: "Intermediate",
       scope: "",
       domain: "",
@@ -371,7 +371,7 @@ export default function AdminPage() {
                         </div>
                         <div className="grid grid-cols-2 gap-4">
                           <div className="grid gap-2">
-                            <Label>Min Salary ($)</Label>
+                            <Label>Min Salary (₹)</Label>
                             <Input
                               type="number"
                               value={careerForm.salary.min}
@@ -384,7 +384,7 @@ export default function AdminPage() {
                             />
                           </div>
                           <div className="grid gap-2">
-                            <Label>Max Salary ($)</Label>
+                            <Label>Max Salary (₹)</Label>
                             <Input
                               type="number"
                               value={careerForm.salary.max}

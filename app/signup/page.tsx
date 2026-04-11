@@ -1,30 +1,55 @@
 "use client"
 
-import { useState } from "react"
+import { Suspense, useState } from "react"
 import Link from "next/link"
-import { useRouter } from "next/navigation"
+import { useRouter, useSearchParams } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { useAuth } from "@/lib/auth-context"
 import { toast } from "sonner"
-import { Compass, Loader2 } from "lucide-react"
+import { Compass, Loader2, Check, X } from "lucide-react"
 
-export default function SignupPage() {
+interface PasswordRequirement {
+  label: string
+  regex: RegExp
+}
+
+const PASSWORD_REQUIREMENTS: PasswordRequirement[] = [
+  { label: "At least 8 characters", regex: /.{8,}/ },
+  { label: "At least one uppercase letter", regex: /[A-Z]/ },
+  { label: "At least one lowercase letter", regex: /[a-z]/ },
+  { label: "At least one number", regex: /[0-9]/ },
+  { label: "At least one special character", regex: /[!@#$%^&*]/ },
+]
+
+function SignupPageContent() {
   const router = useRouter()
+  const searchParams = useSearchParams()
   const { signup } = useAuth()
   const [isLoading, setIsLoading] = useState(false)
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [confirmPassword, setConfirmPassword] = useState("")
+
+  const passwordRequirementsMet = PASSWORD_REQUIREMENTS.map((req) => ({
+    ...req,
+    met: req.regex.test(password),
+  }))
+
+  const allRequirementsMet = passwordRequirementsMet.every((req) => req.met)
+
   const canSubmit =
     name.trim().length > 0 &&
     email.trim().length > 0 &&
-    password.length >= 6 &&
+    allRequirementsMet &&
+    password === confirmPassword &&
     confirmPassword.length > 0 &&
     !isLoading
+
+  const redirectUrl = searchParams.get("redirect") || "/careers"
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -52,8 +77,8 @@ export default function SignupPage() {
       return
     }
 
-    if (password.length < 6) {
-      toast.error("Password must be at least 6 characters")
+    if (!allRequirementsMet) {
+      toast.error("Password does not meet all requirements")
       return
     }
 
@@ -63,7 +88,7 @@ export default function SignupPage() {
 
     if (result.success) {
       toast.success("Account created successfully!")
-      router.push("/")
+      router.push(redirectUrl)
     } else {
       toast.error(result.error || "Signup failed")
     }
@@ -79,7 +104,7 @@ export default function SignupPage() {
             <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
               <Compass className="h-6 w-6 text-primary-foreground" />
             </div>
-            <span className="text-xl font-semibold">CareerPath</span>
+            <span className="text-xl font-semibold">PathFinder</span>
           </Link>
           <CardTitle className="text-2xl">Create an account</CardTitle>
           <CardDescription>
@@ -120,6 +145,28 @@ export default function SignupPage() {
                 onChange={(e) => setPassword(e.target.value)}
                 required
               />
+              {password && (
+                <div className="mt-3 space-y-2 rounded-lg bg-muted/50 p-3">
+                  <p className="text-xs font-medium text-foreground">Password requirements:</p>
+                  <div className="space-y-1">
+                    {passwordRequirementsMet.map((req) => (
+                      <div
+                        key={req.label}
+                        className="flex items-center gap-2 text-xs"
+                      >
+                        {req.met ? (
+                          <Check className="h-4 w-4 text-green-500 flex-shrink-0" />
+                        ) : (
+                          <X className="h-4 w-4 text-red-500 flex-shrink-0" />
+                        )}
+                        <span className={req.met ? "text-green-600" : "text-muted-foreground"}>
+                          {req.label}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
             <div className="space-y-2">
               <Label htmlFor="confirmPassword">Confirm Password</Label>
@@ -130,7 +177,29 @@ export default function SignupPage() {
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
                 required
+                className={
+                  confirmPassword && password !== confirmPassword
+                    ? "border-red-500 focus-visible:ring-red-500"
+                    : confirmPassword && password === confirmPassword
+                      ? "border-green-500 focus-visible:ring-green-500"
+                      : ""
+                }
               />
+              {confirmPassword && (
+                <div className="flex items-center gap-2 text-xs">
+                  {password === confirmPassword ? (
+                    <>
+                      <Check className="h-4 w-4 text-green-500" />
+                      <span className="text-green-600">Passwords match</span>
+                    </>
+                  ) : (
+                    <>
+                      <X className="h-4 w-4 text-red-500" />
+                      <span className="text-red-600">Passwords do not match</span>
+                    </>
+                  )}
+                </div>
+              )}
             </div>
             <Button type="submit" className="w-full" disabled={!canSubmit}>
               {isLoading ? (
@@ -153,5 +222,13 @@ export default function SignupPage() {
         </CardContent>
       </Card>
     </div>
+  )
+}
+
+export default function SignupPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-background" />}>
+      <SignupPageContent />
+    </Suspense>
   )
 }

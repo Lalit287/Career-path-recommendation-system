@@ -1,49 +1,67 @@
 "use client"
 
-import { useState, useRef, useEffect } from "react"
+import { useCallback, useEffect, useRef, useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { MessageSquare, X, Send, Bot, User, Loader2 } from "lucide-react"
+import { MessageSquare, X, Bot } from "lucide-react"
 import { cn } from "@/lib/utils"
+import { ChatContainer } from "./chat/chat-container"
+import { ChatInput } from "./chat/chat-input"
+import type { ChatMessageModel } from "./chat/types"
 
-const quickPrompts = [
-  "Suggest careers for me",
-  "What skills are needed for AI Engineer?",
-  "How do I use this website?",
-  "Compare web dev and data science",
-]
+function makeId(prefix: string) {
+  return `${prefix}-${Date.now()}-${Math.random().toString(36).slice(2, 9)}`
+}
+
+function parseJsonSafe(text: string): Record<string, unknown> {
+  if (!text.trim()) return {}
+  try {
+    return JSON.parse(text) as Record<string, unknown>
+  } catch {
+    return {}
+  }
+}
 
 export function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false)
   const [input, setInput] = useState("")
-  const [messages, setMessages] = useState<Array<{ id: string; role: "user" | "assistant"; content: string }>>([])
+  const [messages, setMessages] = useState<ChatMessageModel[]>([])
   const [isLoading, setIsLoading] = useState(false)
-  const scrollRef = useRef<HTMLDivElement>(null)
+  const scrollAnchorRef = useRef<HTMLDivElement>(null)
+  const abortRef = useRef<AbortController | null>(null)
+  const messagesRef = useRef<ChatMessageModel[]>([])
+  const pendingRef = useRef(false)
 
-  const safeMessages = Array.isArray(messages) ? messages : []
-  const safeInput = input
-  const safeIsLoading = isLoading
+  messagesRef.current = messages
 
   useEffect(() => {
-    if (scrollRef.current) {
-      scrollRef.current.scrollTop = scrollRef.current.scrollHeight
+    return () => {
+      abortRef.current?.abort()
     }
-  }, [safeMessages])
+  }, [])
 
-  const sendUserMessage = async (text: string) => {
+  const sendUserMessage = useCallback(async (text: string) => {
     const trimmed = text.trim()
-    if (!trimmed || safeIsLoading) return
+    if (!trimmed || pendingRef.current) return
 
-    const userMessage = {
-      id: `user-${Date.now()}`,
-      role: "user" as const,
+    abortRef.current?.abort()
+    const controller = new AbortController()
+    abortRef.current = controller
+
+    pendingRef.current = true
+    setIsLoading(true)
+
+    const now = Date.now()
+    const userMessage: ChatMessageModel = {
+      id: makeId("user"),
+      role: "user",
       content: trimmed,
+      createdAt: now,
     }
 
     setMessages((prev) => [...prev, userMessage])
-    setIsLoading(true)
+
+    const historyForApi = [...messagesRef.current, userMessage]
 
     try {
       const response = await fetch("/api/chat", {
@@ -51,178 +69,135 @@ export function ChatWidget() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           message: trimmed,
-          messages: [...safeMessages, userMessage],
+          messages: historyForApi.map(({ id, role, content }) => ({ id, role, content })),
         }),
+        signal: controller.signal,
       })
 
-      const data = await response.json()
-      const assistantText =
-        typeof data?.content === "string"
-          ? data.content
-          : "I couldn't generate a response right now. Please try again."
+      const raw = await response.text()
+      const data = parseJsonSafe(raw)
 
-      setMessages((prev) => [
-        ...prev,
-        { id: `assistant-${Date.now()}`, role: "assistant", content: assistantText },
-      ])
-    } catch {
+      if (controller.signal.aborted) return
+
+      const assistantText = (() => {
+        if (!response.ok) {
+          const err = data.error
+          if (typeof err === "string" && err.trim()) return `Sorry — ${err}`
+          return "Sorry, something went wrong. Please try again in a moment."
+        }
+        const content = data.content
+        if (typeof content === "string" && content.trim()) return content
+        return "I couldn't generate a response right now. Please try again."
+      })()
+
       setMessages((prev) => [
         ...prev,
         {
-          id: `assistant-${Date.now()}`,
+          id: makeId("assistant"),
           role: "assistant",
-          content: "Network issue while contacting chat service. Please try again.",
+          content: assistantText,
+          createdAt: Date.now(),
         },
       ])
+    } catch (err) {
+      if (controller.signal.aborted) return
+      const message =
+        err instanceof Error && err.name === "AbortError"
+          ? null
+          : "Network issue while contacting the assistant. Please try again."
+      if (message) {
+        setMessages((prev) => [
+          ...prev,
+          {
+            id: makeId("assistant"),
+            role: "assistant",
+            content: message,
+            createdAt: Date.now(),
+          },
+        ])
+      }
     } finally {
-      setIsLoading(false)
+      if (abortRef.current === controller) {
+        pendingRef.current = false
+        setIsLoading(false)
+      }
     }
-  }
+  }, [])
 
-  const onSubmit = async (event: React.FormEvent) => {
-    event.preventDefault()
-    await sendUserMessage(safeInput)
+  const onSubmit = useCallback(async () => {
+    const text = input
     setInput("")
-  }
+    await sendUserMessage(text)
+  }, [input, sendUserMessage])
 
-  const handleQuickPrompt = async (prompt: string) => {
-    await sendUserMessage(prompt)
-  }
-
-  const timeLabel = () =>
-    new Intl.DateTimeFormat("en-IN", { hour: "numeric", minute: "2-digit" }).format(new Date())
+  const handleQuickPrompt = useCallback(
+    (prompt: string) => {
+      void sendUserMessage(prompt)
+    },
+    [sendUserMessage]
+  )
 
   return (
     <>
       <Button
+        type="button"
         onClick={() => setIsOpen(true)}
         className={cn(
           "fixed bottom-6 right-6 z-50 h-14 w-14 rounded-full bg-primary shadow-lg shadow-primary/30 transition-all hover:scale-105",
           isOpen && "hidden"
         )}
         size="icon"
+        aria-label="Open career assistant chat"
       >
         <MessageSquare className="h-6 w-6" />
       </Button>
 
       {isOpen && (
-        <Card className="fixed bottom-6 right-6 z-50 flex h-[580px] w-[390px] flex-col overflow-hidden border-border/60 bg-background/95 shadow-2xl backdrop-blur">
-          <CardHeader className="border-b bg-gradient-to-r from-primary/10 via-primary/5 to-transparent p-4">
-            <div className="flex flex-row items-center justify-between">
-              <div className="flex items-center gap-3">
-                <div className="flex h-9 w-9 items-center justify-center rounded-full bg-primary">
+        <Card
+          className={cn(
+            "fixed bottom-6 right-6 z-50 flex w-[min(390px,calc(100vw-3rem))] flex-col overflow-hidden",
+            "h-[min(580px,calc(100vh-3rem))] max-h-[90vh] border-border/60 bg-background/95 shadow-2xl backdrop-blur"
+          )}
+        >
+          <CardHeader className="shrink-0 border-b bg-gradient-to-r from-primary/10 via-primary/5 to-transparent p-4">
+            <div className="flex flex-row items-center justify-between gap-2">
+              <div className="flex min-w-0 items-center gap-3">
+                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-primary">
                   <Bot className="h-5 w-5 text-primary-foreground" />
                 </div>
-                <div>
+                <div className="min-w-0">
                   <CardTitle className="text-base">Career Assistant</CardTitle>
-                  <p className="text-xs text-muted-foreground">Online now • Ask anything career related</p>
+                  <p className="truncate text-xs text-muted-foreground">
+                    Online now • Ask anything career related
+                  </p>
                 </div>
               </div>
               <Button
+                type="button"
                 variant="ghost"
                 size="icon"
-                className="h-8 w-8"
+                className="h-8 w-8 shrink-0"
                 onClick={() => setIsOpen(false)}
+                aria-label="Close chat"
               >
                 <X className="h-4 w-4" />
               </Button>
             </div>
           </CardHeader>
 
-          <CardContent className="flex flex-1 flex-col p-0">
-            <ScrollArea ref={scrollRef} className="flex-1 bg-muted/20 p-4">
-              {safeMessages.length === 0 ? (
-                <div className="space-y-4">
-                  <div className="mx-auto max-w-[90%] rounded-2xl border bg-background p-4 text-sm shadow-sm">
-                    <div className="mb-2 flex items-center gap-2 font-medium">
-                      <Bot className="h-4 w-4 text-primary" />
-                      Welcome
-                    </div>
-                    <p className="text-muted-foreground">
-                      Hi! I&apos;m your AI career assistant. I can help with role selection, skill gaps,
-                      roadmaps, and salary insights.
-                    </p>
-                  </div>
-                  <div className="space-y-2 px-1">
-                    <p className="text-xs font-medium text-muted-foreground">Try asking:</p>
-                    {quickPrompts.map((prompt) => (
-                      <button
-                        key={prompt}
-                        onClick={() => handleQuickPrompt(prompt)}
-                        disabled={safeIsLoading}
-                        className="w-full rounded-xl border bg-background px-3 py-2 text-left text-xs transition hover:border-primary/40 hover:bg-primary/5 disabled:opacity-60"
-                      >
-                        {prompt}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              ) : (
-                <div className="space-y-4">
-                  {safeMessages.map((message) => (
-                    <div
-                      key={message.id}
-                      className={cn(
-                        "flex gap-3",
-                        message.role === "user" && "flex-row-reverse"
-                      )}
-                    >
-                      <div className={cn("mt-1 flex h-8 w-8 shrink-0 items-center justify-center rounded-full", message.role === "user" ? "bg-secondary" : "bg-primary")}>
-                        {message.role === "user" ? (
-                          <User className="h-4 w-4" />
-                        ) : (
-                          <Bot className="h-4 w-4 text-primary-foreground" />
-                        )}
-                      </div>
-                      <div
-                        className={cn(
-                          "max-w-[78%] rounded-2xl px-3 py-2.5 text-sm shadow-sm",
-                          message.role === "user"
-                            ? "bg-primary text-primary-foreground"
-                            : "border bg-background"
-                        )}
-                      >
-                        <p className="whitespace-pre-wrap">{message.content}</p>
-                        <p className={cn("mt-1 text-[10px]", message.role === "user" ? "text-primary-foreground/70" : "text-muted-foreground")}>
-                          {timeLabel()}
-                        </p>
-                      </div>
-                    </div>
-                  ))}
-                  {safeIsLoading && (
-                    <div className="flex gap-3">
-                      <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary">
-                        <Bot className="h-4 w-4 text-primary-foreground" />
-                      </div>
-                      <div className="rounded-2xl border bg-background px-3 py-2">
-                        <div className="flex items-center gap-2 text-xs text-muted-foreground">
-                          <Loader2 className="h-3.5 w-3.5 animate-spin" />
-                          Thinking...
-                        </div>
-                      </div>
-                    </div>
-                  )}
-                </div>
-              )}
-            </ScrollArea>
-
-            <form onSubmit={onSubmit} className="flex items-center gap-2 border-t bg-background p-3">
-              <Input
-                value={safeInput}
-                onChange={(e) => setInput(e.target.value)}
-                placeholder="Ask about careers..."
-                className="flex-1 rounded-xl border-border/70"
-                disabled={safeIsLoading}
-              />
-              <Button
-                type="submit"
-                size="icon"
-                className="rounded-xl"
-                disabled={safeIsLoading || !safeInput.trim()}
-              >
-                <Send className="h-4 w-4" />
-              </Button>
-            </form>
+          <CardContent className="flex min-h-0 flex-1 flex-col overflow-hidden p-0">
+            <ChatContainer
+              messages={messages}
+              isLoading={isLoading}
+              onQuickPrompt={handleQuickPrompt}
+              scrollAnchorRef={scrollAnchorRef}
+            />
+            <ChatInput
+              value={input}
+              onChange={setInput}
+              onSubmit={() => void onSubmit()}
+              disabled={isLoading}
+            />
           </CardContent>
         </Card>
       )}

@@ -1,0 +1,2619 @@
+{
+  "metadata": {
+    "dataset_name": "Non-Tech & Non-Management Domain Jobs Dataset",
+    "version": "1.0",
+    "last_updated": "2026-03",
+    "currency": "INR",
+    "country": "India",
+    "purpose": "Career Path Recommendation System",
+    "total_domains": 12,
+    "domains_covered": [
+      "Healthcare & Medicine",
+      "Legal & Law",
+      "Education & Teaching",
+      "Finance & Accounting (Non-Management)",
+      "Engineering (Non-IT)",
+      "Creative Arts & Design",
+      "Media & Communication",
+      "Business & Commerce (Non-Management)",
+      "Social & Community Services",
+      "Hospitality & Food Services",
+      "Agriculture & Environmental Sciences",
+      "Public Safety & Defense"
+    ],
+    "onet_enriched": true,
+    "onet_source": "O*NET Online (US Department of Labor) - Multiple SOC Groups",
+    "note": "Skills, education levels, and experience ranges are enriched from O*NET data. Salary ranges are India-specific (INR). Excludes Technology/IT and Management domains."
+  },
+  "jobs": [
+    {
+      "id": "HM001",
+      "title": "General Physician / MBBS Doctor",
+      "domain": "Healthcare & Medicine",
+      "description": "Diagnose and treat a wide range of illnesses and injuries in clinical or hospital settings. Provide preventive care, prescribe medications, and refer patients to specialists as needed.",
+      "roles_responsibilities": [
+        "Examine patients and record medical histories",
+        "Order and interpret diagnostic tests",
+        "Diagnose and treat acute and chronic conditions",
+        "Prescribe medications and treatment plans",
+        "Educate patients on preventive healthcare",
+        "Coordinate with specialists and other healthcare providers"
+      ],
+      "skills_required": [
+        "Clinical Diagnosis",
+        "Patient Communication",
+        "Medical Knowledge",
+        "Critical Thinking",
+        "Empathy",
+        "Documentation & Medical Records"
+      ],
+      "educational_qualification": {
+        "minimum": "MBBS (Bachelor of Medicine and Bachelor of Surgery)",
+        "preferred": [
+          "MD (General Medicine)",
+          "DNB"
+        ],
+        "alternative": [
+          "BAMS (Ayurveda)",
+          "BHMS (Homeopathy) for alternative medicine paths"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "High",
+      "tools_technologies": [
+        "EMR/EHR Systems",
+        "Stethoscope & Clinical Tools",
+        "ECG Machines",
+        "Radiology Viewers",
+        "MedStar",
+        "Apollo EMR"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 1800000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable-High",
+      "future_scope": "Evergreen profession with strong demand in tier-2/tier-3 cities. Telemedicine is opening new avenues for digital practice.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HM002",
+      "title": "Specialist Doctor (Surgeon / Cardiologist / Neurologist etc.)",
+      "domain": "Healthcare & Medicine",
+      "description": "Provide specialized medical care in a defined medical discipline such as surgery, cardiology, neurology, or orthopedics. Manage complex cases requiring deep domain expertise.",
+      "roles_responsibilities": [
+        "Perform specialized diagnostic evaluations",
+        "Conduct surgeries or specialized interventional procedures",
+        "Develop advanced treatment protocols",
+        "Supervise resident doctors and medical teams",
+        "Publish and contribute to medical research",
+        "Manage ICU or critical care units in respective specialty"
+      ],
+      "skills_required": [
+        "Specialized Clinical Skills",
+        "Surgical/Procedural Expertise",
+        "Research & Evidence-Based Practice",
+        "Leadership in Clinical Settings",
+        "Advanced Diagnostics",
+        "Interdisciplinary Collaboration"
+      ],
+      "educational_qualification": {
+        "minimum": "MBBS + MD / MS / DNB (Post-Graduate Specialization)",
+        "preferred": [
+          "DM / M.Ch (Super-Specialty)",
+          "Fellowship from recognized institutions"
+        ],
+        "alternative": [
+          "Foreign Medical Graduates with NMC equivalence"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Very High",
+      "tools_technologies": [
+        "Surgical Instruments",
+        "Laparoscopes",
+        "Cardiac Monitors",
+        "Neurology Equipment",
+        "MRI/CT Viewers",
+        "Hospital Information Systems (HIS)"
+      ],
+      "salary_range": {
+        "min": 2000000,
+        "max": 8000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Super-specialists are in very high demand in tier-1 cities and corporate hospitals. International opportunities are also strong.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HM003",
+      "title": "Registered Nurse (RN)",
+      "domain": "Healthcare & Medicine",
+      "description": "Provide direct patient care, administer medications, monitor patient health, and coordinate with physicians to deliver comprehensive nursing care in hospitals, clinics, or community settings.",
+      "roles_responsibilities": [
+        "Administer medications and IV therapies",
+        "Monitor and record vital signs",
+        "Assist physicians during procedures",
+        "Educate patients and families on care plans",
+        "Maintain patient care documentation",
+        "Coordinate discharge planning"
+      ],
+      "skills_required": [
+        "Patient Care",
+        "Medication Administration",
+        "Clinical Observation",
+        "Communication",
+        "Empathy",
+        "Emergency Response"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Sc Nursing or GNM (General Nursing & Midwifery)",
+        "preferred": [
+          "B.Sc Nursing (4-year program)",
+          "M.Sc Nursing for senior roles"
+        ],
+        "alternative": [
+          "Diploma in Nursing with state registration"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "IV Lines & Infusion Pumps",
+        "Vital Signs Monitors",
+        "EMR/Nursing Information Systems",
+        "Defibrillators",
+        "Pulse Oximeters"
+      ],
+      "salary_range": {
+        "min": 250000,
+        "max": 700000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High global demand especially in Middle East, UK, USA, and Canada. India has a large nursing workforce export base.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HM004",
+      "title": "Pharmacist",
+      "domain": "Healthcare & Medicine",
+      "description": "Dispense medications prescribed by physicians, counsel patients on drug usage and side effects, and ensure safe and effective pharmaceutical care in retail, hospital, or clinical pharmacy settings.",
+      "roles_responsibilities": [
+        "Dispense prescription medications accurately",
+        "Review prescriptions for drug interactions and errors",
+        "Counsel patients on proper medication usage",
+        "Maintain medication inventory and records",
+        "Collaborate with physicians on drug therapies",
+        "Ensure regulatory compliance in pharmacy operations"
+      ],
+      "skills_required": [
+        "Pharmacology Knowledge",
+        "Attention to Detail",
+        "Patient Counseling",
+        "Drug Interaction Awareness",
+        "Inventory Management",
+        "Communication"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Pharm (Bachelor of Pharmacy)",
+        "preferred": [
+          "Pharm.D (Doctor of Pharmacy)",
+          "M.Pharm for clinical/research roles"
+        ],
+        "alternative": [
+          "D.Pharm (Diploma in Pharmacy) for retail pharmacy"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Pharmacy Management Software",
+        "Drug Reference Databases (MIMS, Micromedex)",
+        "POS Systems",
+        "Dispensing Robots (large hospitals)"
+      ],
+      "salary_range": {
+        "min": 300000,
+        "max": 900000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable",
+      "future_scope": "Growing demand in hospital pharmacy and clinical pharmacy roles. Pharmaceutical research careers offer strong upward trajectory.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HM005",
+      "title": "Dentist",
+      "domain": "Healthcare & Medicine",
+      "description": "Diagnose and treat problems affecting teeth and oral tissues. Perform procedures such as fillings, extractions, root canals, and orthodontics to maintain and restore patient oral health.",
+      "roles_responsibilities": [
+        "Examine patients' teeth, gums, and oral health",
+        "Diagnose dental conditions using X-rays and clinical examination",
+        "Perform fillings, extractions, root canals, and crowns",
+        "Provide orthodontic and cosmetic dental treatments",
+        "Educate patients on oral hygiene",
+        "Maintain dental records and manage clinic workflow"
+      ],
+      "skills_required": [
+        "Clinical Dentistry",
+        "Dexterity and Precision",
+        "Patient Communication",
+        "Diagnosis",
+        "Pain Management",
+        "Infection Control"
+      ],
+      "educational_qualification": {
+        "minimum": "BDS (Bachelor of Dental Surgery)",
+        "preferred": [
+          "MDS (Master of Dental Surgery) for specialization"
+        ],
+        "alternative": []
+      },
+      "experience_level": "Entry-Senior",
+      "difficulty": "High",
+      "tools_technologies": [
+        "Dental X-Ray Machines",
+        "Dental Drills & Handpieces",
+        "Autoclaves",
+        "Intraoral Cameras",
+        "Dental Practice Management Software"
+      ],
+      "salary_range": {
+        "min": 400000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Own clinic potential is high. Cosmetic dentistry and implantology are fast-growing specializations with premium earning potential.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HM006",
+      "title": "Physiotherapist",
+      "domain": "Healthcare & Medicine",
+      "description": "Assess and treat physical dysfunction, movement disorders, and pain through therapeutic exercise, manual therapy, and rehabilitation programs for patients recovering from injuries or managing chronic conditions.",
+      "roles_responsibilities": [
+        "Assess patients' physical conditions and mobility",
+        "Design and implement rehabilitation programs",
+        "Administer manual therapy and electrotherapy",
+        "Monitor patient progress and adjust treatment plans",
+        "Educate patients on exercises and injury prevention",
+        "Collaborate with orthopedic and neurological specialists"
+      ],
+      "skills_required": [
+        "Anatomy & Physiology Knowledge",
+        "Manual Therapy",
+        "Exercise Prescription",
+        "Patient Assessment",
+        "Empathy",
+        "Rehabilitation Planning"
+      ],
+      "educational_qualification": {
+        "minimum": "B.P.T (Bachelor of Physiotherapy)",
+        "preferred": [
+          "M.P.T (Master of Physiotherapy)"
+        ],
+        "alternative": [
+          "Diploma in Physiotherapy for assistant roles"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Electrotherapy Machines (TENS, IFT, Ultrasound)",
+        "Traction Units",
+        "Exercise Equipment",
+        "Gait Analysis Software",
+        "EMR Systems"
+      ],
+      "salary_range": {
+        "min": 250000,
+        "max": 800000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Growing demand with aging population, sports medicine, and post-COVID rehab. Sports physiotherapy is a high-growth niche.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HM007",
+      "title": "Radiologist / Radiographer",
+      "domain": "Healthcare & Medicine",
+      "description": "Use medical imaging technologies such as X-ray, MRI, CT, and ultrasound to diagnose diseases. Radiologists interpret images; radiographers operate imaging equipment.",
+      "roles_responsibilities": [
+        "Operate diagnostic imaging equipment",
+        "Interpret X-rays, MRI, CT, and ultrasound images",
+        "Prepare radiological reports for clinicians",
+        "Ensure patient safety during imaging procedures",
+        "Maintain imaging equipment and radiation safety protocols",
+        "Guide image-guided interventional procedures (for radiologists)"
+      ],
+      "skills_required": [
+        "Medical Imaging",
+        "Anatomical Knowledge",
+        "Diagnostic Interpretation",
+        "Attention to Detail",
+        "Radiation Safety",
+        "Report Writing"
+      ],
+      "educational_qualification": {
+        "minimum": "MBBS + MD Radiology (for Radiologist) / B.Sc Medical Imaging (for Radiographer)",
+        "preferred": [
+          "Fellowship in Interventional Radiology",
+          "DNB Radiology"
+        ],
+        "alternative": [
+          "Diploma in Medical Imaging Technology"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "High",
+      "tools_technologies": [
+        "MRI Machines",
+        "CT Scanners",
+        "X-Ray Equipment",
+        "Ultrasound Machines",
+        "PACS (Picture Archiving)",
+        "RIS Systems"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 4000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "AI-assisted radiology is emerging but radiologists remain essential for complex interpretations. Tele-radiology is opening remote work options.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HM008",
+      "title": "Psychologist / Counselor",
+      "domain": "Healthcare & Medicine",
+      "description": "Assess, diagnose, and treat mental health disorders through psychotherapy, behavioral interventions, and counseling. Work in clinical, educational, or organizational settings.",
+      "roles_responsibilities": [
+        "Conduct psychological assessments and evaluations",
+        "Provide individual, group, or family therapy",
+        "Develop treatment plans for mental health conditions",
+        "Assist patients with cognitive-behavioral techniques",
+        "Maintain confidential case records",
+        "Collaborate with psychiatrists and other healthcare providers"
+      ],
+      "skills_required": [
+        "Active Listening",
+        "Empathy",
+        "Psychological Assessment",
+        "CBT & Therapeutic Techniques",
+        "Confidentiality & Ethics",
+        "Communication"
+      ],
+      "educational_qualification": {
+        "minimum": "M.A. / M.Sc Psychology",
+        "preferred": [
+          "M.Phil Clinical Psychology (RCI registered)",
+          "Ph.D in Psychology"
+        ],
+        "alternative": [
+          "Post-Graduate Diploma in Counseling Psychology"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate-High",
+      "tools_technologies": [
+        "Psychological Assessment Tools (MMPI, WAIS)",
+        "Telehealth Platforms",
+        "Case Management Software",
+        "Biofeedback Equipment"
+      ],
+      "salary_range": {
+        "min": 300000,
+        "max": 1200000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Mental health awareness is rapidly increasing in India. Corporate wellness, digital mental health platforms, and schools are major growth areas.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "LL001",
+      "title": "Junior Advocate / Junior Lawyer",
+      "domain": "Legal & Law",
+      "description": "Assist senior advocates in legal research, drafting documents, and representing clients in lower courts. Build foundational expertise in civil, criminal, or corporate law.",
+      "roles_responsibilities": [
+        "Conduct legal research and case analysis",
+        "Draft petitions, plaints, and legal documents",
+        "Assist senior lawyers in court proceedings",
+        "Maintain client files and case records",
+        "Attend client meetings and collect statements",
+        "Review and summarize legal contracts"
+      ],
+      "skills_required": [
+        "Legal Research",
+        "Drafting & Writing",
+        "Knowledge of Indian Penal Code / Civil Law",
+        "Communication",
+        "Analytical Thinking",
+        "Attention to Detail"
+      ],
+      "educational_qualification": {
+        "minimum": "LLB (3-year after graduation) or BA LLB / BBA LLB (5-year integrated)",
+        "preferred": [
+          "LLM for specialization"
+        ],
+        "alternative": []
+      },
+      "experience_level": "Entry",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "SCC Online",
+        "Manupatra",
+        "Westlaw India",
+        "MS Word",
+        "CaseManager"
+      ],
+      "salary_range": {
+        "min": 200000,
+        "max": 600000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Advocacy careers take time but high court and Supreme Court advocates earn substantially. Corporate law offers faster financial growth.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "LL002",
+      "title": "Corporate Lawyer / Legal Counsel",
+      "domain": "Legal & Law",
+      "description": "Provide legal advisory services to businesses on contracts, mergers, acquisitions, intellectual property, and regulatory compliance. Work in-house with corporations or in law firms.",
+      "roles_responsibilities": [
+        "Draft and review commercial contracts and agreements",
+        "Advise on mergers, acquisitions, and corporate structuring",
+        "Ensure regulatory and statutory compliance",
+        "Manage litigation and dispute resolution",
+        "Protect intellectual property and trademarks",
+        "Liaise with external counsel and regulatory bodies"
+      ],
+      "skills_required": [
+        "Corporate Law",
+        "Contract Drafting & Negotiation",
+        "Regulatory Knowledge (SEBI, RBI, MCA)",
+        "Analytical Thinking",
+        "Business Acumen",
+        "Confidentiality"
+      ],
+      "educational_qualification": {
+        "minimum": "LLB",
+        "preferred": [
+          "LLM in Corporate/Commercial Law",
+          "CS (Company Secretary) as add-on"
+        ],
+        "alternative": [
+          "CA + LLB for tax and financial law roles"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "High",
+      "tools_technologies": [
+        "SCC Online",
+        "Manupatra",
+        "Contract Lifecycle Management (CLM) Software",
+        "MCA Portal",
+        "SEBI Portal"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 3500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "In-house legal counsel roles are growing rapidly as Indian startups and MNCs expand. M&A, fintech, and IP law are high-demand specializations.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "LL003",
+      "title": "Paralegal / Legal Assistant",
+      "domain": "Legal & Law",
+      "description": "Support lawyers by conducting research, preparing legal documents, managing case files, and performing administrative tasks in law firms, corporate legal departments, or courts.",
+      "roles_responsibilities": [
+        "Conduct legal research on case laws and statutes",
+        "Draft routine legal documents and correspondence",
+        "Organize and maintain case files and records",
+        "Schedule court dates and manage legal calendars",
+        "Coordinate with clients, courts, and opposing counsel",
+        "Assist in e-filing documents with courts"
+      ],
+      "skills_required": [
+        "Legal Research",
+        "Document Management",
+        "Communication",
+        "Organization",
+        "Confidentiality",
+        "Basic Understanding of Legal Procedures"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "LLB",
+          "Diploma in Paralegal Studies"
+        ],
+        "alternative": [
+          "Certificate in Legal Studies with relevant experience"
+        ]
+      },
+      "experience_level": "Entry",
+      "difficulty": "Entry-Intermediate",
+      "tools_technologies": [
+        "SCC Online",
+        "Manupatra",
+        "MS Office",
+        "CaseManager",
+        "e-Courts Portal"
+      ],
+      "salary_range": {
+        "min": 200000,
+        "max": 500000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Entry point for law careers. Many paralegals pursue LLB while working. Corporate paralegal roles in large firms offer good stability.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "LL004",
+      "title": "Judge / Judicial Officer",
+      "domain": "Legal & Law",
+      "description": "Preside over court proceedings, interpret laws, evaluate evidence, and deliver judgments in civil, criminal, family, or commercial cases at district, high court, or specialized tribunal levels.",
+      "roles_responsibilities": [
+        "Preside over hearings, trials, and proceedings",
+        "Evaluate arguments and evidence from both parties",
+        "Interpret and apply laws and legal precedents",
+        "Deliver written judgments and orders",
+        "Manage court dockets and case timelines",
+        "Ensure fair and impartial administration of justice"
+      ],
+      "skills_required": [
+        "Judicial Knowledge",
+        "Impartiality",
+        "Legal Interpretation",
+        "Writing & Articulation",
+        "Analytical Reasoning",
+        "Case Management"
+      ],
+      "educational_qualification": {
+        "minimum": "LLB + Pass PCS (J) / Judicial Services Examination",
+        "preferred": [
+          "LLM",
+          "Prior experience as an advocate"
+        ],
+        "alternative": [
+          "Direct recruitment via High Court for senior positions"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Very High",
+      "tools_technologies": [
+        "e-Courts Platform",
+        "Legal Databases (SCC, Manupatra)",
+        "Case Management Systems",
+        "Digital Court Recording Systems"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable",
+      "future_scope": "Highly respected public service career. Promotions to High Court and Supreme Court are merit-based. Judiciary is expanding with new court infrastructure.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "LL005",
+      "title": "Company Secretary (CS)",
+      "domain": "Legal & Law",
+      "description": "Ensure that a company complies with legal and regulatory requirements, manage corporate governance, file statutory returns, and advise the board on legal matters.",
+      "roles_responsibilities": [
+        "Ensure compliance with Companies Act and SEBI regulations",
+        "Prepare and file statutory returns with MCA and SEBI",
+        "Organize board and shareholder meetings",
+        "Maintain statutory registers and company records",
+        "Advise directors on corporate governance",
+        "Handle secretarial audits and due diligence"
+      ],
+      "skills_required": [
+        "Corporate Law & Governance",
+        "Compliance Management",
+        "Statutory Filing",
+        "Communication",
+        "Confidentiality",
+        "Attention to Detail"
+      ],
+      "educational_qualification": {
+        "minimum": "CS (Company Secretary) qualification from ICSI",
+        "preferred": [
+          "CS + LLB",
+          "CS + CA for broader scope"
+        ],
+        "alternative": []
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "High",
+      "tools_technologies": [
+        "MCA21 Portal",
+        "SEBI Portal",
+        "NSDL/CDSL",
+        "Compliance Management Software (Diligent, Secretarial Suite)",
+        "MS Office"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable-High",
+      "future_scope": "Mandatory requirement in listed companies and large firms. SEBI's evolving regulations are increasing demand for qualified CS professionals.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ED001",
+      "title": "School Teacher (Primary / Secondary)",
+      "domain": "Education & Teaching",
+      "description": "Teach students across subjects at primary or secondary school level. Plan lessons, assess student performance, and foster intellectual and personal development in young learners.",
+      "roles_responsibilities": [
+        "Prepare and deliver engaging lesson plans",
+        "Assess and grade student assignments and tests",
+        "Identify and support students with learning difficulties",
+        "Maintain classroom discipline and positive environment",
+        "Communicate with parents about student progress",
+        "Participate in school events and extracurriculars"
+      ],
+      "skills_required": [
+        "Subject Matter Expertise",
+        "Communication",
+        "Patience",
+        "Classroom Management",
+        "Lesson Planning",
+        "Empathy"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree in relevant subject + B.Ed (Bachelor of Education)",
+        "preferred": [
+          "M.Ed (Master of Education)",
+          "CTET / State TET qualification"
+        ],
+        "alternative": [
+          "Diploma in Elementary Education (D.El.Ed) for primary school"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Google Classroom",
+        "Zoom/Teams",
+        "Kahoot",
+        "CBSE/ICSE/State Board Portals",
+        "MS Office",
+        "Smartboards"
+      ],
+      "salary_range": {
+        "min": 200000,
+        "max": 700000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable",
+      "future_scope": "Government school teachers have job security and pension benefits. Private and international schools offer better pay. EdTech opens content creation opportunities.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ED002",
+      "title": "College / University Professor",
+      "domain": "Education & Teaching",
+      "description": "Teach undergraduate and postgraduate students at colleges and universities. Conduct research, publish academic papers, guide dissertations, and contribute to curriculum development.",
+      "roles_responsibilities": [
+        "Deliver lectures and conduct tutorials for college students",
+        "Design course curricula and examination papers",
+        "Guide student research projects and dissertations",
+        "Publish research in peer-reviewed journals",
+        "Participate in academic committees and faculty meetings",
+        "Apply for research grants and projects"
+      ],
+      "skills_required": [
+        "Advanced Subject Expertise",
+        "Research Methodology",
+        "Academic Writing",
+        "Communication",
+        "Critical Thinking",
+        "Mentorship"
+      ],
+      "educational_qualification": {
+        "minimum": "Master's Degree + NET/SLET qualification",
+        "preferred": [
+          "Ph.D in relevant subject"
+        ],
+        "alternative": []
+      },
+      "experience_level": "Senior",
+      "difficulty": "High",
+      "tools_technologies": [
+        "Learning Management Systems (Moodle, Canvas)",
+        "Research Databases (JSTOR, Scopus)",
+        "SPSS / R / NVivo (for research)",
+        "Anti-Plagiarism Tools (Turnitin)",
+        "MS Office"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable",
+      "future_scope": "Growing higher education sector with NEP 2020 reforms creating new universities and programs. Research and consultancy offer supplemental income.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ED003",
+      "title": "Special Education Teacher",
+      "domain": "Education & Teaching",
+      "description": "Teach students with physical, cognitive, emotional, or learning disabilities. Develop individualized education programs (IEPs) and adapt teaching methods to meet diverse learner needs.",
+      "roles_responsibilities": [
+        "Assess students' unique learning needs and abilities",
+        "Design and implement Individualized Education Programs (IEPs)",
+        "Adapt curriculum and teaching methods for differently-abled students",
+        "Collaborate with parents, therapists, and school staff",
+        "Monitor and document student progress",
+        "Use assistive technologies to support learning"
+      ],
+      "skills_required": [
+        "Special Needs Education",
+        "Patience",
+        "IEP Development",
+        "Empathy",
+        "Behavioral Management",
+        "Adaptive Teaching"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Ed Special Education (RCI approved)",
+        "preferred": [
+          "M.Ed Special Education",
+          "Diploma in Special Education"
+        ],
+        "alternative": []
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Assistive Technology Devices",
+        "AAC (Augmentative Communication) Tools",
+        "Google Classroom",
+        "IEP Management Software",
+        "Sensory Learning Tools"
+      ],
+      "salary_range": {
+        "min": 200000,
+        "max": 600000,
+        "currency": "INR"
+      },
+      "growth_level": "Growing",
+      "future_scope": "Increasing awareness and policy support for inclusive education under NEP 2020. Growing demand in special schools, NGOs, and mainstream schools.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ED004",
+      "title": "EdTech Content Developer / Curriculum Designer",
+      "domain": "Education & Teaching",
+      "description": "Create digital educational content, design curriculum frameworks, and develop learning materials for EdTech platforms, schools, or corporate training programs.",
+      "roles_responsibilities": [
+        "Design curriculum outlines and learning objectives",
+        "Develop video lectures, study guides, and e-learning modules",
+        "Align content with educational standards and syllabi",
+        "Collaborate with subject matter experts and graphic designers",
+        "Review and update content based on learner feedback",
+        "Develop assessments and practice questions"
+      ],
+      "skills_required": [
+        "Curriculum Design",
+        "Content Writing",
+        "Instructional Design",
+        "Subject Expertise",
+        "E-Learning Tools",
+        "Research"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree in relevant subject",
+        "preferred": [
+          "B.Ed / M.Ed",
+          "Certification in Instructional Design"
+        ],
+        "alternative": [
+          "Strong subject knowledge + portfolio of created content"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Articulate Storyline",
+        "Adobe Captivate",
+        "Canva",
+        "MS Office",
+        "Google Docs",
+        "LMS Platforms (Moodle, Teachable)"
+      ],
+      "salary_range": {
+        "min": 350000,
+        "max": 1200000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Explosive growth in EdTech (BYJU'S, Unacademy, Vedantu, upGrad). Freelance content creation also offers strong income potential.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ED005",
+      "title": "Academic Counselor / Career Counselor",
+      "domain": "Education & Teaching",
+      "description": "Guide students in academic planning, career exploration, college admissions, and skill development. Support students in making informed decisions about their educational and professional futures.",
+      "roles_responsibilities": [
+        "Conduct one-on-one counseling sessions with students",
+        "Assess student aptitudes, interests, and career goals",
+        "Guide students through college and course selection",
+        "Assist with scholarship applications and higher education planning",
+        "Organize career fairs and college awareness programs",
+        "Track student academic progress and intervene when needed"
+      ],
+      "skills_required": [
+        "Counseling Skills",
+        "Knowledge of Career Pathways",
+        "Active Listening",
+        "Empathy",
+        "Communication",
+        "Knowledge of Entrance Exams (JEE, NEET, CUET)"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree (any field)",
+        "preferred": [
+          "M.A. Psychology / Counseling",
+          "PG Diploma in Career Counseling"
+        ],
+        "alternative": [
+          "Certification from recognized career counseling bodies (e.g., NCDA)"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_responsibilities": [
+        "Psychometric Assessment Tools",
+        "Career Assessment Software",
+        "MS Office",
+        "DISHA Portal",
+        "Google Meet"
+      ],
+      "tools_technologies": [
+        "Psychometric Assessment Tools",
+        "Career Assessment Software",
+        "MS Office",
+        "DISHA Portal",
+        "Google Meet"
+      ],
+      "salary_range": {
+        "min": 250000,
+        "max": 800000,
+        "currency": "INR"
+      },
+      "growth_level": "Growing",
+      "future_scope": "Growing awareness of career planning in India. Schools, EdTech companies, and independent practices are all hiring. International counseling (study abroad) is lucrative.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "FA001",
+      "title": "Chartered Accountant (CA)",
+      "domain": "Finance & Accounting",
+      "description": "Perform auditing, taxation, financial reporting, and advisory services. CAs are licensed by ICAI and work in public practice, industry, or government.",
+      "roles_responsibilities": [
+        "Prepare and audit financial statements",
+        "File income tax and GST returns for individuals and businesses",
+        "Conduct internal and statutory audits",
+        "Provide tax planning and advisory services",
+        "Ensure compliance with Companies Act and tax laws",
+        "Represent clients before tax authorities"
+      ],
+      "skills_required": [
+        "Accounting Standards (Ind AS, IFRS)",
+        "Taxation (Income Tax, GST)",
+        "Auditing",
+        "Financial Reporting",
+        "Analytical Thinking",
+        "Regulatory Knowledge"
+      ],
+      "educational_qualification": {
+        "minimum": "CA qualification from ICAI (after clearing Foundation, Intermediate, Final exams)",
+        "preferred": [
+          "CA + MBA Finance",
+          "CA + LLB for tax law specialization"
+        ],
+        "alternative": []
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Very High",
+      "tools_technologies": [
+        "Tally ERP",
+        "SAP FICO",
+        "BUSY Accounting",
+        "Income Tax Portal",
+        "GSTN Portal",
+        "Zoho Books",
+        "MCA21"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "One of India's most respected and well-paid professions. Own practice, Big 4 firms, and CFO roles all offer strong career progression.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "FA002",
+      "title": "Accountant / Senior Accountant",
+      "domain": "Finance & Accounting",
+      "description": "Maintain accurate financial records, prepare accounting entries, reconcile accounts, and support financial reporting functions for organizations.",
+      "roles_responsibilities": [
+        "Record and maintain financial transactions (journal entries)",
+        "Prepare bank reconciliation statements",
+        "Manage accounts payable and receivable",
+        "Assist in preparation of financial statements",
+        "File GST returns and support tax compliance",
+        "Support auditors during audit processes"
+      ],
+      "skills_required": [
+        "Bookkeeping",
+        "Accounts Payable/Receivable",
+        "Bank Reconciliation",
+        "GST & TDS Knowledge",
+        "MS Excel",
+        "Attention to Detail"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Com (Bachelor of Commerce)",
+        "preferred": [
+          "M.Com",
+          "CA Inter / ICWA Inter"
+        ],
+        "alternative": [
+          "B.Com + Tally/SAP certification"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Tally ERP",
+        "Zoho Books",
+        "QuickBooks",
+        "SAP FICO",
+        "MS Excel",
+        "GSTN Portal",
+        "Income Tax Portal"
+      ],
+      "salary_range": {
+        "min": 250000,
+        "max": 700000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable",
+      "future_scope": "Widely available across industries. CMA or CA qualification while working can accelerate career progression significantly.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "FA003",
+      "title": "Investment Banker / Financial Analyst (Investment Banking)",
+      "domain": "Finance & Accounting",
+      "description": "Provide financial advisory on capital markets, mergers & acquisitions, IPOs, and fundraising. Conduct financial modeling, valuation, and due diligence for corporate clients.",
+      "roles_responsibilities": [
+        "Build complex financial models (DCF, LBO, M&A accretion-dilution)",
+        "Conduct company and sector research and valuation",
+        "Prepare pitch books and information memoranda",
+        "Support deal execution for IPOs, M&A, and PE transactions",
+        "Perform due diligence on target companies",
+        "Coordinate with legal, compliance, and client teams"
+      ],
+      "skills_required": [
+        "Financial Modeling",
+        "Valuation (DCF, Comparables)",
+        "Excel & PowerPoint",
+        "Capital Markets Knowledge",
+        "Analytical Thinking",
+        "Attention to Detail"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Com / B.Tech / BBA with strong academics",
+        "preferred": [
+          "MBA Finance (IIM / ISB / Top B-Schools)",
+          "CA + MBA"
+        ],
+        "alternative": [
+          "CFA Charter for research and analyst roles"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Very High",
+      "tools_technologies": [
+        "Bloomberg Terminal",
+        "Capital IQ",
+        "MS Excel (Advanced)",
+        "MS PowerPoint",
+        "Thomson Reuters Eikon",
+        "PitchBook"
+      ],
+      "salary_range": {
+        "min": 1000000,
+        "max": 5000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Highly lucrative career path. PE, hedge funds, and startups offer exits from IB roles. Significant international mobility.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "FA004",
+      "title": "Chartered Financial Analyst (CFA) / Equity Research Analyst",
+      "domain": "Finance & Accounting",
+      "description": "Research and analyze publicly listed companies, industries, and economic trends to develop investment recommendations for asset managers, brokerages, and investors.",
+      "roles_responsibilities": [
+        "Analyze company financials, balance sheets, and earnings",
+        "Build financial models and produce earnings forecasts",
+        "Write equity research reports with buy/sell/hold recommendations",
+        "Track industry trends and competitive landscape",
+        "Interact with company management during earnings calls",
+        "Support fund managers in portfolio decision-making"
+      ],
+      "skills_required": [
+        "Equity Research",
+        "Financial Statement Analysis",
+        "Financial Modeling",
+        "Report Writing",
+        "Industry Knowledge",
+        "Quantitative Skills"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree (Commerce, Finance, Economics, Engineering)",
+        "preferred": [
+          "CFA Charter (CFA Institute)",
+          "MBA Finance"
+        ],
+        "alternative": [
+          "CA + relevant experience"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "High",
+      "tools_technologies": [
+        "Bloomberg Terminal",
+        "Capital IQ",
+        "Excel (Advanced)",
+        "Reuters Eikon",
+        "Python (for quant analysis)",
+        "Word/PowerPoint"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 3000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "India's growing capital markets and MF industry are driving demand. Senior analysts and fund managers earn significantly more.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "FA005",
+      "title": "Actuary",
+      "domain": "Finance & Accounting",
+      "description": "Use mathematical and statistical methods to assess financial risks in insurance, pensions, and financial markets. Design and price insurance products and pension schemes.",
+      "roles_responsibilities": [
+        "Analyze statistical data to assess risk probabilities",
+        "Develop pricing models for insurance products",
+        "Evaluate pension fund liabilities and valuations",
+        "Prepare actuarial reports and certifications",
+        "Advise on regulatory solvency requirements",
+        "Model financial projections under various scenarios"
+      ],
+      "skills_required": [
+        "Actuarial Science",
+        "Statistics & Probability",
+        "Financial Mathematics",
+        "Risk Modeling",
+        "Excel & R/Python",
+        "Regulatory Knowledge (IRDAI)"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Sc Mathematics / Statistics",
+        "preferred": [
+          "Institute and Faculty of Actuaries (IFoA) exams",
+          "Institute of Actuaries of India (IAI) qualification"
+        ],
+        "alternative": [
+          "Strong mathematics background + actuarial exams"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Very High",
+      "tools_technologies": [
+        "R",
+        "Python",
+        "Excel (Advanced)",
+        "Prophet (valuation software)",
+        "ResQ",
+        "Axis"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 3500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Scarce talent supply with high demand from insurance companies, consulting firms, and banks. Fully qualified actuaries command premium salaries.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "EN001",
+      "title": "Civil Engineer",
+      "domain": "Engineering (Non-IT)",
+      "description": "Design, plan, and oversee construction of infrastructure projects such as buildings, roads, bridges, dams, and water supply systems. Ensure structural safety and compliance with codes.",
+      "roles_responsibilities": [
+        "Design structural elements of buildings and infrastructure",
+        "Prepare engineering drawings and technical specifications",
+        "Supervise construction activities and contractor work",
+        "Conduct site inspections and quality checks",
+        "Manage project timelines and budgets",
+        "Ensure compliance with building codes and safety norms"
+      ],
+      "skills_required": [
+        "Structural Engineering",
+        "AutoCAD",
+        "Construction Management",
+        "Material Science",
+        "Project Estimation",
+        "Problem Solving"
+      ],
+      "educational_qualification": {
+        "minimum": "B.E. / B.Tech in Civil Engineering",
+        "preferred": [
+          "M.Tech in Structural / Geotechnical Engineering",
+          "PMP Certification"
+        ],
+        "alternative": [
+          "Diploma in Civil Engineering for site supervisor roles"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "AutoCAD",
+        "STAAD.Pro",
+        "ETABS",
+        "Revit (BIM)",
+        "MS Project",
+        "Primavera P6"
+      ],
+      "salary_range": {
+        "min": 300000,
+        "max": 1200000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable-High",
+      "future_scope": "India's infrastructure push (Smart Cities, PMAY, highways) creates sustained demand. Senior site managers and project directors earn well.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "EN002",
+      "title": "Mechanical Engineer",
+      "domain": "Engineering (Non-IT)",
+      "description": "Design, develop, test, and manufacture mechanical systems, machinery, and components across industries such as automotive, aerospace, manufacturing, and energy.",
+      "roles_responsibilities": [
+        "Design mechanical components and assemblies using CAD tools",
+        "Analyze and test components for performance and durability",
+        "Develop manufacturing processes and optimize production",
+        "Troubleshoot mechanical failures and implement solutions",
+        "Collaborate with cross-functional engineering teams",
+        "Prepare technical documentation and reports"
+      ],
+      "skills_required": [
+        "CAD/CAM",
+        "Thermodynamics & Fluid Mechanics",
+        "Manufacturing Processes",
+        "Material Science",
+        "Problem Solving",
+        "Finite Element Analysis (FEA)"
+      ],
+      "educational_qualification": {
+        "minimum": "B.E. / B.Tech in Mechanical Engineering",
+        "preferred": [
+          "M.Tech in Manufacturing / Thermal Engineering / Automobile"
+        ],
+        "alternative": [
+          "Diploma in Mechanical Engineering for technician roles"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate-High",
+      "tools_technologies": [
+        "SolidWorks",
+        "CATIA",
+        "AutoCAD",
+        "ANSYS (FEA)",
+        "MATLAB",
+        "Siemens NX"
+      ],
+      "salary_range": {
+        "min": 300000,
+        "max": 1200000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable",
+      "future_scope": "Automotive (EV), aerospace, defense, and manufacturing are key growth sectors. Design engineering in aerospace pays at a premium.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "EN003",
+      "title": "Electrical Engineer",
+      "domain": "Engineering (Non-IT)",
+      "description": "Design, develop, and maintain electrical systems, power distribution networks, and electronic equipment for industries, utilities, and construction projects.",
+      "roles_responsibilities": [
+        "Design electrical systems for buildings and industrial plants",
+        "Develop and test electrical circuits and components",
+        "Oversee installation of power distribution systems",
+        "Ensure compliance with electrical safety codes",
+        "Troubleshoot electrical faults and failures",
+        "Coordinate with civil and mechanical teams on projects"
+      ],
+      "skills_required": [
+        "Electrical Circuit Design",
+        "Power Systems",
+        "AutoCAD Electrical",
+        "PLC Programming",
+        "Transformer & Switchgear Knowledge",
+        "Regulatory Compliance"
+      ],
+      "educational_qualification": {
+        "minimum": "B.E. / B.Tech in Electrical Engineering",
+        "preferred": [
+          "M.Tech in Power Systems / Control Systems"
+        ],
+        "alternative": [
+          "Diploma in Electrical Engineering for technician roles"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "AutoCAD Electrical",
+        "ETAP",
+        "MATLAB/Simulink",
+        "PLC Systems (Siemens, Allen-Bradley)",
+        "SCADA",
+        "EPLAN"
+      ],
+      "salary_range": {
+        "min": 300000,
+        "max": 1200000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable-High",
+      "future_scope": "Renewable energy (solar, wind), EV infrastructure, and smart grids are creating new demand for electrical engineers in India.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "EN004",
+      "title": "Chemical Engineer",
+      "domain": "Engineering (Non-IT)",
+      "description": "Design and optimize chemical processes and industrial plants for manufacturing chemicals, pharmaceuticals, food, and petroleum products. Ensure safety, efficiency, and environmental compliance.",
+      "roles_responsibilities": [
+        "Design and optimize chemical manufacturing processes",
+        "Conduct pilot plant studies and scale-up to production",
+        "Monitor and control plant operations",
+        "Ensure compliance with safety and environmental regulations",
+        "Troubleshoot process issues and implement improvements",
+        "Collaborate with R&D teams on new formulations"
+      ],
+      "skills_required": [
+        "Process Engineering",
+        "Chemical Thermodynamics",
+        "Reaction Engineering",
+        "Mass & Heat Transfer",
+        "Safety Regulations (HAZOP)",
+        "Process Simulation"
+      ],
+      "educational_qualification": {
+        "minimum": "B.E. / B.Tech in Chemical Engineering",
+        "preferred": [
+          "M.Tech in Chemical / Petroleum Engineering",
+          "Certification in Process Safety"
+        ],
+        "alternative": [
+          "B.Sc Chemistry + relevant certifications for lab roles"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "High",
+      "tools_technologies": [
+        "Aspen HYSYS",
+        "MATLAB",
+        "AutoCAD P&ID",
+        "HAZOP Tools",
+        "CHEMCAD",
+        "DCS Systems"
+      ],
+      "salary_range": {
+        "min": 350000,
+        "max": 1200000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable",
+      "future_scope": "Pharmaceuticals, petrochemicals, specialty chemicals, and green energy sectors offer stable careers. PSUs like ONGC, HPCL, BPCL recruit heavily.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "EN005",
+      "title": "Aerospace Engineer",
+      "domain": "Engineering (Non-IT)",
+      "description": "Design, develop, test, and maintain aircraft, spacecraft, satellites, and missiles. Work in propulsion systems, aerodynamics, structural design, or avionics.",
+      "roles_responsibilities": [
+        "Design aircraft and spacecraft structures and systems",
+        "Conduct aerodynamic analysis and CFD simulations",
+        "Develop and test propulsion systems",
+        "Perform structural integrity analysis (FEA)",
+        "Coordinate with manufacturing on design implementation",
+        "Ensure compliance with DGCA and international aviation standards"
+      ],
+      "skills_required": [
+        "Aerodynamics",
+        "Propulsion Systems",
+        "Structural Analysis",
+        "CAD (CATIA / SolidWorks)",
+        "CFD (ANSYS Fluent)",
+        "Avionics Basics"
+      ],
+      "educational_qualification": {
+        "minimum": "B.E. / B.Tech in Aerospace / Aeronautical Engineering",
+        "preferred": [
+          "M.Tech in Aerospace Engineering"
+        ],
+        "alternative": [
+          "Mechanical Engineering with aerospace specialization"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Very High",
+      "tools_technologies": [
+        "CATIA",
+        "ANSYS Fluent (CFD)",
+        "MATLAB/Simulink",
+        "SolidWorks",
+        "NASTRAN/PATRAN (FEA)",
+        "LabVIEW"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "India's growing space sector (ISRO, private space startups), defense aerospace (HAL, DRDO), and MRO industry offer strong prospects.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "EN006",
+      "title": "Environmental Engineer",
+      "domain": "Engineering (Non-IT)",
+      "description": "Develop solutions to environmental problems including pollution control, waste management, water treatment, and sustainable engineering practices.",
+      "roles_responsibilities": [
+        "Design water and wastewater treatment systems",
+        "Conduct environmental impact assessments (EIA)",
+        "Develop pollution control strategies for industries",
+        "Monitor air, water, and soil quality",
+        "Ensure compliance with pollution control norms (CPCB, SPCB)",
+        "Advise on sustainable and green engineering practices"
+      ],
+      "skills_required": [
+        "Environmental Science",
+        "Water & Wastewater Treatment",
+        "EIA Methodology",
+        "GIS (Geographic Information Systems)",
+        "Environmental Regulations",
+        "Pollution Control Technology"
+      ],
+      "educational_qualification": {
+        "minimum": "B.E. / B.Tech in Environmental / Civil Engineering",
+        "preferred": [
+          "M.Tech in Environmental Engineering",
+          "M.Sc Environmental Science"
+        ],
+        "alternative": [
+          "B.Sc Environmental Science with relevant certifications"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "GIS (ArcGIS)",
+        "AutoCAD",
+        "Water Quality Analysis Tools",
+        "CPCB Reporting Portals",
+        "Environmental Monitoring Software"
+      ],
+      "salary_range": {
+        "min": 300000,
+        "max": 1000000,
+        "currency": "INR"
+      },
+      "growth_level": "Growing",
+      "future_scope": "Environmental regulations tightening in India. ESG mandates and climate tech are creating new roles for environmental engineers in consulting, industry, and policy.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CA001",
+      "title": "Graphic Designer",
+      "domain": "Creative Arts & Design",
+      "description": "Create visual content for print and digital media including logos, branding materials, marketing collateral, social media graphics, and web design assets.",
+      "roles_responsibilities": [
+        "Design logos, brochures, posters, and brand identity elements",
+        "Create digital graphics for social media and web",
+        "Collaborate with marketing and content teams",
+        "Prepare print-ready files for production",
+        "Maintain brand style guides and design consistency",
+        "Present design concepts to clients or stakeholders"
+      ],
+      "skills_required": [
+        "Typography",
+        "Color Theory",
+        "Visual Composition",
+        "Adobe Creative Suite",
+        "Brand Design",
+        "Attention to Detail"
+      ],
+      "educational_qualification": {
+        "minimum": "Diploma / Bachelor's in Graphic Design, Visual Communication, or Fine Arts",
+        "preferred": [
+          "B.Des (NID, NIFT, Symbiosis)",
+          "BFA (Fine Arts)"
+        ],
+        "alternative": [
+          "Online design certifications + strong portfolio"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "Adobe InDesign",
+        "Figma",
+        "Canva",
+        "CorelDRAW"
+      ],
+      "salary_range": {
+        "min": 200000,
+        "max": 800000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Growing demand from startups, agencies, and e-commerce brands. Freelancing offers strong income potential. Motion graphics and UI/UX are high-growth adjacencies.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CA002",
+      "title": "Fashion Designer",
+      "domain": "Creative Arts & Design",
+      "description": "Create original clothing, accessories, and footwear designs. Research fashion trends, sketch designs, select fabrics, and oversee garment production.",
+      "roles_responsibilities": [
+        "Research current and upcoming fashion trends",
+        "Create sketches and technical drawings of designs",
+        "Select fabrics, colors, and materials",
+        "Oversee sample development and fitting",
+        "Collaborate with production and merchandising teams",
+        "Present collections at fashion shows or client presentations"
+      ],
+      "skills_required": [
+        "Fashion Illustration",
+        "Textile Knowledge",
+        "Pattern Making",
+        "Trend Forecasting",
+        "Adobe Illustrator",
+        "Creativity"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Des / B.Sc Fashion Design (NIFT, Pearl Academy, Symbiosis)",
+        "preferred": [
+          "Post-Graduate Diploma / M.Des in Fashion Design"
+        ],
+        "alternative": [
+          "Diploma in Fashion Design + industry experience"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Adobe Illustrator",
+        "CLO 3D",
+        "Pattern Making Tools",
+        "Fabric Sourcing Platforms (IndiaMART)",
+        "Adobe Photoshop"
+      ],
+      "salary_range": {
+        "min": 250000,
+        "max": 1000000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate-High",
+      "future_scope": "India's textile and fashion export industry is a global leader. Sustainable fashion and direct-to-consumer brands are creating new design opportunities.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CA003",
+      "title": "Interior Designer",
+      "domain": "Creative Arts & Design",
+      "description": "Plan and design interior spaces for homes, offices, restaurants, and commercial establishments. Balance aesthetics, functionality, and client requirements in space design.",
+      "roles_responsibilities": [
+        "Consult with clients to understand their space and design preferences",
+        "Develop interior design concepts and mood boards",
+        "Create 2D and 3D design renderings",
+        "Select furniture, materials, lighting, and decor",
+        "Coordinate with architects, contractors, and vendors",
+        "Oversee project execution and ensure design intent is maintained"
+      ],
+      "skills_required": [
+        "Space Planning",
+        "3D Visualization",
+        "Color & Material Selection",
+        "Client Communication",
+        "Knowledge of Building Materials",
+        "AutoCAD / SketchUp"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Des / B.Sc Interior Design (4-year program)",
+        "preferred": [
+          "M.Des Interior Design"
+        ],
+        "alternative": [
+          "Diploma in Interior Design + portfolio"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "AutoCAD",
+        "SketchUp",
+        "3ds Max",
+        "V-Ray",
+        "Revit",
+        "Adobe Photoshop",
+        "Foyr Neo"
+      ],
+      "salary_range": {
+        "min": 250000,
+        "max": 1000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "India's booming real estate and construction sector drives demand. Senior designers and boutique firms can earn significantly more.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CA004",
+      "title": "Animator / Motion Graphics Artist",
+      "domain": "Creative Arts & Design",
+      "description": "Create 2D and 3D animated content for films, television, gaming, advertising, and digital media. Bring characters and visual concepts to life through motion and storytelling.",
+      "roles_responsibilities": [
+        "Create 2D and 3D animations for various media",
+        "Develop character rigs and animation cycles",
+        "Design motion graphics for advertisements and explainer videos",
+        "Collaborate with directors and creative teams on storyboards",
+        "Apply visual effects and compositing",
+        "Optimize animations for gaming and interactive media"
+      ],
+      "skills_required": [
+        "2D/3D Animation",
+        "Character Rigging",
+        "Motion Graphics",
+        "Storytelling",
+        "Visual Compositing",
+        "Timing & Principles of Animation"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Des / Diploma in Animation, Multimedia, or Fine Arts",
+        "preferred": [
+          "B.Sc Animation from recognized institutions"
+        ],
+        "alternative": [
+          "Online certification + strong portfolio (YouTube, Vimeo)"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Adobe After Effects",
+        "Maya",
+        "Blender",
+        "Cinema 4D",
+        "Adobe Animate",
+        "Toon Boom Harmony"
+      ],
+      "salary_range": {
+        "min": 250000,
+        "max": 1000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "India's animation and VFX industry is growing with global studios outsourcing work. OTT boom has increased demand for motion designers and VFX artists.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "MC001",
+      "title": "Journalist / Reporter",
+      "domain": "Media & Communication",
+      "description": "Research, investigate, and report on news stories and events for newspapers, magazines, television, radio, or digital media platforms.",
+      "roles_responsibilities": [
+        "Identify and investigate newsworthy stories",
+        "Conduct interviews with sources and experts",
+        "Write accurate and compelling news articles or scripts",
+        "Verify information and fact-check stories",
+        "Meet editorial deadlines consistently",
+        "Build and maintain a network of reliable sources"
+      ],
+      "skills_required": [
+        "News Writing & Reporting",
+        "Investigative Skills",
+        "Interviewing",
+        "Fact-Checking",
+        "Communication",
+        "Knowledge of Current Affairs"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree in Journalism / Mass Communication",
+        "preferred": [
+          "PG Diploma in Journalism",
+          "M.A. Mass Communication"
+        ],
+        "alternative": [
+          "Any graduation + relevant internship at media house"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "CMS (WordPress, Drupal)",
+        "Digital Camera / Video Equipment",
+        "Adobe Premiere Pro (for video journalists)",
+        "Social Media Tools",
+        "Google Alerts"
+      ],
+      "salary_range": {
+        "min": 200000,
+        "max": 800000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Digital journalism and independent media are growing. Investigative journalism and data journalism are high-demand niches. Senior editors and anchors earn well.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "MC002",
+      "title": "Content Writer / Copywriter",
+      "domain": "Media & Communication",
+      "description": "Create written content for websites, blogs, marketing materials, social media, and advertising. Copywriters focus on persuasive commercial content while content writers produce informational or editorial content.",
+      "roles_responsibilities": [
+        "Write SEO-optimized blogs, articles, and website content",
+        "Create advertising copy for print, digital, and social media",
+        "Develop brand voice and tone guidelines",
+        "Edit and proofread content for clarity and quality",
+        "Research topics thoroughly before writing",
+        "Collaborate with designers and marketing teams"
+      ],
+      "skills_required": [
+        "Writing & Grammar",
+        "SEO Basics",
+        "Research",
+        "Creativity",
+        "Adaptability of Tone",
+        "Content Strategy Basics"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "BA English / Journalism / Mass Communication"
+        ],
+        "alternative": [
+          "Strong writing portfolio with proven track record"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Entry-Intermediate",
+      "tools_technologies": [
+        "MS Word / Google Docs",
+        "Grammarly",
+        "SEMrush / Ahrefs (SEO)",
+        "WordPress",
+        "HubSpot",
+        "Hemingway Editor"
+      ],
+      "salary_range": {
+        "min": 200000,
+        "max": 900000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Content marketing is an essential part of digital businesses. Freelance writing and agency roles offer flexibility. Specialization in tech, finance, or legal writing commands premium rates.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "MC003",
+      "title": "Public Relations (PR) Specialist",
+      "domain": "Media & Communication",
+      "description": "Manage the public image of organizations, individuals, or brands. Develop and implement PR strategies, manage media relationships, and handle communications during crises.",
+      "roles_responsibilities": [
+        "Develop and execute PR campaigns and press strategies",
+        "Write and distribute press releases and media kits",
+        "Build and maintain relationships with journalists and media",
+        "Monitor media coverage and prepare reports",
+        "Manage crisis communications and brand reputation",
+        "Organize press conferences and media events"
+      ],
+      "skills_required": [
+        "Media Relations",
+        "Writing & Communication",
+        "Crisis Management",
+        "Strategic Thinking",
+        "Social Media",
+        "Networking"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree in Journalism / Mass Communication / PR",
+        "preferred": [
+          "MBA Marketing / Communications",
+          "PG Diploma in PR & Advertising"
+        ],
+        "alternative": [
+          "Any graduation + internship in PR agency"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Cision",
+        "Meltwater",
+        "PR Newswire",
+        "Hootsuite",
+        "Canva",
+        "MS Office"
+      ],
+      "salary_range": {
+        "min": 300000,
+        "max": 1200000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable-High",
+      "future_scope": "Growing demand from startups, political parties, and large corporations. Digital PR and ORM (Online Reputation Management) are fast-growing niches.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "MC004",
+      "title": "Video Producer / Videographer",
+      "domain": "Media & Communication",
+      "description": "Plan, shoot, and edit video content for advertising, corporate communications, documentaries, social media, and entertainment. Manage full production lifecycle from concept to final cut.",
+      "roles_responsibilities": [
+        "Develop video concepts, storyboards, and scripts",
+        "Operate camera, lighting, and audio equipment on shoots",
+        "Direct talent and manage production logistics",
+        "Edit raw footage into polished final videos",
+        "Add color grading, music, and visual effects",
+        "Deliver content optimized for various platforms (YouTube, Instagram, TV)"
+      ],
+      "skills_required": [
+        "Videography & Cinematography",
+        "Video Editing",
+        "Lighting Techniques",
+        "Storytelling",
+        "Color Grading",
+        "Audio Production Basics"
+      ],
+      "educational_qualification": {
+        "minimum": "Diploma / Bachelor's in Film, Media, or Mass Communication",
+        "preferred": [
+          "B.Sc Film Production",
+          "PG Diploma in Filmmaking"
+        ],
+        "alternative": [
+          "Self-taught with strong portfolio and YouTube presence"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Adobe Premiere Pro",
+        "Final Cut Pro",
+        "DaVinci Resolve",
+        "Adobe After Effects",
+        "DSLR / Cinema Cameras",
+        "DJI Drones"
+      ],
+      "salary_range": {
+        "min": 250000,
+        "max": 1000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "OTT explosion, digital advertising, and YouTube creator economy are driving demand. Corporate video production is a stable, high-volume market.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "BC001",
+      "title": "Business Development Executive / Manager",
+      "domain": "Business & Commerce",
+      "description": "Identify new business opportunities, build client relationships, and drive revenue growth through strategic partnerships, sales, and market expansion.",
+      "roles_responsibilities": [
+        "Identify and pursue new business opportunities and leads",
+        "Build and maintain relationships with prospects and partners",
+        "Prepare proposals, pitches, and presentations",
+        "Negotiate contracts and close deals",
+        "Conduct market research and competitive analysis",
+        "Coordinate with product and marketing teams on go-to-market strategies"
+      ],
+      "skills_required": [
+        "Sales & Negotiation",
+        "Relationship Building",
+        "Market Research",
+        "Communication",
+        "Strategic Thinking",
+        "CRM Tools"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "MBA (Marketing / Sales)",
+          "B.Tech for tech BD roles"
+        ],
+        "alternative": [
+          "Strong sales track record + relevant industry experience"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Salesforce CRM",
+        "HubSpot",
+        "LinkedIn Sales Navigator",
+        "MS Excel",
+        "PowerPoint",
+        "ZoomInfo"
+      ],
+      "salary_range": {
+        "min": 300000,
+        "max": 1500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "BD roles are critical for every growing company. Strong performers progress rapidly to leadership. SaaS and startup BD roles offer ESOPs and high variable pay.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "BC002",
+      "title": "E-Commerce Executive / Marketplace Manager",
+      "domain": "Business & Commerce",
+      "description": "Manage product listings, pricing, promotions, and operations across e-commerce marketplaces like Amazon, Flipkart, and Meesho. Drive online sales and optimize catalogue performance.",
+      "roles_responsibilities": [
+        "Manage product listings, content, and imagery on marketplaces",
+        "Monitor and optimize pricing and promotions",
+        "Analyze sales performance and marketplace metrics",
+        "Coordinate with logistics and warehouse teams for order fulfillment",
+        "Handle customer returns, refunds, and disputes",
+        "Run ad campaigns on Amazon AMS / Flipkart Ads"
+      ],
+      "skills_required": [
+        "Marketplace Operations",
+        "Catalogue Management",
+        "E-Commerce Analytics",
+        "MS Excel",
+        "Digital Advertising Basics",
+        "Inventory Planning"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "BBA / MBA (Marketing)",
+          "B.Com"
+        ],
+        "alternative": [
+          "Hands-on experience selling on Amazon/Flipkart"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Entry-Intermediate",
+      "tools_technologies": [
+        "Amazon Seller Central",
+        "Flipkart Seller Hub",
+        "Meesho",
+        "MS Excel",
+        "Amazon AMS",
+        "Shopify"
+      ],
+      "salary_range": {
+        "min": 250000,
+        "max": 800000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "India's e-commerce sector continues to expand rapidly. D2C brands and quick commerce are creating many new specialized roles.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "BC003",
+      "title": "Procurement / Purchase Executive",
+      "domain": "Business & Commerce",
+      "description": "Source and purchase materials, goods, and services for organizations. Evaluate suppliers, negotiate prices, and manage procurement processes to ensure cost efficiency and quality.",
+      "roles_responsibilities": [
+        "Identify and evaluate potential suppliers and vendors",
+        "Obtain and compare quotations (RFQ/RFP)",
+        "Negotiate pricing, terms, and contracts with suppliers",
+        "Raise and process purchase orders",
+        "Monitor delivery timelines and resolve supply issues",
+        "Maintain vendor master data and procurement records"
+      ],
+      "skills_required": [
+        "Vendor Negotiation",
+        "Market Research",
+        "Supply Chain Basics",
+        "MS Excel",
+        "Communication",
+        "Cost Analysis"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "BBA / B.Com / MBA Supply Chain",
+          "Diploma in Materials Management"
+        ],
+        "alternative": []
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Entry-Intermediate",
+      "tools_technologies": [
+        "SAP MM",
+        "Oracle Procurement",
+        "MS Excel",
+        "ERP Systems",
+        "GeM Portal (Govt purchases)"
+      ],
+      "salary_range": {
+        "min": 250000,
+        "max": 800000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable",
+      "future_scope": "Strategic procurement and global sourcing are high-value career paths. Manufacturing and infrastructure companies recruit heavily for procurement roles.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "BC004",
+      "title": "Customer Success Manager",
+      "domain": "Business & Commerce",
+      "description": "Ensure customers derive maximum value from a company's products or services. Build long-term relationships, drive retention, manage renewals, and identify upsell opportunities.",
+      "roles_responsibilities": [
+        "Onboard new clients and provide product training",
+        "Monitor customer usage and engagement metrics",
+        "Conduct regular check-in calls and business reviews",
+        "Identify and resolve customer issues proactively",
+        "Drive contract renewals and reduce churn",
+        "Identify upsell and cross-sell opportunities"
+      ],
+      "skills_required": [
+        "Customer Relationship Management",
+        "Communication & Empathy",
+        "Product Knowledge",
+        "Data-Driven Problem Solving",
+        "Account Management",
+        "Presentation Skills"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "MBA (Marketing / General Management)",
+          "B.Tech for tech product companies"
+        ],
+        "alternative": [
+          "Strong client-facing experience in any domain"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Salesforce",
+        "Gainsight",
+        "HubSpot",
+        "Zendesk",
+        "MS Excel",
+        "Google Slides"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 1800000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "SaaS and subscription-based business models have made CS an essential function. Strong CS professionals can transition to leadership or sales roles.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SC001",
+      "title": "Social Worker",
+      "domain": "Social & Community Services",
+      "description": "Help individuals, families, and communities navigate social challenges such as poverty, abuse, mental health issues, and substance addiction. Connect people with resources and support systems.",
+      "roles_responsibilities": [
+        "Assess clients' social, emotional, and economic needs",
+        "Connect clients with government schemes and community resources",
+        "Advocate for vulnerable populations",
+        "Maintain case records and submit reports",
+        "Collaborate with government agencies, NGOs, and healthcare providers",
+        "Conduct home visits and community outreach"
+      ],
+      "skills_required": [
+        "Active Listening",
+        "Empathy",
+        "Case Management",
+        "Knowledge of Government Welfare Schemes",
+        "Communication",
+        "Cultural Sensitivity"
+      ],
+      "educational_qualification": {
+        "minimum": "B.S.W. (Bachelor of Social Work)",
+        "preferred": [
+          "M.S.W. (Master of Social Work)"
+        ],
+        "alternative": [
+          "Any graduation + field experience in social sector"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Case Management Software",
+        "MS Office",
+        "Government Portals (UMANG, DigiLocker)",
+        "Field Survey Tools"
+      ],
+      "salary_range": {
+        "min": 150000,
+        "max": 600000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable",
+      "future_scope": "Growing demand in NGOs, CSR departments, government programs (ICDS, NRLM), UN agencies, and international development organizations.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SC002",
+      "title": "NGO Program Officer / Development Professional",
+      "domain": "Social & Community Services",
+      "description": "Plan, implement, and monitor social development programs in areas such as education, health, livelihood, women empowerment, or environmental sustainability for non-profit organizations.",
+      "roles_responsibilities": [
+        "Design and implement community development programs",
+        "Monitor and evaluate program outcomes and impact",
+        "Prepare donor reports, proposals, and grant applications",
+        "Build partnerships with government bodies and CSR teams",
+        "Train and supervise field staff and community volunteers",
+        "Conduct needs assessments and baseline surveys"
+      ],
+      "skills_required": [
+        "Program Management",
+        "M&E (Monitoring & Evaluation)",
+        "Proposal & Report Writing",
+        "Stakeholder Engagement",
+        "Data Collection & Analysis",
+        "Communication"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree (any field)",
+        "preferred": [
+          "MSW / MBA (Development Management)",
+          "PG Diploma in Development Studies"
+        ],
+        "alternative": [
+          "TISS / IRMA / XISS programs in Rural Development"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "MS Office",
+        "KOBO Collect / ODK (data collection)",
+        "Power BI / Tableau (for M&E)",
+        "Salesforce NPSP (nonprofits)",
+        "Google Workspace"
+      ],
+      "salary_range": {
+        "min": 300000,
+        "max": 900000,
+        "currency": "INR"
+      },
+      "growth_level": "Growing",
+      "future_scope": "India's expanding CSR requirements and international development funding create growing opportunities. International NGO roles offer global exposure.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HF001",
+      "title": "Chef / Cook (Professional)",
+      "domain": "Hospitality & Food Services",
+      "description": "Prepare and present high-quality food in restaurants, hotels, catering companies, or cloud kitchens. Specialize in a particular cuisine or cooking style.",
+      "roles_responsibilities": [
+        "Plan and execute menus based on season, cost, and guest preferences",
+        "Prepare dishes according to recipes and presentation standards",
+        "Manage kitchen mise en place and preparation workflow",
+        "Ensure food safety and hygiene standards (FSSAI compliance)",
+        "Train junior kitchen staff and apprentices",
+        "Monitor food cost and reduce wastage"
+      ],
+      "skills_required": [
+        "Culinary Techniques",
+        "Menu Planning",
+        "Food Safety (HACCP, FSSAI)",
+        "Knife Skills & Kitchen Equipment",
+        "Time Management",
+        "Creativity in Food Presentation"
+      ],
+      "educational_qualification": {
+        "minimum": "Diploma in Hotel Management / Culinary Arts",
+        "preferred": [
+          "B.Sc Hospitality & Hotel Administration (IHM)",
+          "International Culinary Certifications (Le Cordon Bleu, CIA)"
+        ],
+        "alternative": [
+          "Vocational culinary training + apprenticeship"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Kitchen Equipment (Ovens, Mixers, Sous Vide)",
+        "POS Systems",
+        "Recipe Management Software",
+        "FSSAI Portal"
+      ],
+      "salary_range": {
+        "min": 200000,
+        "max": 800000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable-High",
+      "future_scope": "India's food service industry is booming. Cloud kitchens, celebrity chef brands, and international hotel chains offer exciting career trajectories.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HF002",
+      "title": "Hotel Front Office Executive / Hospitality Associate",
+      "domain": "Hospitality & Food Services",
+      "description": "Serve as the primary point of contact for hotel guests. Manage check-ins, check-outs, reservations, and guest service requests to ensure a positive guest experience.",
+      "roles_responsibilities": [
+        "Welcome and check in/out guests efficiently",
+        "Handle reservations and room assignments",
+        "Respond to guest inquiries and resolve complaints",
+        "Coordinate with housekeeping, F&B, and concierge teams",
+        "Process billing and payments",
+        "Maintain front desk records and occupancy reports"
+      ],
+      "skills_required": [
+        "Guest Service",
+        "Communication",
+        "Multilingualism",
+        "Property Management Systems",
+        "Problem Resolution",
+        "Professionalism"
+      ],
+      "educational_qualification": {
+        "minimum": "Diploma / B.Sc in Hotel Management (IHM / NCHMCT)",
+        "preferred": [
+          "B.Sc Hotel Management from IHM affiliated colleges"
+        ],
+        "alternative": [
+          "Any degree + hotel management certification"
+        ]
+      },
+      "experience_level": "Entry",
+      "difficulty": "Entry-Intermediate",
+      "tools_technologies": [
+        "Opera PMS",
+        "IDS Property Management System",
+        "MS Office",
+        "OTA Platforms (MakeMyTrip, Booking.com portals)"
+      ],
+      "salary_range": {
+        "min": 180000,
+        "max": 500000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable",
+      "future_scope": "India's hospitality industry is expanding with new hotels in tier-2 cities. International hotel brands offer global placement opportunities.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HF003",
+      "title": "Nutritionist / Dietitian",
+      "domain": "Hospitality & Food Services",
+      "description": "Assess dietary needs and develop nutrition plans for individuals or groups to support health goals, manage medical conditions, or improve overall wellness.",
+      "roles_responsibilities": [
+        "Conduct dietary assessments and nutritional evaluations",
+        "Develop individualized meal plans and dietary recommendations",
+        "Counsel patients or clients on nutrition and healthy eating",
+        "Support management of diet-related conditions (diabetes, obesity)",
+        "Create and review menus for hospitals, schools, or corporates",
+        "Conduct nutrition awareness programs and workshops"
+      ],
+      "skills_required": [
+        "Clinical Nutrition",
+        "Dietary Planning",
+        "Counseling",
+        "Knowledge of Nutritional Biochemistry",
+        "Communication",
+        "Empathy"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Sc Home Science (Food & Nutrition) / B.Sc Nutrition & Dietetics",
+        "preferred": [
+          "M.Sc Clinical Nutrition & Dietetics",
+          "PG Diploma in Dietetics"
+        ],
+        "alternative": [
+          "Certified Diabetes Educator (CDE) for clinical roles"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Dietary Analysis Software (EZDiet, NutriComp)",
+        "EMR Systems",
+        "MS Office",
+        "Diet Planning Apps"
+      ],
+      "salary_range": {
+        "min": 200000,
+        "max": 700000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Growing health consciousness and chronic disease burden is increasing demand. Sports nutrition, clinical nutrition in hospitals, and online consulting are key growth areas.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "AE001",
+      "title": "Agricultural Officer / Agronomist",
+      "domain": "Agriculture & Environmental Sciences",
+      "description": "Provide technical guidance to farmers on crop production, pest management, soil health, and modern farming practices. Work in government, agribusiness, or NGO settings.",
+      "roles_responsibilities": [
+        "Advise farmers on crop selection and cultivation practices",
+        "Monitor crop health, diseases, and pest infestations",
+        "Conduct soil testing and recommend fertilizer applications",
+        "Promote adoption of modern and sustainable farming techniques",
+        "Coordinate government agricultural schemes (PM-KISAN, PMFBY)",
+        "Prepare field reports and crop surveys"
+      ],
+      "skills_required": [
+        "Agronomy & Crop Science",
+        "Soil Science",
+        "Pest & Disease Management",
+        "Agricultural Extension",
+        "Government Scheme Knowledge",
+        "Communication (local language important)"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Sc Agriculture",
+        "preferred": [
+          "M.Sc Agriculture (Agronomy / Horticulture / Plant Pathology)"
+        ],
+        "alternative": [
+          "B.Tech Agricultural Engineering"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Remote Sensing & GIS Tools",
+        "Soil Testing Equipment",
+        "Government Portals (eNAM, PM-KISAN)",
+        "Drone Spraying Technology",
+        "Precision Agriculture Apps"
+      ],
+      "salary_range": {
+        "min": 250000,
+        "max": 700000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable-High",
+      "future_scope": "India's push for AgriTech and sustainable farming is creating new roles. Government agricultural services (ICAR, NABARD, State Depts) offer stable careers with perks.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "AE002",
+      "title": "Environmental Scientist",
+      "domain": "Agriculture & Environmental Sciences",
+      "description": "Study the natural environment and the impact of human activity on ecosystems. Develop strategies to address environmental problems such as pollution, deforestation, and climate change.",
+      "roles_responsibilities": [
+        "Collect and analyze environmental data (air, water, soil)",
+        "Conduct Environmental Impact Assessments (EIA) for projects",
+        "Monitor pollution levels and regulatory compliance",
+        "Develop environmental management plans",
+        "Research climate change impacts and mitigation strategies",
+        "Prepare technical reports for regulatory bodies (MoEFCC, CPCB)"
+      ],
+      "skills_required": [
+        "Environmental Science",
+        "Data Collection & Analysis",
+        "EIA Methodology",
+        "GIS",
+        "Report Writing",
+        "Environmental Laws & Regulations"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Sc Environmental Science / B.Tech Environmental Engineering",
+        "preferred": [
+          "M.Sc Environmental Science / M.Tech Environmental Engineering"
+        ],
+        "alternative": []
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "GIS (ArcGIS, QGIS)",
+        "Environmental Monitoring Equipment",
+        "R / Python (for data analysis)",
+        "CPCB/MoEFCC Portals",
+        "Remote Sensing Tools"
+      ],
+      "salary_range": {
+        "min": 300000,
+        "max": 900000,
+        "currency": "INR"
+      },
+      "growth_level": "Growing",
+      "future_scope": "ESG mandates, climate policy, and green finance are rapidly expanding the role of environmental scientists in industry, consulting, and policy.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "AE003",
+      "title": "Food Scientist / Food Technologist",
+      "domain": "Agriculture & Environmental Sciences",
+      "description": "Research, develop, and improve food products, processes, and preservation methods. Ensure food safety, quality, and compliance with FSSAI and international food safety standards.",
+      "roles_responsibilities": [
+        "Develop and test new food products and formulations",
+        "Optimize food processing and preservation methods",
+        "Conduct quality control and sensory evaluation of products",
+        "Ensure compliance with FSSAI and FSMS standards",
+        "Scale up lab formulations to commercial production",
+        "Investigate and resolve food safety incidents"
+      ],
+      "skills_required": [
+        "Food Chemistry & Microbiology",
+        "Product Development",
+        "Quality Control",
+        "FSSAI / HACCP Regulations",
+        "Sensory Evaluation",
+        "Laboratory Skills"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Sc / B.Tech in Food Technology / Food Science",
+        "preferred": [
+          "M.Sc / M.Tech Food Technology"
+        ],
+        "alternative": [
+          "B.Sc Chemistry / Microbiology + food tech certification"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Food Processing Equipment",
+        "LIMS (Laboratory Information Management Systems)",
+        "FSSAI Portal",
+        "Sensory Evaluation Kits",
+        "Quality Management Software"
+      ],
+      "salary_range": {
+        "min": 300000,
+        "max": 900000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "India's packaged food and food export industry is growing. Opportunities in FMCG companies (Nestle, ITC, Britannia), FSSAI, and export-oriented food processing units.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PS001",
+      "title": "Police Officer / Sub-Inspector (SI)",
+      "domain": "Public Safety & Defense",
+      "description": "Maintain law and order, prevent and investigate crimes, enforce laws, and protect citizens. Entry into the force is through state police recruitment boards.",
+      "roles_responsibilities": [
+        "Patrol assigned areas and respond to incidents and emergencies",
+        "Register and investigate FIRs and criminal cases",
+        "Arrest and produce accused persons before court",
+        "Collect evidence and prepare charge sheets",
+        "Maintain community relations and public safety",
+        "Execute court orders and warrants"
+      ],
+      "skills_required": [
+        "Law Enforcement",
+        "Investigation Skills",
+        "Physical Fitness",
+        "Communication",
+        "Knowledge of IPC/CrPC (now BNS/BNSS)",
+        "Crisis Management"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree + Pass State Police Sub-Inspector Exam",
+        "preferred": [
+          "B.A./B.Sc in Criminology",
+          "B.A. Law"
+        ],
+        "alternative": [
+          "Constable-level entry with promotion exams for SI"
+        ]
+      },
+      "experience_level": "Entry",
+      "difficulty": "High (competitive exam + physical standards)",
+      "tools_technologies": [
+        "CCTNS (Crime & Criminal Tracking Network)",
+        "Bodycams",
+        "AFIS (Fingerprint Systems)",
+        "POLNET",
+        "Standard Police Equipment"
+      ],
+      "salary_range": {
+        "min": 350000,
+        "max": 700000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable",
+      "future_scope": "Government job with pension and strong social status. Promotions to Inspector, DSP, and IPS cadre through departmental exams and UPSC.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PS002",
+      "title": "Indian Armed Forces Officer (Army / Navy / Air Force)",
+      "domain": "Public Safety & Defense",
+      "description": "Serve in the Indian Armed Forces to protect national sovereignty and security. Officers lead troops or technical units and are recruited through NDA, CDS, or direct entry schemes.",
+      "roles_responsibilities": [
+        "Lead and command troops or technical units",
+        "Plan and execute military operations and missions",
+        "Manage logistics, administration, and welfare of personnel",
+        "Conduct training and skill development for subordinates",
+        "Operate and maintain defense equipment and weapon systems",
+        "Represent India in peacekeeping and international defense cooperation"
+      ],
+      "skills_required": [
+        "Leadership",
+        "Physical Fitness",
+        "Strategic Thinking",
+        "Discipline",
+        "Crisis Decision-Making",
+        "Technical Expertise (for technical arms)"
+      ],
+      "educational_qualification": {
+        "minimum": "10+2 (for NDA) / Bachelor's Degree (for CDS, TES, AFCAT, SSC)",
+        "preferred": [
+          "B.Tech for technical corps",
+          "MBBS for Army Medical Corps"
+        ],
+        "alternative": [
+          "NDA after Class 12 for direct Officer entry at graduation equivalent"
+        ]
+      },
+      "experience_level": "Entry (Officer Cadet)",
+      "difficulty": "Very High (physical + written + SSB interview)",
+      "tools_technologies": [
+        "Military Communication Systems",
+        "Weapon Systems",
+        "Tactical Vehicles",
+        "Navigation Equipment",
+        "Defense-specific ERP Systems"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable",
+      "future_scope": "Highly prestigious career with structured promotions. Post-retirement demand in corporate security, defense PSUs, and PMOs. Lateral entry into CAPFs also available.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PS003",
+      "title": "Firefighter",
+      "domain": "Public Safety & Defense",
+      "description": "Respond to fire emergencies, rescue operations, and hazardous material incidents. Protect life and property by controlling fires and providing emergency assistance.",
+      "roles_responsibilities": [
+        "Respond rapidly to fire and emergency calls",
+        "Operate firefighting equipment including hoses, ladders, and breathing apparatus",
+        "Conduct search and rescue operations in burning or collapsed structures",
+        "Perform emergency medical response and first aid",
+        "Inspect buildings for fire safety compliance",
+        "Maintain and test firefighting equipment regularly"
+      ],
+      "skills_required": [
+        "Firefighting Techniques",
+        "Physical Fitness",
+        "Emergency Medical First Aid",
+        "Teamwork",
+        "Hazardous Materials Handling",
+        "Stress Management"
+      ],
+      "educational_qualification": {
+        "minimum": "10+2 / Any Degree + State/Municipal Fire Services Recruitment",
+        "preferred": [
+          "Diploma in Fire & Safety Engineering",
+          "Certification from NFSC Nagpur"
+        ],
+        "alternative": [
+          "ITI Fireman qualification for entry-level roles"
+        ]
+      },
+      "experience_level": "Entry",
+      "difficulty": "High (physical fitness requirements)",
+      "tools_technologies": [
+        "Fire Engines & Tenders",
+        "SCBA (Self-Contained Breathing Apparatus)",
+        "Hydraulic Rescue Tools (Jaws of Life)",
+        "Thermal Imaging Cameras",
+        "Hazmat Equipment"
+      ],
+      "salary_range": {
+        "min": 200000,
+        "max": 500000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable",
+      "future_scope": "Government service with pension. Fire safety roles in industrial and corporate sectors (fire safety officers) offer better pay. NDRF offers specialized emergency response careers.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "PS004",
+      "title": "IAS / IPS / IFS Officer (Civil Services)",
+      "domain": "Public Safety & Defense",
+      "description": "Serve in India's premier administrative, police, or foreign service cadres. IAS officers manage district administration and policy, IPS officers lead law enforcement, and IFS officers represent India diplomatically.",
+      "roles_responsibilities": [
+        "Formulate and implement government policies and programs",
+        "Manage district administration and public service delivery",
+        "Lead law enforcement agencies and criminal investigations (IPS)",
+        "Represent India in bilateral and multilateral diplomacy (IFS)",
+        "Oversee large-scale government development programs",
+        "Act as interface between government and citizens"
+      ],
+      "skills_required": [
+        "Public Administration",
+        "Policy Analysis",
+        "Leadership",
+        "Communication",
+        "Integrity & Ethical Decision Making",
+        "Crisis Management"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree + Clear UPSC Civil Services Exam (Prelims + Mains + Interview)",
+        "preferred": [
+          "Top graduation + coaching from reputed institutes"
+        ],
+        "alternative": []
+      },
+      "experience_level": "Entry (Probationer on clearing UPSC)",
+      "difficulty": "Extremely High (UPSC CSE, pass rate < 1%)",
+      "tools_technologies": [
+        "Government ERP Systems (PFMS, GeM)",
+        "GIS Mapping Tools",
+        "Public Information Portals",
+        "Policy Documentation & Drafting Tools"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 1500000,
+        "currency": "INR"
+      },
+      "growth_level": "Stable",
+      "future_scope": "Most prestigious career in India. Rapid post-retirement opportunities in PSUs, autonomous bodies, tribunals, and international organizations (UN, World Bank).",
+      "last_updated": "2026-03"
+    }
+  ]
+}

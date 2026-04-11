@@ -17,7 +17,7 @@ export async function DELETE(
     }
 
     const decoded = verifyToken(token)
-    if (!decoded || decoded.role !== "admin") {
+    if (!decoded || !decoded.isAdmin) {
       return NextResponse.json(
         { error: "Admin access required" },
         { status: 403 }
@@ -25,7 +25,12 @@ export async function DELETE(
     }
 
     const { id } = await params
-    const success = store.deleteUser(id)
+    const index = store.users.findIndex((u) => u.id === id)
+    const success = index >= 0
+
+    if (success) {
+      store.users.splice(index, 1)
+    }
 
     if (!success) {
       return NextResponse.json(

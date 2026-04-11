@@ -4,7 +4,7 @@ import Link from "next/link"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, TrendingUp, DollarSign } from "lucide-react"
+import { ArrowRight, TrendingUp, IndianRupee } from "lucide-react"
 
 interface Career {
   id: string
@@ -38,11 +38,11 @@ const growthColors: Record<string, string> = {
 
 export function CareerCard({ career }: Props) {
   const formatSalary = (min: number, max: number) => {
-    const formatter = new Intl.NumberFormat("en-US", {
+    const formatter = new Intl.NumberFormat("en-IN", {
       notation: "compact",
       maximumFractionDigits: 0,
     })
-    return `$${formatter.format(min)} - $${formatter.format(max)}`
+    return `₹${formatter.format(min)} - ₹${formatter.format(max)}`
   }
 
   return (
@@ -85,7 +85,7 @@ export function CareerCard({ career }: Props) {
         {/* Stats */}
         <div className="mb-4 flex items-center gap-4 text-sm">
           <div className="flex items-center gap-1.5">
-            <DollarSign className="h-4 w-4 text-muted-foreground" />
+            <IndianRupee className="h-4 w-4 text-muted-foreground" />
             <span>{formatSalary(career.salary.min, career.salary.max)}</span>
           </div>
           <div className="flex items-center gap-1.5">

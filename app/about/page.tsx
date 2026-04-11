@@ -84,7 +84,7 @@ export default function AboutPage() {
             <div className="max-w-3xl mx-auto text-center">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
                 <Sparkles className="w-4 h-4" />
-                About CareerPath
+                About PathFinder
               </div>
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">
                 Empowering Your Career Journey with AI
@@ -129,7 +129,7 @@ export default function AboutPage() {
                     professionals without proper guidance.
                   </p>
                   <p className="text-muted-foreground mb-6">
-                    CareerPath was founded to change that. We combine advanced AI with deep career 
+                    PathFinder was founded to change that. We combine advanced AI with deep career 
                     expertise to provide personalized recommendations, detailed learning roadmaps, 
                     and ongoing support that helps you navigate your professional journey with confidence.
                   </p>
@@ -223,7 +223,7 @@ export default function AboutPage() {
                 Ready to Start Your Journey?
               </h2>
               <p className="text-muted-foreground mb-8">
-                Join thousands of professionals who have found their ideal career path with CareerPath.
+                Join thousands of professionals who have found their ideal career path with PathFinder.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" asChild>

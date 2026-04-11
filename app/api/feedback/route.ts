@@ -1,9 +1,12 @@
 import { NextResponse } from "next/server"
-import { store, generateId } from "@/lib/store"
+import { connectToDatabase } from "@/lib/mongodb"
+import { Feedback } from "@/models/Feedback"
 import { getAuthCookie, verifyToken } from "@/lib/jwt"
 
 export async function POST(request: Request) {
   try {
+    await connectToDatabase()
+    
     const { name, email, message } = await request.json()
 
     if (!name || !email || !message) {
@@ -13,15 +16,11 @@ export async function POST(request: Request) {
       )
     }
 
-    const feedback = {
-      id: generateId(),
+    const feedback = await Feedback.create({
       name,
       email,
       message,
-      createdAt: new Date(),
-    }
-
-    store.feedback.push(feedback)
+    })
 
     return NextResponse.json({ success: true, feedback })
   } catch (error) {
@@ -35,6 +34,8 @@ export async function POST(request: Request) {
 
 export async function GET() {
   try {
+    await connectToDatabase()
+    
     const token = await getAuthCookie()
 
     if (!token) {
@@ -53,7 +54,8 @@ export async function GET() {
       )
     }
 
-    const user = store.users.find((u) => u.id === decoded.userId)
+    const { User } = await import("@/models/User")
+    const user = await User.findById(decoded.userId)
 
     if (!user?.isAdmin) {
       return NextResponse.json(
@@ -62,7 +64,8 @@ export async function GET() {
       )
     }
 
-    return NextResponse.json({ feedback: store.feedback })
+    const feedback = await Feedback.find({})
+    return NextResponse.json({ feedback })
   } catch (error) {
     console.error("Get feedback error:", error)
     return NextResponse.json(

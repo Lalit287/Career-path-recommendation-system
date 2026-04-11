@@ -7,9 +7,10 @@ import { ChatWidget } from "@/components/chat-widget"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Skeleton } from "@/components/ui/skeleton"
-import { X, Plus, TrendingUp, DollarSign, BarChart3, Lightbulb } from "lucide-react"
+import { X, Plus, TrendingUp, IndianRupee, BarChart3, Search, Lightbulb } from "lucide-react"
 import { Bar, BarChart, XAxis, YAxis, ResponsiveContainer } from "recharts"
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart"
 
@@ -50,6 +51,8 @@ export default function ComparePage() {
   const [allCareers, setAllCareers] = useState<Career[]>([])
   const [selectedCareers, setSelectedCareers] = useState<Career[]>([])
   const [isLoading, setIsLoading] = useState(true)
+  const [searchQuery, setSearchQuery] = useState("")
+  const [filteredCareers, setFilteredCareers] = useState<Career[]>([])
 
   useEffect(() => {
     const fetchCareers = async () => {
@@ -57,6 +60,7 @@ export default function ComparePage() {
         const response = await fetch("/api/careers")
         const data = await response.json()
         setAllCareers(data.careers)
+        setFilteredCareers(data.careers)
       } catch (error) {
         console.error("Failed to fetch careers:", error)
       } finally {
@@ -66,6 +70,46 @@ export default function ComparePage() {
 
     fetchCareers()
   }, [])
+
+  useEffect(() => {
+    // Filter and rank careers based on search query relevance
+    if (!searchQuery.trim()) {
+      setFilteredCareers(allCareers)
+    } else {
+      const query = searchQuery.toLowerCase()
+      
+      // Calculate relevance score for each career
+      const scored = allCareers
+        .map((c) => {
+          let score = 0
+          const nameLower = c.name.toLowerCase()
+          const descLower = c.description.toLowerCase()
+          const domainLower = c.domain.toLowerCase()
+          
+          // Name matches (highest priority) - 100 points base
+          if (nameLower === query) score += 1000 // Exact match name
+          else if (nameLower.startsWith(query)) score += 500 // Starts with query
+          else if (nameLower.includes(query)) score += 300 // Contains query
+          
+          // Domain matches (medium priority) - 50 points base
+          if (domainLower === query) score += 200
+          else if (domainLower.includes(query)) score += 100
+          
+          // Description matches (lower priority) - 20 points base
+          if (descLower.includes(query)) score += 30
+          
+          // Skills matches (lowest priority) - 10 points base
+          if (c.skills.some((s) => s.toLowerCase().includes(query))) score += 15
+          
+          return { career: c, score }
+        })
+        .filter((item) => item.score > 0)
+        .sort((a, b) => b.score - a.score)
+        .map((item) => item.career)
+      
+      setFilteredCareers(scored)
+    }
+  }, [searchQuery, allCareers])
 
   const addCareer = (careerId: string) => {
     if (selectedCareers.length >= 3) return
@@ -79,17 +123,15 @@ export default function ComparePage() {
     setSelectedCareers(selectedCareers.filter((c) => c.id !== careerId))
   }
 
-  const availableCareers = allCareers.filter(
+  const availableCareers = filteredCareers.filter(
     (c) => !selectedCareers.find((sc) => sc.id === c.id)
   )
 
   const formatSalary = (value: number) => {
-    return new Intl.NumberFormat("en-US", {
-      style: "currency",
-      currency: "USD",
+    return new Intl.NumberFormat("en-IN", {
       notation: "compact",
       maximumFractionDigits: 0,
-    }).format(value)
+    }).format(value) + " ₹"
   }
 
   const salaryChartData = selectedCareers.map((career) => ({
@@ -152,35 +194,97 @@ export default function ComparePage() {
             </p>
           </div>
 
-          {/* Career Selector */}
-          <div className="mb-8 flex flex-wrap items-center gap-4">
-            <span className="text-sm font-medium">Select careers:</span>
-            {selectedCareers.map((career) => (
-              <Badge
-                key={career.id}
-                variant="secondary"
-                className="gap-1.5 px-3 py-1.5"
-              >
-                {career.name}
-                <button onClick={() => removeCareer(career.id)}>
-                  <X className="h-3 w-3 hover:text-destructive" />
-                </button>
-              </Badge>
-            ))}
-            {selectedCareers.length < 3 && (
-              <Select onValueChange={addCareer}>
-                <SelectTrigger className="w-[200px]">
-                  <Plus className="mr-2 h-4 w-4" />
-                  <SelectValue placeholder="Add career" />
-                </SelectTrigger>
-                <SelectContent>
-                  {availableCareers.map((career) => (
-                    <SelectItem key={career.id} value={career.id}>
-                      {career.name}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
+          {/* Career Selector with Search */}
+          <div className="mb-8">
+            <div className="mb-4 flex flex-col gap-4 sm:flex-row">
+              <div className="relative flex-1">
+                <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+                <Input
+                  placeholder="Search careers, skills, domains... (e.g., 'data', 'developer')"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="pl-10"
+                  disabled={selectedCareers.length >= 3}
+                />
+                
+                {/* Search Suggestions Dropdown */}
+                {searchQuery.trim() && selectedCareers.length < 3 && (
+                  <Card className="absolute top-full left-0 right-0 mt-1 z-50 max-h-[400px] overflow-y-auto border shadow-lg">
+                    <CardContent className="p-0">
+                      {availableCareers.length === 0 ? (
+                        <div className="px-4 py-3 text-sm text-muted-foreground text-center">
+                          No careers found matching "{searchQuery}"
+                        </div>
+                      ) : (
+                        <div className="divide-y">
+                          {availableCareers.map((career) => (
+                            <button
+                              key={career.id}
+                              onClick={() => {
+                                addCareer(career.id)
+                                setSearchQuery("")
+                              }}
+                              className="w-full text-left px-4 py-3 hover:bg-muted transition-colors flex items-start justify-between gap-3"
+                            >
+                              <div className="flex-1 min-w-0">
+                                <div className="font-medium text-sm truncate">
+                                  {career.name}
+                                </div>
+                                <div className="text-xs text-muted-foreground truncate">
+                                  {career.domain} • {career.difficulty}
+                                </div>
+                              </div>
+                              <Plus className="h-4 w-4 text-muted-foreground flex-shrink-0 mt-0.5" />
+                            </button>
+                          ))}
+                        </div>
+                      )}
+                    </CardContent>
+                  </Card>
+                )}
+              </div>
+
+              {selectedCareers.length < 3 && !searchQuery.trim() && (
+                <Select onValueChange={addCareer}>
+                  <SelectTrigger className="w-full sm:w-[200px]">
+                    <SelectValue placeholder="Or select from dropdown" />
+                  </SelectTrigger>
+                  <SelectContent className="max-h-[300px]">
+                    {availableCareers.length === 0 ? (
+                      <div className="px-2 py-1.5 text-sm text-muted-foreground">
+                        Max 3 careers selected
+                      </div>
+                    ) : (
+                      availableCareers.map((career) => (
+                        <SelectItem key={career.id} value={career.id}>
+                          {career.name}
+                        </SelectItem>
+                      ))
+                    )}
+                  </SelectContent>
+                </Select>
+              )}
+            </div>
+            
+            {/* Selected Careers Display */}
+            {selectedCareers.length > 0 && (
+              <div className="flex flex-wrap gap-2">
+                {selectedCareers.map((career) => (
+                  <Badge
+                    key={career.id}
+                    variant="secondary"
+                    className="gap-1.5 px-3 py-1.5"
+                  >
+                    {career.name}
+                    <button
+                      onClick={() => removeCareer(career.id)}
+                      className="ml-1 hover:text-destructive"
+                    >
+                      <X className="h-3 w-3" />
+                    </button>
+                  </Badge>
+                ))}
+              </div>
             )}
           </div>
 
@@ -217,7 +321,7 @@ export default function ComparePage() {
                     <CardContent className="space-y-4">
                       {/* Salary */}
                       <div className="flex items-center gap-2">
-                        <DollarSign className="h-4 w-4 text-muted-foreground" />
+                        <IndianRupee className="h-4 w-4 text-muted-foreground" />
                         <span className="text-sm">
                           {formatSalary(career.salary.min)} - {formatSalary(career.salary.max)}
                         </span>
@@ -270,7 +374,7 @@ export default function ComparePage() {
                   <Card>
                     <CardHeader>
                       <CardTitle className="flex items-center gap-2">
-                        <DollarSign className="h-5 w-5 text-primary" />
+                        <IndianRupee className="h-5 w-5 text-primary" />
                         Salary Comparison
                       </CardTitle>
                     </CardHeader>

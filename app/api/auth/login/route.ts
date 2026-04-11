@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server"
-import { store } from "@/lib/store"
+import bcryptjs from "bcryptjs"
+import { connectToDatabase } from "@/lib/mongodb"
+import { User } from "@/models/User"
 import { createToken, setAuthCookie } from "@/lib/jwt"
 
 export async function POST(request: Request) {
@@ -15,8 +17,11 @@ export async function POST(request: Request) {
       )
     }
 
-    // Find user in store
-    const user = store.users.find((u) => u.email.toLowerCase() === email)
+    // Connect to database
+    await connectToDatabase()
+
+    // Find user in database
+    const user = await User.findOne({ email })
 
     if (!user) {
       return NextResponse.json(
@@ -25,10 +30,8 @@ export async function POST(request: Request) {
       )
     }
 
-    // Demo mode password check.
-    // NOTE: Any hashed-password bypass is intentionally disabled for security.
-    const isAdminDemo = user.email.toLowerCase() === "admin@career.com" && password === "admin123"
-    const isValidPassword = user.password === password || isAdminDemo
+    // Compare passwords
+    const isValidPassword = await bcryptjs.compare(password, user.password)
 
     if (!isValidPassword) {
       return NextResponse.json(
@@ -38,12 +41,12 @@ export async function POST(request: Request) {
     }
 
     // Create token
-    const token = createToken({ userId: user.id, email: user.email })
+    const token = createToken({ userId: user._id.toString(), email: user.email, isAdmin: Boolean(user.isAdmin) })
     await setAuthCookie(token)
 
     return NextResponse.json({
       user: {
-        id: user.id,
+        id: user._id.toString(),
         name: user.name,
         email: user.email,
         education: user.education,

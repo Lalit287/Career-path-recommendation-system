@@ -15,7 +15,7 @@ import {
   ArrowLeft,
   ArrowRight,
   TrendingUp,
-  DollarSign,
+  IndianRupee,
   BarChart3,
   Bookmark,
   BookmarkCheck,
@@ -94,12 +94,11 @@ export default function CareerDetailPage({ params }: { params: Promise<{ id: str
   }
 
   const formatSalary = (min: number, max: number) => {
-    const formatter = new Intl.NumberFormat("en-US", {
-      style: "currency",
-      currency: "USD",
+    const formatter = new Intl.NumberFormat("en-IN", {
+      minimumFractionDigits: 0,
       maximumFractionDigits: 0,
     })
-    return `${formatter.format(min)} - ${formatter.format(max)}`
+    return `₹${formatter.format(min)} - ₹${formatter.format(max)}`
   }
 
   if (isLoading) {
@@ -253,7 +252,7 @@ export default function CareerDetailPage({ params }: { params: Promise<{ id: str
                 <CardContent className="space-y-4">
                   <div className="flex items-center justify-between rounded-lg bg-muted/50 p-3">
                     <div className="flex items-center gap-2">
-                      <DollarSign className="h-5 w-5 text-muted-foreground" />
+                      <IndianRupee className="h-5 w-5 text-muted-foreground" />
                       <span className="text-sm">Salary Range</span>
                     </div>
                     <span className="font-medium">

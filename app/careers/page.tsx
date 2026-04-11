@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { Suspense, useState, useEffect } from "react"
 import { useSearchParams } from "next/navigation"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
@@ -38,20 +38,36 @@ const domains = [
 
 const difficulties = ["All Levels", "Beginner", "Intermediate", "Advanced", "Expert"]
 
-export default function CareersPage() {
+function CareersPageContent() {
   const searchParams = useSearchParams()
   const [careers, setCareers] = useState<Career[]>([])
+  const [domains, setDomains] = useState<string[]>(["All Domains"])
   const [isLoading, setIsLoading] = useState(true)
   const [search, setSearch] = useState("")
   const [domain, setDomain] = useState(searchParams.get("domain") || "All Domains")
   const [difficulty, setDifficulty] = useState("All Levels")
+
+  // Fetch available domains on mount
+  useEffect(() => {
+    const fetchDomains = async () => {
+      try {
+        const response = await fetch("/api/careers/domains")
+        const data = await response.json()
+        setDomains(data.domains)
+      } catch (error) {
+        console.error("Failed to fetch domains:", error)
+      }
+    }
+    fetchDomains()
+  }, [])
 
   useEffect(() => {
     const fetchCareers = async () => {
       setIsLoading(true)
       try {
         const params = new URLSearchParams()
-        if (search) params.set("search", search)
+        const normalizedSearch = search.trim()
+        if (normalizedSearch) params.set("search", normalizedSearch)
         if (domain && domain !== "All Domains") params.set("domain", domain)
         if (difficulty && difficulty !== "All Levels") params.set("difficulty", difficulty)
 
@@ -182,5 +198,41 @@ export default function CareersPage() {
       <Footer />
       <ChatWidget />
     </div>
+  )
+}
+
+function CareersPageFallback() {
+  return (
+    <div className="flex min-h-screen flex-col">
+      <Navbar />
+      <main className="flex-1">
+        <div className="container mx-auto px-4 py-12">
+          <div className="mb-12 text-center">
+            <h1 className="mb-4 text-3xl font-bold md:text-4xl">
+              Explore <span className="text-primary">Job Roles</span>
+            </h1>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {[...Array(6)].map((_, i) => (
+              <div key={i} className="space-y-4 rounded-lg border p-6">
+                <Skeleton className="h-6 w-3/4" />
+                <Skeleton className="h-4 w-1/2" />
+                <Skeleton className="h-20 w-full" />
+              </div>
+            ))}
+          </div>
+        </div>
+      </main>
+      <Footer />
+      <ChatWidget />
+    </div>
+  )
+}
+
+export default function CareersPage() {
+  return (
+    <Suspense fallback={<CareersPageFallback />}>
+      <CareersPageContent />
+    </Suspense>
   )
 }

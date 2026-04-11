@@ -28,7 +28,7 @@ export function Footer() {
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
                 <Compass className="h-5 w-5 text-primary-foreground" />
               </div>
-              <span className="text-lg font-semibold">CareerPath</span>
+              <span className="text-lg font-semibold">PathFinder</span>
             </Link>
             <p className="text-sm text-muted-foreground">
               Navigate your future with AI-powered career guidance and personalized recommendations.
@@ -86,7 +86,7 @@ export function Footer() {
 
         <div className="mt-12 border-t border-border pt-8">
           <p className="text-center text-sm text-muted-foreground">
-            {new Date().getFullYear()} CareerPath. All rights reserved.
+            {new Date().getFullYear()} PathFinder. All rights reserved.
           </p>
         </div>
       </div>

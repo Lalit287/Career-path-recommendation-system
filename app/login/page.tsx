@@ -1,8 +1,8 @@
 "use client"
 
-import { useState } from "react"
+import { Suspense, useState, useEffect } from "react"
 import Link from "next/link"
-import { useRouter } from "next/navigation"
+import { useRouter, useSearchParams } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -11,13 +11,16 @@ import { useAuth } from "@/lib/auth-context"
 import { toast } from "sonner"
 import { Compass, Loader2 } from "lucide-react"
 
-export default function LoginPage() {
+function LoginPageContent() {
   const router = useRouter()
+  const searchParams = useSearchParams()
   const { login } = useAuth()
   const [isLoading, setIsLoading] = useState(false)
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const canSubmit = email.trim().length > 0 && password.length > 0 && !isLoading
+
+  const redirectUrl = searchParams.get("redirect") || "/careers"
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -37,7 +40,7 @@ export default function LoginPage() {
 
     if (result.success) {
       toast.success("Welcome back!")
-      router.push("/")
+      router.push(redirectUrl)
     } else {
       toast.error(result.error || "Login failed")
     }
@@ -53,7 +56,7 @@ export default function LoginPage() {
             <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
               <Compass className="h-6 w-6 text-primary-foreground" />
             </div>
-            <span className="text-xl font-semibold">CareerPath</span>
+            <span className="text-xl font-semibold">PathFinder</span>
           </Link>
           <CardTitle className="text-2xl">Welcome back</CardTitle>
           <CardDescription>
@@ -102,13 +105,16 @@ export default function LoginPage() {
               Sign up
             </Link>
           </div>
-
-          <div className="mt-4 rounded-lg bg-muted p-3 text-center text-xs text-muted-foreground">
-            <p className="font-medium">Demo Admin Account:</p>
-            <p>Email: admin@career.com | Password: admin123</p>
-          </div>
         </CardContent>
       </Card>
     </div>
+  )
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-background" />}>
+      <LoginPageContent />
+    </Suspense>
   )
 }

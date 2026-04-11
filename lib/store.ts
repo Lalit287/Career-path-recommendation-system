@@ -37,8 +37,30 @@ export interface StoredRoadmap {
     description: string
     duration: string
     resources: string[]
+    whyThisStage?: string
+    requiredSkills?: string[]
+    resourceTracks?: {
+      free: string[]
+      paid: string[]
+    }
+    decisionBreakpoint?: {
+      question: string
+      passCriteria: string[]
+      alternatePath: string
+    }
   }>
   totalDuration: string
+  profileKey?: string
+  profileSummary?: {
+    age?: number
+    currentStage?: string
+    qualification?: string
+    currentRole?: string
+  }
+  pathwaySummary?: {
+    primaryPath: string
+    alternatePath: string
+  }
   createdAt: Date
 }
 

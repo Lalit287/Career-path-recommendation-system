@@ -1,0 +1,4555 @@
+{
+  "metadata": {
+    "dataset_name": "Tech & Computer Science Jobs Dataset",
+    "version": "1.0",
+    "last_updated": "2026-03",
+    "currency": "INR",
+    "country": "India",
+    "purpose": "Career Path Recommendation System",
+    "total_domains": 15,
+    "onet_enriched": true,
+    "onet_source": "O*NET Online (US Department of Labor) - Computer & Mathematical Occupations (SOC 15-XXXX) + Computer Hardware Engineering (17-2061.00)",
+    "note": "Comprehensive IT & Tech job dataset for India. Salary ranges in INR. Roles sourced from O*NET, industry salary guides, job boards (Indeed, LinkedIn), and 2025-2026 tech hiring trend reports. Includes traditional IT, emerging AI/ML, cloud-native, cybersecurity, ERP, and specialized tech roles.",
+    "domains_covered": [
+      "Software Development",
+      "Data Science & Analytics",
+      "Machine Learning & AI",
+      "Data Engineering",
+      "Cloud & DevOps",
+      "Cybersecurity",
+      "Networking & Infrastructure",
+      "QA & Testing",
+      "UI/UX & Product Design",
+      "IT Systems & Architecture",
+      "Hardware & Emerging Tech",
+      "ERP & Enterprise Systems",
+      "IT Audit & Governance",
+      "IT Sales & Presales"
+    ],
+    "sources": [
+      "O*NET Online (US DOL) - SOC 15-XXXX Computer & Mathematical + 17-2061.00",
+      "Indeed.com - 132 IT Job Titles",
+      "Robert Half 2026 Technology Salary Guide",
+      "LinkedIn Jobs on the Rise 2025",
+      "ODSC Emerging AI Job Roles 2026",
+      "Lorien UK Technology & Digital Salary Survey 2025",
+      "redShift Recruiting IT Job Titles Library (400+ titles)"
+    ]
+  },
+  "jobs": [
+    {
+      "id": "SD001",
+      "onet_soc_code": "15-1251.00",
+      "title": "Junior Software Developer",
+      "domain": "Software Development",
+      "description": "Entry-level developer who writes, tests, and debugs code under the guidance of senior engineers. Works on specific modules or features within a larger software system.",
+      "roles_responsibilities": [
+        "Write clean, maintainable code for assigned features and modules",
+        "Fix bugs and resolve issues reported from QA or production",
+        "Participate in code reviews and incorporate feedback",
+        "Write unit tests and basic documentation",
+        "Collaborate with senior developers and learn engineering best practices"
+      ],
+      "skills_required": [
+        "Programming",
+        "Critical Thinking",
+        "Problem Solving",
+        "Active Listening",
+        "Version Control (Git)",
+        "Debugging"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.E. / B.Sc Computer Science",
+        "preferred": [
+          "B.Tech CSE / IT",
+          "BCA",
+          "B.Sc Computer Science"
+        ],
+        "alternative": [
+          "Coding Bootcamp + Portfolio",
+          "Self-taught with GitHub Projects"
+        ]
+      },
+      "experience_level": "Entry",
+      "difficulty": "Entry",
+      "tools_technologies": [
+        "Python / Java / JavaScript",
+        "Git",
+        "VS Code",
+        "GitHub",
+        "Postman",
+        "SQL"
+      ],
+      "salary_range": {
+        "min": 300000,
+        "max": 800000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Strong foundation for Software Developer, Full Stack, or specialized engineering tracks.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SD002",
+      "onet_soc_code": "15-1252.00",
+      "title": "Software Developer",
+      "domain": "Software Development",
+      "description": "Research, design, and develop computer software or specialized utility programs. Analyzes user needs and develops software solutions applying principles of computer science.",
+      "roles_responsibilities": [
+        "Design, code, and test software applications end-to-end",
+        "Analyze requirements and translate into technical specifications",
+        "Collaborate with product managers, designers, and QA teams",
+        "Optimize performance and scalability of software systems",
+        "Participate in agile ceremonies and contribute to sprint planning"
+      ],
+      "skills_required": [
+        "Programming",
+        "Critical Thinking",
+        "Judgment and Decision Making",
+        "Reading Comprehension",
+        "Active Learning",
+        "Systems Analysis"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.E. / B.Sc Computer Science",
+        "preferred": [
+          "B.Tech CSE",
+          "M.Tech",
+          "MCA"
+        ],
+        "alternative": [
+          "Strong Portfolio + 1+ Years Experience"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Python / Java / Go / C++",
+        "Git",
+        "Docker",
+        "REST APIs",
+        "SQL / NoSQL",
+        "CI/CD Tools"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 1800000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Core engineering role with paths to Senior Developer, Tech Lead, Architect, or Engineering Manager.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SD003",
+      "onet_soc_code": "15-1252.00",
+      "title": "Senior Software Developer",
+      "domain": "Software Development",
+      "description": "An experienced engineer who designs complex software systems, leads technical decision-making, and mentors junior developers while delivering high-quality software at scale.",
+      "roles_responsibilities": [
+        "Design and architect complex software components and systems",
+        "Lead technical discussions and code reviews",
+        "Mentor junior and mid-level engineers",
+        "Define engineering standards and best practices",
+        "Estimate effort and plan deliverables for major features"
+      ],
+      "skills_required": [
+        "Advanced Programming",
+        "System Design",
+        "Critical Thinking",
+        "Leadership",
+        "Code Review",
+        "Performance Optimization"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.E. / B.Sc Computer Science",
+        "preferred": [
+          "B.Tech CSE",
+          "M.Tech"
+        ],
+        "alternative": [
+          "6+ Years Engineering Experience with Strong Portfolio"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Python / Java / Go / Rust",
+        "Kubernetes",
+        "Docker",
+        "AWS/GCP/Azure",
+        "System Design Tools",
+        "CI/CD"
+      ],
+      "salary_range": {
+        "min": 1500000,
+        "max": 4000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Path to Staff Engineer, Principal Engineer, Engineering Manager, or Architect.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SD004",
+      "onet_soc_code": "15-1252.00",
+      "title": "Staff Software Engineer",
+      "domain": "Software Development",
+      "description": "A senior-plus engineering role that drives cross-team technical strategy, solves the organization's hardest engineering problems, and sets the engineering bar.",
+      "roles_responsibilities": [
+        "Define technical direction across multiple teams",
+        "Lead large-scale architectural initiatives",
+        "Solve complex, ambiguous, and high-impact engineering problems",
+        "Evaluate new technologies and make adoption recommendations",
+        "Influence engineering culture and hiring standards"
+      ],
+      "skills_required": [
+        "System Architecture",
+        "Cross-Team Technical Leadership",
+        "Strategic Thinking",
+        "Advanced Programming",
+        "Mentorship",
+        "Technical Vision"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.E.",
+        "preferred": [
+          "B.Tech CSE from Premier Institute",
+          "M.Tech / MS"
+        ],
+        "alternative": [
+          "8+ Years of Strong Engineering Impact"
+        ]
+      },
+      "experience_level": "Lead",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "Distributed Systems",
+        "Kubernetes",
+        "AWS/GCP/Azure",
+        "System Design",
+        "Multiple Programming Languages"
+      ],
+      "salary_range": {
+        "min": 3500000,
+        "max": 9000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Path to Principal Engineer, Distinguished Engineer, or VP Engineering.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SD005",
+      "onet_soc_code": "15-1252.00",
+      "title": "Principal / Distinguished Engineer",
+      "domain": "Software Development",
+      "description": "The most senior individual contributor engineering role. Defines the multi-year technical vision for the company, solves strategic engineering challenges, and is recognized as an internal and external thought leader.",
+      "roles_responsibilities": [
+        "Set multi-year engineering and architecture vision",
+        "Lead company-wide technical transformation initiatives",
+        "Represent the company at external technical forums and conferences",
+        "Partner with C-suite on technology investment decisions",
+        "Define engineering culture, principles, and hiring bar"
+      ],
+      "skills_required": [
+        "Enterprise Architecture",
+        "Technical Vision",
+        "Organizational Influence",
+        "Public Speaking",
+        "Innovation Strategy",
+        "Deep Domain Expertise"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.E.",
+        "preferred": [
+          "M.Tech / PhD from Top Institute"
+        ],
+        "alternative": [
+          "Proven Principal-Level Impact + Publications / Patents"
+        ]
+      },
+      "experience_level": "Executive",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "All major cloud platforms",
+        "Distributed Systems",
+        "Multiple Languages",
+        "Research Tools"
+      ],
+      "salary_range": {
+        "min": 8000000,
+        "max": 25000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Top of the IC engineering ladder. Paths to CTO, Founding Engineer at startup, or Research Leader.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SD006",
+      "onet_soc_code": "15-1254.00",
+      "title": "Frontend Developer",
+      "domain": "Software Development",
+      "description": "Develops and implements the visual and interactive elements of websites and web applications, translating UI/UX designs into responsive, performant browser-based experiences.",
+      "roles_responsibilities": [
+        "Build responsive, accessible UI components using modern frameworks",
+        "Translate Figma/XD designs into pixel-perfect implementations",
+        "Optimize frontend performance and page load speeds",
+        "Ensure cross-browser and cross-device compatibility",
+        "Integrate frontend with backend APIs and services"
+      ],
+      "skills_required": [
+        "Programming",
+        "Critical Thinking",
+        "Operations Analysis",
+        "Complex Problem Solving",
+        "Reading Comprehension",
+        "Active Listening"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.Sc / BCA",
+        "preferred": [
+          "B.Tech CSE / IT",
+          "B.Sc Computer Science"
+        ],
+        "alternative": [
+          "Strong Portfolio + Frontend Certifications"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "React / Vue / Angular",
+        "HTML5",
+        "CSS3 / Tailwind",
+        "TypeScript",
+        "Webpack / Vite",
+        "Figma"
+      ],
+      "salary_range": {
+        "min": 400000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Path to Senior Frontend, Full Stack Developer, or Frontend Architect.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SD007",
+      "onet_soc_code": "15-1252.00",
+      "title": "Backend Developer",
+      "domain": "Software Development",
+      "description": "Designs and builds the server-side logic, APIs, databases, and infrastructure that power applications. Focuses on performance, scalability, and data integrity.",
+      "roles_responsibilities": [
+        "Design and develop RESTful and GraphQL APIs",
+        "Build scalable server-side application logic and services",
+        "Design and manage relational and NoSQL databases",
+        "Implement authentication, authorization, and security controls",
+        "Optimize query performance and backend throughput"
+      ],
+      "skills_required": [
+        "Programming",
+        "Systems Analysis",
+        "Database Design",
+        "API Development",
+        "Critical Thinking",
+        "Performance Optimization"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.Sc / BCA",
+        "preferred": [
+          "B.Tech CSE / IT",
+          "MCA"
+        ],
+        "alternative": [
+          "Backend Project Portfolio + 1+ Years Experience"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Python / Java / Node.js / Go",
+        "PostgreSQL / MongoDB",
+        "Redis",
+        "Docker",
+        "REST / GraphQL APIs",
+        "AWS / GCP"
+      ],
+      "salary_range": {
+        "min": 400000,
+        "max": 2200000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Path to Senior Backend, Full Stack, Distributed Systems Engineer, or Backend Architect.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SD008",
+      "onet_soc_code": "15-1252.00",
+      "title": "Full Stack Developer",
+      "domain": "Software Development",
+      "description": "Develops both frontend and backend components of web applications, capable of building complete, production-ready features across the entire technology stack.",
+      "roles_responsibilities": [
+        "Develop end-to-end features across frontend and backend",
+        "Design database schemas and manage data pipelines",
+        "Build and consume REST/GraphQL APIs",
+        "Deploy and maintain applications on cloud infrastructure",
+        "Collaborate with product and design teams on full feature delivery"
+      ],
+      "skills_required": [
+        "Full Stack Programming",
+        "Database Management",
+        "API Design",
+        "Cloud Basics",
+        "Critical Thinking",
+        "Problem Solving"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.Sc / BCA",
+        "preferred": [
+          "B.Tech CSE / IT",
+          "MCA"
+        ],
+        "alternative": [
+          "Full Stack Bootcamp + Strong Portfolio"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "React / Vue",
+        "Node.js / Python / Java",
+        "PostgreSQL / MongoDB",
+        "Docker",
+        "AWS / GCP",
+        "Git"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Highly versatile role. Path to Tech Lead, Senior Full Stack, or startup CTO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SD009",
+      "onet_soc_code": "15-1252.00",
+      "title": "Mobile App Developer (Android / iOS)",
+      "domain": "Software Development",
+      "description": "Designs and builds mobile applications for Android, iOS, or cross-platform environments. Focuses on performance, user experience, and device API integration.",
+      "roles_responsibilities": [
+        "Develop and maintain Android / iOS / cross-platform mobile apps",
+        "Integrate mobile apps with backend APIs and third-party services",
+        "Optimize app performance, memory usage, and battery efficiency",
+        "Publish and manage apps on Google Play and Apple App Store",
+        "Implement push notifications, analytics, and crash reporting"
+      ],
+      "skills_required": [
+        "Mobile Programming",
+        "API Integration",
+        "UI/UX Understanding",
+        "Performance Optimization",
+        "Problem Solving",
+        "Version Control"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech / B.Sc / BCA",
+        "preferred": [
+          "B.Tech CSE / IT",
+          "B.Sc Computer Science"
+        ],
+        "alternative": [
+          "Published App on Store + Mobile Portfolio"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Kotlin / Swift / Flutter / React Native",
+        "Android Studio / Xcode",
+        "Firebase",
+        "REST APIs",
+        "Git",
+        "Figma"
+      ],
+      "salary_range": {
+        "min": 400000,
+        "max": 2200000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Huge demand in India's mobile-first market. Path to Senior Mobile Dev or Mobile Architect.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SD010",
+      "onet_soc_code": "15-1252.00",
+      "title": "Embedded Systems / Firmware Engineer",
+      "domain": "Software Development",
+      "description": "Develops low-level software that runs directly on hardware devices like microcontrollers, IoT devices, automotive systems, and consumer electronics.",
+      "roles_responsibilities": [
+        "Write firmware and embedded software in C/C++ for microcontrollers",
+        "Interface with hardware peripherals via I2C, SPI, UART, CAN protocols",
+        "Optimize code for constrained memory and power environments",
+        "Debug hardware-software integration issues using oscilloscopes and JTAG",
+        "Collaborate with hardware engineers on product design"
+      ],
+      "skills_required": [
+        "C / C++ Programming",
+        "Embedded Systems",
+        "Hardware Interfacing",
+        "RTOS",
+        "Debugging",
+        "Problem Solving"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech ECE / EEE / CSE",
+        "preferred": [
+          "B.Tech ECE / EEE",
+          "M.Tech Embedded Systems"
+        ],
+        "alternative": [
+          "Embedded Projects Portfolio + Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "C / C++",
+        "RTOS (FreeRTOS)",
+        "ARM Cortex",
+        "Keil / IAR",
+        "JTAG / Oscilloscope",
+        "CAN / UART / SPI"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Critical in automotive, IoT, defense, and consumer electronics. Path to Embedded Architect or R&D Lead.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "DS001",
+      "onet_soc_code": "15-2051.00",
+      "title": "Data Analyst",
+      "domain": "Data Science & Analytics",
+      "description": "Collects, processes, and analyzes data to generate insights that support business decisions. Builds dashboards, reports, and ad hoc analyses for stakeholders.",
+      "roles_responsibilities": [
+        "Collect, clean, and transform data from multiple sources",
+        "Build dashboards and recurring reports for business teams",
+        "Conduct ad hoc analyses to answer business questions",
+        "Identify trends, anomalies, and growth opportunities in data",
+        "Work with SQL, Excel, and BI tools to present insights clearly"
+      ],
+      "skills_required": [
+        "SQL",
+        "Data Visualization",
+        "Excel",
+        "Critical Thinking",
+        "Communication",
+        "Statistical Analysis"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "B.Tech CSE / Statistics / Mathematics",
+          "B.Sc Statistics / Economics"
+        ],
+        "alternative": [
+          "Data Analytics Certifications + SQL Portfolio"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "SQL",
+        "Excel",
+        "Power BI / Tableau",
+        "Python (Pandas)",
+        "Google Analytics",
+        "Looker"
+      ],
+      "salary_range": {
+        "min": 350000,
+        "max": 1200000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "High demand across all industries. Clear path to Senior Analyst, Data Scientist, or Product Analyst.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "DS002",
+      "onet_soc_code": "15-2051.00",
+      "title": "Data Scientist",
+      "domain": "Data Science & Analytics",
+      "description": "Develops and implements a set of techniques and analytics applications to transform raw data into meaningful information using data-oriented programming languages and visualization software.",
+      "roles_responsibilities": [
+        "Build predictive and statistical models using ML techniques",
+        "Collect, clean, and engineer features from large datasets",
+        "Design and analyze A/B experiments",
+        "Communicate findings and recommendations to business stakeholders",
+        "Collaborate with engineers to deploy models to production"
+      ],
+      "skills_required": [
+        "Machine Learning",
+        "Python / R",
+        "Statistical Modeling",
+        "SQL",
+        "Data Visualization",
+        "Experimentation"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree in a quantitative field",
+        "preferred": [
+          "M.Sc / M.Tech Statistics / CS / Mathematics",
+          "MBA Analytics"
+        ],
+        "alternative": [
+          "Kaggle Competitions + Strong Portfolio + Relevant Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Python (Scikit-learn, Pandas, NumPy)",
+        "SQL",
+        "Tableau / Power BI",
+        "Jupyter",
+        "Spark",
+        "MLflow"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "One of the most in-demand roles globally. Path to Senior Data Scientist, ML Engineer, or Head of Data.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "DS003",
+      "onet_soc_code": "15-2051.00",
+      "title": "Senior Data Scientist",
+      "domain": "Data Science & Analytics",
+      "description": "Leads complex data science projects, mentors junior data scientists, and drives the integration of ML into core product and business processes.",
+      "roles_responsibilities": [
+        "Lead end-to-end data science projects from problem definition to deployment",
+        "Mentor junior data scientists and analysts",
+        "Define the team's modeling standards and best practices",
+        "Collaborate with engineering, product, and business leadership",
+        "Drive business impact through ML experimentation and deployment"
+      ],
+      "skills_required": [
+        "Advanced Machine Learning",
+        "Deep Learning",
+        "Feature Engineering",
+        "MLOps",
+        "Leadership",
+        "Statistical Rigor"
+      ],
+      "educational_qualification": {
+        "minimum": "M.Sc / M.Tech in a quantitative field",
+        "preferred": [
+          "M.Tech CS / Statistics",
+          "PhD (preferred for research roles)"
+        ],
+        "alternative": [
+          "5+ Years Data Science with Demonstrated Business Impact"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Python",
+        "TensorFlow / PyTorch",
+        "Spark",
+        "MLflow",
+        "Airflow",
+        "AWS SageMaker / GCP Vertex AI"
+      ],
+      "salary_range": {
+        "min": 2000000,
+        "max": 5000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Path to Lead Data Scientist, Head of Data Science, or Chief Data Officer.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "DS004",
+      "onet_soc_code": "15-2051.01",
+      "title": "Business Intelligence (BI) Analyst",
+      "domain": "Data Science & Analytics",
+      "description": "Produces financial and market intelligence by querying data repositories and generating reports. Designs dashboards and devises methods for identifying data patterns and trends.",
+      "roles_responsibilities": [
+        "Build and maintain BI dashboards and reports",
+        "Query data warehouses using SQL to answer business questions",
+        "Define KPIs and metrics frameworks for business teams",
+        "Collaborate with data engineers on data modeling",
+        "Present insights to leadership and stakeholders"
+      ],
+      "skills_required": [
+        "Reading Comprehension",
+        "Active Listening",
+        "Speaking",
+        "Critical Thinking",
+        "Active Learning",
+        "Writing"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "B.Tech CSE / Statistics / Economics",
+          "MBA Analytics"
+        ],
+        "alternative": [
+          "BI Tool Certifications + SQL Portfolio"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Power BI",
+        "Tableau",
+        "Looker",
+        "SQL",
+        "Excel",
+        "Google Data Studio",
+        "Redshift / Snowflake"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 1800000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "BI is growing across all sectors. Path to BI Manager, Data Engineer, or Data Architect.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "DS005",
+      "onet_soc_code": "15-2041.00",
+      "title": "Statistician / Quantitative Analyst",
+      "domain": "Data Science & Analytics",
+      "description": "Develops or applies mathematical or statistical theory and methods to collect, organize, interpret, and summarize numerical data to provide usable information.",
+      "roles_responsibilities": [
+        "Design experiments and statistical sampling frameworks",
+        "Analyze survey, operational, or experimental data",
+        "Apply regression, hypothesis testing, and Bayesian methods",
+        "Interpret and communicate statistical findings to non-technical audiences",
+        "Build statistical models for forecasting and decision support"
+      ],
+      "skills_required": [
+        "Mathematics",
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Active Listening",
+        "Complex Problem Solving",
+        "Speaking"
+      ],
+      "educational_qualification": {
+        "minimum": "M.Sc Statistics / Mathematics",
+        "preferred": [
+          "M.Sc Statistics",
+          "PhD Statistics or related"
+        ],
+        "alternative": [
+          "Strong Quantitative Background + Data Science Certifications"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "R",
+        "Python (SciPy, Statsmodels)",
+        "SAS",
+        "SPSS",
+        "Excel",
+        "Tableau"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High demand in BFSI, pharma, government, and research. Path to Senior Statistician or Data Science Lead.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "DS006",
+      "onet_soc_code": "15-2011.00",
+      "title": "Actuary",
+      "domain": "Data Science & Analytics",
+      "description": "Analyzes statistical data such as mortality, accident, sickness, disability, and retirement rates. Constructs probability tables to forecast risk and liability for insurance and financial planning.",
+      "roles_responsibilities": [
+        "Analyze financial risk using statistical and mathematical models",
+        "Design and price insurance products and pension schemes",
+        "Prepare reports on financial projections and risk exposure",
+        "Ensure regulatory compliance with IRDAI / PFRDA guidelines",
+        "Advise management on risk management strategies"
+      ],
+      "skills_required": [
+        "Judgment and Decision Making",
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Mathematics",
+        "Systems Evaluation",
+        "Active Listening"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Sc Statistics / Mathematics / Economics",
+        "preferred": [
+          "Fellow of Institute of Actuaries of India (FIAI)",
+          "Actuarial Science Degree"
+        ],
+        "alternative": [
+          "Cleared Actuarial Exams (CT series) + Industry Experience"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "R",
+        "Excel",
+        "SAS",
+        "Prophet",
+        "SQL",
+        "Actuarial Modeling Software (Mo.Se.S, AXIS)"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 3500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Highly regulated and specialized. Path to Chief Actuary or Chief Risk Officer in insurance and BFSI.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "DS007",
+      "onet_soc_code": "15-2031.00",
+      "title": "Operations Research Analyst",
+      "domain": "Data Science & Analytics",
+      "description": "Formulates and applies mathematical modeling and other optimizing methods to develop and interpret information that assists management with decision-making, policy formulation, and other managerial functions.",
+      "roles_responsibilities": [
+        "Build optimization models for logistics, supply chain, and resource allocation",
+        "Apply linear programming, simulation, and heuristics to business problems",
+        "Analyze operational data to identify efficiency opportunities",
+        "Present findings and recommendations to management",
+        "Collaborate with engineering and business teams on model deployment"
+      ],
+      "skills_required": [
+        "Mathematics",
+        "Complex Problem Solving",
+        "Writing",
+        "Critical Thinking",
+        "Active Listening",
+        "Speaking"
+      ],
+      "educational_qualification": {
+        "minimum": "M.Sc / M.Tech in Operations Research / Industrial Engineering",
+        "preferred": [
+          "M.Tech Industrial Engineering / OR",
+          "MBA Analytics"
+        ],
+        "alternative": [
+          "Strong Math Background + OR Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Python (PuLP, OR-Tools)",
+        "R",
+        "MATLAB",
+        "Gurobi / CPLEX",
+        "Excel Solver",
+        "Tableau"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High demand in logistics, e-commerce, BFSI, and consulting. Path to Head of Analytics or OR Lead.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ML001",
+      "onet_soc_code": "15-1221.00",
+      "title": "Machine Learning Engineer",
+      "domain": "Machine Learning & AI",
+      "description": "Designs, builds, and deploys machine learning systems and models at scale. Bridges the gap between data science research and production-grade software engineering.",
+      "roles_responsibilities": [
+        "Build and productionize ML pipelines and models",
+        "Design feature engineering and data preprocessing workflows",
+        "Optimize model performance, latency, and throughput",
+        "Collaborate with data scientists to take models from research to production",
+        "Implement model monitoring, A/B testing, and retraining workflows"
+      ],
+      "skills_required": [
+        "Machine Learning",
+        "Python",
+        "MLOps",
+        "Systems Design",
+        "Data Engineering",
+        "Programming"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / Mathematics / Statistics",
+        "preferred": [
+          "M.Tech CS / AI / ML",
+          "M.Sc Statistics + Programming Experience"
+        ],
+        "alternative": [
+          "Strong ML Portfolio + Deployed Production Models"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Python (PyTorch / TensorFlow)",
+        "MLflow / DVC",
+        "Kubeflow",
+        "Airflow",
+        "AWS SageMaker / GCP Vertex AI",
+        "Docker / Kubernetes"
+      ],
+      "salary_range": {
+        "min": 1200000,
+        "max": 3500000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "One of the hottest roles globally. Path to Senior MLE, AI Research Engineer, or Head of ML.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ML002",
+      "onet_soc_code": "15-1221.00",
+      "title": "AI Research Scientist",
+      "domain": "Machine Learning & AI",
+      "description": "Conducts original research into fundamental and applied AI/ML. Develops new algorithms, architectures, and methodologies that push the state of the art.",
+      "roles_responsibilities": [
+        "Conduct original research in deep learning, NLP, CV, RL, or related areas",
+        "Publish papers at top venues (NeurIPS, ICML, ICLR, ACL, CVPR)",
+        "Develop novel model architectures and training techniques",
+        "Collaborate with product teams to transfer research into applications",
+        "Mentor junior researchers and engineers"
+      ],
+      "skills_required": [
+        "Deep Learning",
+        "Research Methodology",
+        "Python",
+        "Mathematics (Linear Algebra, Probability)",
+        "Critical Thinking",
+        "Scientific Writing"
+      ],
+      "educational_qualification": {
+        "minimum": "M.Tech / M.Sc in CS / Mathematics",
+        "preferred": [
+          "PhD in CS / Statistics / AI / ML"
+        ],
+        "alternative": [
+          "Top-tier Research Publications without a PhD"
+        ]
+      },
+      "experience_level": "Senior-Lead",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "PyTorch / JAX",
+        "CUDA / GPU Computing",
+        "Hugging Face",
+        "Python",
+        "LaTeX",
+        "High-Performance Computing Clusters"
+      ],
+      "salary_range": {
+        "min": 2500000,
+        "max": 10000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Fastest growing research field in tech. Path to Principal Researcher, Research Director, or CTO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ML003",
+      "onet_soc_code": "15-1221.00",
+      "title": "Natural Language Processing (NLP) Engineer",
+      "domain": "Machine Learning & AI",
+      "description": "Builds systems that enable computers to understand, interpret, and generate human language. Works on LLMs, text classification, chatbots, search, summarization, and translation.",
+      "roles_responsibilities": [
+        "Build and fine-tune NLP models for text classification, NER, summarization, and QA",
+        "Work with large language models (LLMs) and prompt engineering",
+        "Develop data pipelines for text preprocessing and annotation",
+        "Evaluate model performance on NLP benchmarks",
+        "Deploy NLP services as production APIs"
+      ],
+      "skills_required": [
+        "NLP Techniques",
+        "Python",
+        "Deep Learning",
+        "Transformers / LLMs",
+        "Text Preprocessing",
+        "Model Evaluation"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / Linguistics / Mathematics",
+        "preferred": [
+          "M.Tech CS / AI",
+          "M.Sc Computational Linguistics",
+          "PhD (for research roles)"
+        ],
+        "alternative": [
+          "Strong NLP Projects + Hugging Face Contributions"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Hugging Face Transformers",
+        "spaCy",
+        "NLTK",
+        "PyTorch",
+        "OpenAI API",
+        "LangChain / LlamaIndex"
+      ],
+      "salary_range": {
+        "min": 1500000,
+        "max": 5000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Explosive demand due to LLM revolution. Path to AI Lead, NLP Architect, or Head of AI.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ML004",
+      "onet_soc_code": "15-1221.00",
+      "title": "Computer Vision Engineer",
+      "domain": "Machine Learning & AI",
+      "description": "Builds systems that enable machines to interpret and process visual data including images and video. Applies deep learning for object detection, segmentation, recognition, and generation.",
+      "roles_responsibilities": [
+        "Build and train deep learning models for image and video analysis",
+        "Implement object detection, segmentation, and recognition pipelines",
+        "Annotate and manage image/video datasets",
+        "Optimize CV models for edge devices and real-time inference",
+        "Deploy computer vision APIs and integrate with hardware systems"
+      ],
+      "skills_required": [
+        "Deep Learning for Vision",
+        "Python",
+        "OpenCV",
+        "CNNs / Transformers",
+        "Data Augmentation",
+        "Model Optimization"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / ECE / Mathematics",
+        "preferred": [
+          "M.Tech CS / AI",
+          "PhD (for research roles)"
+        ],
+        "alternative": [
+          "Strong CV Portfolio + Open Source Contributions"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "PyTorch / TensorFlow",
+        "OpenCV",
+        "YOLO / Detectron2",
+        "CUDA",
+        "LabelImg / Roboflow",
+        "TensorRT"
+      ],
+      "salary_range": {
+        "min": 1500000,
+        "max": 5000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "High demand in surveillance, healthcare, automotive, and manufacturing. Path to AI Lead or CV Architect.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ML005",
+      "onet_soc_code": "15-1221.00",
+      "title": "MLOps Engineer",
+      "domain": "Machine Learning & AI",
+      "description": "Builds and maintains the infrastructure, platforms, and pipelines that enable ML models to be reliably developed, tested, deployed, and monitored in production.",
+      "roles_responsibilities": [
+        "Build and maintain ML pipelines and model training infrastructure",
+        "Implement CI/CD for ML models and feature stores",
+        "Monitor model performance and data drift in production",
+        "Manage model versioning, registries, and experiment tracking",
+        "Collaborate with data scientists and ML engineers on deployment"
+      ],
+      "skills_required": [
+        "MLOps Frameworks",
+        "Cloud Platforms",
+        "Docker / Kubernetes",
+        "Programming",
+        "Data Pipeline Design",
+        "Monitoring Tools"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "B.Tech CSE with ML and DevOps knowledge"
+        ],
+        "alternative": [
+          "Strong MLOps Projects + Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "MLflow",
+        "Kubeflow",
+        "Airflow",
+        "Docker / Kubernetes",
+        "AWS SageMaker / GCP Vertex AI",
+        "Prometheus / Grafana"
+      ],
+      "salary_range": {
+        "min": 1200000,
+        "max": 4000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Emerging critical role as ML scales. Path to ML Platform Engineer or Head of AI Infrastructure.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "DE001",
+      "onet_soc_code": "15-1242.00",
+      "title": "Data Engineer",
+      "domain": "Data Engineering",
+      "description": "Designs, builds, and maintains data pipelines and infrastructure that enable data scientists and analysts to access, process, and analyze large-scale datasets.",
+      "roles_responsibilities": [
+        "Build and maintain ETL/ELT pipelines from multiple data sources",
+        "Design and manage data warehouses, lakes, and lakehouses",
+        "Ensure data quality, reliability, and availability",
+        "Optimize pipeline performance and cost at scale",
+        "Collaborate with data scientists and BI teams on data modeling"
+      ],
+      "skills_required": [
+        "Complex Problem Solving",
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Active Listening",
+        "Judgment and Decision Making",
+        "Active Learning"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT / Statistics",
+        "preferred": [
+          "B.Tech CSE",
+          "M.Tech / MCA with Data Engineering experience"
+        ],
+        "alternative": [
+          "Data Engineering Certifications + Portfolio Projects"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Apache Spark / Flink",
+        "Airflow",
+        "dbt",
+        "Kafka",
+        "Snowflake / BigQuery / Redshift",
+        "Python / SQL"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 2800000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Data Engineering is foundational to the data economy. Path to Senior DE, Data Architect, or Platform Lead.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "DE002",
+      "onet_soc_code": "15-1243.00",
+      "title": "Database Administrator (DBA)",
+      "domain": "Data Engineering",
+      "description": "Administers, tests, and implements computer databases. Manages database design, maintenance, performance tuning, backup, and recovery.",
+      "roles_responsibilities": [
+        "Install, configure, and maintain database management systems (DBMS)",
+        "Monitor database performance and optimize queries and indexes",
+        "Manage database security, access control, and user privileges",
+        "Plan and execute backup, recovery, and disaster recovery procedures",
+        "Coordinate schema changes and database migrations"
+      ],
+      "skills_required": [
+        "Complex Problem Solving",
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Active Listening",
+        "Judgment and Decision Making",
+        "Active Learning"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT / MCA",
+        "preferred": [
+          "Oracle DBA Certification",
+          "Microsoft SQL Server Certification",
+          "B.Tech CSE"
+        ],
+        "alternative": [
+          "4-6 Years DBA Experience + Vendor Certifications"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Oracle DB",
+        "MySQL / PostgreSQL",
+        "Microsoft SQL Server",
+        "MongoDB",
+        "Redis",
+        "AWS RDS / Aurora"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 2200000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Stable demand across all sectors. Path to Senior DBA, Database Architect, or Data Platform Engineer.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "DE003",
+      "onet_soc_code": "15-1243.00",
+      "title": "Database Architect",
+      "domain": "Data Engineering",
+      "description": "Designs strategies for enterprise databases, data warehouse systems, and multidimensional networks. Sets standards for database operations, programming, and documentation.",
+      "roles_responsibilities": [
+        "Design enterprise-grade database architectures and data models",
+        "Define data governance and database standards",
+        "Evaluate and select database technologies for new projects",
+        "Lead database migrations and platform modernization",
+        "Collaborate with data engineers and architects on platform design"
+      ],
+      "skills_required": [
+        "Reading Comprehension",
+        "Complex Problem Solving",
+        "Judgment and Decision Making",
+        "Critical Thinking",
+        "Systems Analysis",
+        "Active Listening"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "M.Tech CS / Data Engineering",
+          "Multiple DB Certifications"
+        ],
+        "alternative": [
+          "8+ Years DBA / DE Experience with Architecture Track Record"
+        ]
+      },
+      "experience_level": "Senior-Lead",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "Oracle / PostgreSQL / SQL Server",
+        "Snowflake / BigQuery",
+        "dbt",
+        "Erwin / PowerDesigner",
+        "MongoDB Atlas",
+        "AWS RDS / Azure SQL"
+      ],
+      "salary_range": {
+        "min": 2000000,
+        "max": 5500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Path to Chief Data Architect or VP Data Engineering.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "DE004",
+      "onet_soc_code": "15-1243.01",
+      "title": "Data Warehousing Specialist",
+      "domain": "Data Engineering",
+      "description": "Designs, models, and implements corporate data warehousing activities. Programs and configures warehouses of database information to support analytics and reporting.",
+      "roles_responsibilities": [
+        "Design dimensional data models (star/snowflake schemas)",
+        "Build and maintain ETL pipelines feeding the data warehouse",
+        "Optimize warehouse performance and query costs",
+        "Implement data quality checks and SLAs",
+        "Support BI and analytics teams with data access"
+      ],
+      "skills_required": [
+        "Reading Comprehension",
+        "Critical Thinking",
+        "Programming",
+        "Complex Problem Solving",
+        "Active Listening",
+        "Systems Analysis"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "Snowflake / Redshift / BigQuery Certifications",
+          "B.Tech CSE with DE experience"
+        ],
+        "alternative": [
+          "Data Warehousing Certifications + Portfolio"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Snowflake",
+        "Amazon Redshift",
+        "Google BigQuery",
+        "dbt",
+        "Informatica",
+        "Apache Spark"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 2800000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Core of the modern data stack. Path to Data Architect or Head of Data Platform.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CD001",
+      "onet_soc_code": "15-1244.00",
+      "title": "DevOps Engineer",
+      "domain": "Cloud & DevOps",
+      "description": "Bridges software development and IT operations by building CI/CD pipelines, automating infrastructure, and ensuring reliable and fast software delivery.",
+      "roles_responsibilities": [
+        "Build and maintain CI/CD pipelines for automated deployments",
+        "Provision and manage cloud infrastructure using IaC tools",
+        "Monitor application performance and respond to incidents",
+        "Implement container orchestration with Docker and Kubernetes",
+        "Collaborate with developers on build, test, and release processes"
+      ],
+      "skills_required": [
+        "Judgment and Decision Making",
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Systems Analysis",
+        "Systems Evaluation",
+        "Troubleshooting"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT / ECE",
+        "preferred": [
+          "AWS / GCP / Azure Certifications",
+          "B.Tech CSE + Linux expertise"
+        ],
+        "alternative": [
+          "Self-taught with Hands-on Labs + Cloud Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Jenkins / GitHub Actions",
+        "AWS / GCP / Azure",
+        "Prometheus / Grafana"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Essential in all cloud-first organizations. Path to Senior DevOps, Platform Engineer, or SRE.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CD002",
+      "onet_soc_code": "15-1244.00",
+      "title": "Site Reliability Engineer (SRE)",
+      "domain": "Cloud & DevOps",
+      "description": "Applies software engineering principles to IT operations challenges. Owns reliability, availability, and performance of large-scale distributed production systems.",
+      "roles_responsibilities": [
+        "Define and manage SLOs, SLAs, and error budgets",
+        "Build automation to eliminate toil and manual operational work",
+        "Manage incident response and post-mortem processes",
+        "Design and improve observability (logging, tracing, metrics)",
+        "Optimize system reliability and capacity planning"
+      ],
+      "skills_required": [
+        "Systems Reliability",
+        "Troubleshooting",
+        "Programming (Python / Go)",
+        "Distributed Systems",
+        "Monitoring & Observability",
+        "Incident Management"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "B.Tech CSE with strong systems background"
+        ],
+        "alternative": [
+          "DevOps Experience + SRE Certification"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "Kubernetes",
+        "Terraform",
+        "Prometheus / Grafana",
+        "Datadog / New Relic",
+        "PagerDuty",
+        "Python / Go"
+      ],
+      "salary_range": {
+        "min": 1800000,
+        "max": 5500000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Critical in large tech companies. Path to Staff SRE or Head of Platform Engineering.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CD003",
+      "onet_soc_code": "15-1241.00",
+      "title": "Cloud Architect",
+      "domain": "Cloud & DevOps",
+      "description": "Designs and implements computer and information networks and cloud infrastructure strategies, ensuring scalability, security, and cost-effectiveness of cloud environments.",
+      "roles_responsibilities": [
+        "Design scalable, secure, and cost-effective cloud architectures",
+        "Evaluate cloud services and define cloud adoption strategy",
+        "Lead cloud migration and modernization projects",
+        "Define cloud governance, security, and compliance frameworks",
+        "Mentor DevOps and cloud engineers on best practices"
+      ],
+      "skills_required": [
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Complex Problem Solving",
+        "Programming",
+        "Systems Evaluation",
+        "Judgment and Decision Making"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "AWS Solutions Architect Professional",
+          "GCP Professional Cloud Architect",
+          "Azure Solutions Architect Expert"
+        ],
+        "alternative": [
+          "8+ Years in Cloud/Infrastructure with Architecture Experience"
+        ]
+      },
+      "experience_level": "Senior-Lead",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "AWS / GCP / Azure",
+        "Terraform / Pulumi",
+        "Kubernetes",
+        "Networking (VPC, DNS, Load Balancing)",
+        "Security Tools",
+        "Cost Management Tools"
+      ],
+      "salary_range": {
+        "min": 2500000,
+        "max": 8000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Every enterprise is moving to cloud. Path to Principal Cloud Architect or CTO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CD004",
+      "onet_soc_code": "15-1244.00",
+      "title": "Platform Engineer",
+      "domain": "Cloud & DevOps",
+      "description": "Builds and maintains internal developer platforms (IDP) \u2014 the shared infrastructure, tooling, and self-service capabilities that enable engineering teams to ship faster and more reliably.",
+      "roles_responsibilities": [
+        "Build and maintain internal developer platforms and tooling",
+        "Standardize CI/CD, observability, and deployment workflows",
+        "Create self-service capabilities for developer teams",
+        "Own reliability and scalability of shared platform services",
+        "Reduce cognitive load on product engineering teams"
+      ],
+      "skills_required": [
+        "Platform Engineering",
+        "Kubernetes / Docker",
+        "IaC (Terraform)",
+        "API Design",
+        "Programming",
+        "DevOps Mindset"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "B.Tech CSE with DevOps / SRE experience"
+        ],
+        "alternative": [
+          "Strong Platform/DevOps Portfolio + Cloud Certifications"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Kubernetes",
+        "Backstage",
+        "Terraform",
+        "Helm",
+        "GitHub Actions",
+        "ArgoCD",
+        "Prometheus / Grafana"
+      ],
+      "salary_range": {
+        "min": 1500000,
+        "max": 5000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "One of the fastest-growing engineering niches. Path to Staff Platform Engineer or VP Engineering.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CS001",
+      "onet_soc_code": "15-1212.00",
+      "title": "Information Security Analyst",
+      "domain": "Cybersecurity",
+      "description": "Plans, implements, upgrades, or monitors security measures for the protection of computer networks and information. Assesses system vulnerabilities for security risks and proposes and implements risk mitigation strategies.",
+      "roles_responsibilities": [
+        "Monitor security systems, SIEM tools, and network traffic",
+        "Investigate and respond to security incidents and alerts",
+        "Conduct vulnerability assessments and risk analysis",
+        "Implement and maintain security policies and controls",
+        "Prepare security reports and compliance documentation"
+      ],
+      "skills_required": [
+        "Reading Comprehension",
+        "Critical Thinking",
+        "Active Listening",
+        "Complex Problem Solving",
+        "Speaking",
+        "Writing"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "CEH",
+          "CompTIA Security+",
+          "CISSP (for senior roles)"
+        ],
+        "alternative": [
+          "2-4 Years IT + Security Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "SIEM (Splunk / IBM QRadar)",
+        "Firewalls / IDS / IPS",
+        "Nessus / Qualys",
+        "Wireshark",
+        "SOAR Tools",
+        "CrowdStrike"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Cybersecurity is among the fastest growing fields. Path to Senior Analyst, SOC Lead, or CISO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CS002",
+      "onet_soc_code": "15-1299.04",
+      "title": "Penetration Tester (Ethical Hacker)",
+      "domain": "Cybersecurity",
+      "description": "Evaluates network and system security by conducting simulated internal and external cyberattacks using adversary tools and techniques. Attempts to breach and assess security measures.",
+      "roles_responsibilities": [
+        "Conduct authorized penetration tests on web apps, networks, and systems",
+        "Use OWASP Top 10 and attack frameworks (MITRE ATT&CK) to simulate threats",
+        "Document vulnerabilities and prepare detailed pentest reports",
+        "Collaborate with development and security teams on remediation",
+        "Perform social engineering and phishing simulations"
+      ],
+      "skills_required": [
+        "Penetration Testing",
+        "Network Security",
+        "Web Application Security",
+        "Scripting (Python / Bash)",
+        "Critical Thinking",
+        "Report Writing"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "CEH",
+          "OSCP (Gold Standard)",
+          "eJPT"
+        ],
+        "alternative": [
+          "CTF Competitions + Hack The Box Profile + OSCP"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Kali Linux",
+        "Metasploit",
+        "Burp Suite",
+        "Nmap",
+        "Wireshark",
+        "OWASP ZAP",
+        "BloodHound"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 2800000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "High demand from BFSI, government, and IT companies. Path to Red Team Lead or Security Architect.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CS003",
+      "onet_soc_code": "15-1299.05",
+      "title": "Information Security Engineer",
+      "domain": "Cybersecurity",
+      "description": "Develops and oversees the implementation of information security procedures and policies. Builds, maintains, and upgrades security technology such as firewalls, encryption, and SIEM systems.",
+      "roles_responsibilities": [
+        "Design and implement security architecture and controls",
+        "Manage identity and access management (IAM) systems",
+        "Integrate security into DevSecOps pipelines",
+        "Perform threat modeling and security code reviews",
+        "Respond to and manage security incidents"
+      ],
+      "skills_required": [
+        "Reading Comprehension",
+        "Critical Thinking",
+        "Active Listening",
+        "Monitoring",
+        "Writing",
+        "Speaking"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "CISSP",
+          "CISM",
+          "AWS Security Specialty"
+        ],
+        "alternative": [
+          "4-6 Years in Security Engineering + Certifications"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "SIEM (Splunk / QRadar)",
+        "Palo Alto NGFW",
+        "CrowdStrike",
+        "AWS Security Hub",
+        "Terraform",
+        "PKI / Encryption Tools"
+      ],
+      "salary_range": {
+        "min": 1200000,
+        "max": 4000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Path to Security Architect, CISO, or Head of InfoSec.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CS004",
+      "onet_soc_code": "15-1299.06",
+      "title": "Digital Forensics Analyst",
+      "domain": "Cybersecurity",
+      "description": "Conducts investigations on computer-based crimes, establishing documentary or physical evidence such as digital media and logs associated with cyber incidents.",
+      "roles_responsibilities": [
+        "Investigate cyber incidents, data breaches, and digital crimes",
+        "Collect, preserve, and analyze digital evidence",
+        "Perform memory forensics and malware analysis",
+        "Produce forensic investigation reports for legal proceedings",
+        "Collaborate with law enforcement and legal teams"
+      ],
+      "skills_required": [
+        "Digital Forensics",
+        "Malware Analysis",
+        "Evidence Handling",
+        "Critical Thinking",
+        "Report Writing",
+        "Network Forensics"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "GCFE / GCFA / CHFI Certification",
+          "B.Sc Digital Forensics"
+        ],
+        "alternative": [
+          "Cybersecurity Background + DFIR Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Autopsy",
+        "EnCase",
+        "FTK (Forensic Toolkit)",
+        "Volatility",
+        "Wireshark",
+        "YARA"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Growing demand from government, BFSI, and law enforcement. Path to DFIR Lead or Head of Cyber Intelligence.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CS005",
+      "onet_soc_code": "15-1212.00",
+      "title": "Chief Information Security Officer (CISO)",
+      "domain": "Cybersecurity",
+      "description": "The senior executive responsible for an organization's information security strategy, program, and team. Reports to the CEO and board on cyber risk posture and compliance.",
+      "roles_responsibilities": [
+        "Define and own enterprise information security strategy",
+        "Manage security teams across SOC, AppSec, GRC, and Threat Intel",
+        "Report cyber risk to board and executive leadership",
+        "Oversee compliance with CERT-In, ISO 27001, DPDP Act, and PCI-DSS",
+        "Lead incident response for major security breaches"
+      ],
+      "skills_required": [
+        "Security Strategy",
+        "Risk Management",
+        "Executive Communication",
+        "Regulatory Compliance",
+        "Organizational Leadership",
+        "Board Communication"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "CISSP + MBA",
+          "CISM + Executive Experience"
+        ],
+        "alternative": [
+          "15+ Years in Security with Director-Level Experience"
+        ]
+      },
+      "experience_level": "C-Suite",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "GRC Platforms (RSA Archer)",
+        "SIEM",
+        "Security Dashboards",
+        "Risk Management Frameworks"
+      ],
+      "salary_range": {
+        "min": 5000000,
+        "max": 25000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Top of the cybersecurity career ladder. CISO is now a board-level role in large enterprises.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "NI001",
+      "onet_soc_code": "15-1231.00",
+      "title": "Network Support Specialist",
+      "domain": "Networking & Infrastructure",
+      "description": "Analyzes, tests, troubleshoots, and evaluates existing network systems such as LANs, WANs, and cloud networks. Performs network maintenance to ensure networks operate correctly.",
+      "roles_responsibilities": [
+        "Diagnose and resolve network connectivity issues",
+        "Monitor network performance and capacity",
+        "Maintain network equipment and configurations",
+        "Provide technical support to end users on network issues",
+        "Document network incidents and resolutions"
+      ],
+      "skills_required": [
+        "Critical Thinking",
+        "Active Listening",
+        "Reading Comprehension",
+        "Judgment and Decision Making",
+        "Complex Problem Solving",
+        "Speaking"
+      ],
+      "educational_qualification": {
+        "minimum": "Diploma / B.Tech ECE / CSE / IT",
+        "preferred": [
+          "CCNA Certification",
+          "CompTIA Network+",
+          "B.Tech CSE"
+        ],
+        "alternative": [
+          "CCNA + 2 Years Networking Experience"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Entry-Intermediate",
+      "tools_technologies": [
+        "Cisco Routers / Switches",
+        "Wireshark",
+        "SolarWinds",
+        "PRTG",
+        "Active Directory",
+        "Ticketing Tools"
+      ],
+      "salary_range": {
+        "min": 300000,
+        "max": 900000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Foundation for Network Engineer or Systems Administrator track.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "NI002",
+      "onet_soc_code": "15-1244.00",
+      "title": "Network & Systems Administrator",
+      "domain": "Networking & Infrastructure",
+      "description": "Installs, configures, and maintains an organization's LAN, WAN, and other data communications networks, operating systems, and computer hardware.",
+      "roles_responsibilities": [
+        "Manage servers, network equipment, and OS environments",
+        "Administer Active Directory, DNS, DHCP, and group policies",
+        "Monitor system health, performance, and capacity",
+        "Implement backup, patching, and disaster recovery procedures",
+        "Provide escalated support for infrastructure issues"
+      ],
+      "skills_required": [
+        "Judgment and Decision Making",
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Systems Analysis",
+        "Systems Evaluation",
+        "Troubleshooting"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT / MCA",
+        "preferred": [
+          "MCSA / MCSE",
+          "CCNA",
+          "CompTIA Server+ / Linux+"
+        ],
+        "alternative": [
+          "6-8 Years IT Administration + Relevant Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Windows Server / Linux",
+        "VMware / Hyper-V",
+        "Active Directory",
+        "Cisco Networking",
+        "SCCM / Intune",
+        "Azure AD"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 1800000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Path to Senior Systems Admin, Infrastructure Lead, or Cloud Engineer.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "NI003",
+      "onet_soc_code": "15-1241.00",
+      "title": "Network Architect",
+      "domain": "Networking & Infrastructure",
+      "description": "Designs and implements computer and information networks, including LAN, WAN, cloud networks, and intranets. Creates plans and layouts for data communication networks.",
+      "roles_responsibilities": [
+        "Design enterprise network architectures (LAN/WAN/SD-WAN/Cloud)",
+        "Evaluate and recommend network hardware and technology",
+        "Define network standards, security, and documentation",
+        "Lead network modernization and cloud connectivity projects",
+        "Troubleshoot complex network performance and design issues"
+      ],
+      "skills_required": [
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Complex Problem Solving",
+        "Programming",
+        "Systems Evaluation",
+        "Judgment and Decision Making"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / ECE / IT",
+        "preferred": [
+          "CCIE",
+          "CCNP Enterprise",
+          "AWS / Azure Networking Certifications"
+        ],
+        "alternative": [
+          "10+ Years Networking with Architecture Experience"
+        ]
+      },
+      "experience_level": "Senior-Lead",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "Cisco / Juniper Routers",
+        "SD-WAN",
+        "AWS / Azure Networking",
+        "Wireshark",
+        "Terraform (for cloud networking)",
+        "BGP / OSPF / MPLS"
+      ],
+      "salary_range": {
+        "min": 2000000,
+        "max": 6000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Path to Principal Network Architect or VP Infrastructure.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "NI004",
+      "onet_soc_code": "15-1241.01",
+      "title": "Telecommunications Engineering Specialist",
+      "domain": "Networking & Infrastructure",
+      "description": "Designs or configures wired, wireless, and satellite communications systems for voice, video, and data services. Supervises installation and maintenance of telecom systems.",
+      "roles_responsibilities": [
+        "Design and configure telecom systems (4G/5G, VoIP, MPLS, fiber)",
+        "Manage installation and commissioning of telecom equipment",
+        "Monitor telecom network performance and resolve outages",
+        "Conduct capacity planning for voice and data services",
+        "Coordinate with telecom vendors and service providers"
+      ],
+      "skills_required": [
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Active Listening",
+        "Active Learning",
+        "Writing",
+        "Speaking"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech ECE / CSE / IT",
+        "preferred": [
+          "B.Tech ECE with Telecom specialization",
+          "Cisco / Nokia / Ericsson Certifications"
+        ],
+        "alternative": [
+          "1-2 Years Telecom Experience + Vendor Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "5G / LTE Equipment",
+        "VoIP (SIP / CUCM)",
+        "MPLS / SD-WAN",
+        "Ericsson / Nokia OSS",
+        "Network Analyzers"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 2200000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "5G rollout in India creates massive demand. Path to Telecom Architect or Network Planning Manager.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "QA001",
+      "onet_soc_code": "15-1253.00",
+      "title": "QA / Software Test Engineer",
+      "domain": "QA & Testing",
+      "description": "Develops and executes software tests to identify software problems and their causes. Documents and tracks software defects and verifies fixes before production release.",
+      "roles_responsibilities": [
+        "Design and execute manual and automated test cases",
+        "Identify, document, and track bugs through the defect lifecycle",
+        "Develop and maintain test plans and test scripts",
+        "Perform functional, regression, performance, and UAT testing",
+        "Collaborate with developers on root cause analysis and fixes"
+      ],
+      "skills_required": [
+        "Reading Comprehension",
+        "Critical Thinking",
+        "Active Listening",
+        "Speaking",
+        "Writing",
+        "Programming"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT / B.Sc",
+        "preferred": [
+          "ISTQB Certification",
+          "B.Tech CSE"
+        ],
+        "alternative": [
+          "QA Bootcamp + Portfolio + ISTQB Foundation"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Selenium / Playwright",
+        "JIRA",
+        "Postman",
+        "JMeter",
+        "TestNG / JUnit",
+        "Cypress"
+      ],
+      "salary_range": {
+        "min": 300000,
+        "max": 1200000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Path to Automation Engineer, QA Lead, or SDET (Software Development Engineer in Test).",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "QA002",
+      "onet_soc_code": "15-1253.00",
+      "title": "Automation Test Engineer (SDET)",
+      "domain": "QA & Testing",
+      "description": "Software Development Engineer in Test (SDET) who builds automated testing frameworks and infrastructure that enable continuous, scalable software quality validation.",
+      "roles_responsibilities": [
+        "Design and build test automation frameworks from scratch",
+        "Write automated test scripts for UI, API, and performance testing",
+        "Integrate automated tests into CI/CD pipelines",
+        "Maintain and scale the test automation infrastructure",
+        "Mentor manual QA engineers on automation best practices"
+      ],
+      "skills_required": [
+        "Programming",
+        "Test Automation",
+        "CI/CD Integration",
+        "API Testing",
+        "Critical Thinking",
+        "Framework Design"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "B.Tech CSE + ISTQB Advanced",
+          "Selenium / Cypress Certifications"
+        ],
+        "alternative": [
+          "3+ Years QA + Strong Automation Portfolio"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Selenium / Playwright / Cypress",
+        "Java / Python",
+        "Appium",
+        "Rest Assured",
+        "Jenkins / GitHub Actions",
+        "JMeter"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High demand as automation adoption grows. Path to QA Architect, Engineering Manager, or SDE.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "UX001",
+      "onet_soc_code": "15-1255.00",
+      "title": "UI/UX Designer",
+      "domain": "UI/UX & Product Design",
+      "description": "Designs digital user interfaces and web/mobile experiences. Develops and tests layouts, interfaces, functionality, and navigation to ensure usability, compatibility, and quality.",
+      "roles_responsibilities": [
+        "Conduct user research, interviews, and usability testing",
+        "Create wireframes, prototypes, and high-fidelity UI mockups",
+        "Design and maintain design systems and component libraries",
+        "Collaborate with product managers and developers on feature design",
+        "Iterate based on user feedback and data insights"
+      ],
+      "skills_required": [
+        "User Research",
+        "Wireframing",
+        "Prototyping",
+        "Visual Design",
+        "Usability Testing",
+        "Design Thinking"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "B.Des / BFA",
+          "B.Tech CSE + Design Certifications",
+          "HCI Degree"
+        ],
+        "alternative": [
+          "Strong Design Portfolio + UX Certifications (Google UX, NNG)"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Figma",
+        "Adobe XD",
+        "Sketch",
+        "InVision",
+        "Zeplin",
+        "Hotjar / FullStory"
+      ],
+      "salary_range": {
+        "min": 350000,
+        "max": 1800000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "High demand in product companies. Path to Senior Designer, Design Lead, or Head of Design.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "UX002",
+      "onet_soc_code": "15-1255.01",
+      "title": "Video Game Designer",
+      "domain": "UI/UX & Product Design",
+      "description": "Designs core features of video games. Specifies innovative game mechanics, story lines, and character biographies. Creates and maintains design documentation for game development teams.",
+      "roles_responsibilities": [
+        "Design game mechanics, systems, and player progression",
+        "Write game design documents (GDD) and feature specifications",
+        "Collaborate with artists, engineers, and producers on game development",
+        "Prototype and playtest game features to validate design decisions",
+        "Balance game economy, difficulty, and player engagement"
+      ],
+      "skills_required": [
+        "Programming",
+        "Active Listening",
+        "Reading Comprehension",
+        "Critical Thinking",
+        "Judgment and Decision Making",
+        "Complex Problem Solving"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "B.Sc Game Design",
+          "B.Tech CSE with Game Dev specialization",
+          "B.Des"
+        ],
+        "alternative": [
+          "Strong Game Portfolio + Published Indie Games"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Unity / Unreal Engine",
+        "Figma / Miro (for design docs)",
+        "Jira",
+        "Perforce / Git",
+        "Excel (for game balancing)",
+        "Notion"
+      ],
+      "salary_range": {
+        "min": 400000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "India's gaming industry is booming. Path to Lead Game Designer or Game Director.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SA001",
+      "onet_soc_code": "15-1211.00",
+      "title": "Computer Systems Analyst",
+      "domain": "IT Systems & Architecture",
+      "description": "Analyzes science, engineering, business, and other data processing problems to develop and implement solutions to complex applications problems, system administration issues, or network concerns.",
+      "roles_responsibilities": [
+        "Analyze existing IT systems and identify areas for improvement",
+        "Gather user requirements and translate into technical specifications",
+        "Evaluate commercial software packages and recommend solutions",
+        "Coordinate system implementation and user training",
+        "Ensure systems align with business needs and IT strategy"
+      ],
+      "skills_required": [
+        "Speaking",
+        "Reading Comprehension",
+        "Critical Thinking",
+        "Systems Evaluation",
+        "Active Listening",
+        "Systems Analysis"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT / MCA",
+        "preferred": [
+          "B.Tech CSE",
+          "MBA IT",
+          "CBAP Certification"
+        ],
+        "alternative": [
+          "4-6 Years IT Experience + Systems Analysis Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Visio / Lucidchart",
+        "JIRA",
+        "SQL",
+        "MS Office",
+        "ERP Systems",
+        "UML Tools"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 1800000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Path to IT Consultant, Enterprise Architect, or Business Analyst.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SA002",
+      "onet_soc_code": "15-1299.08",
+      "title": "Software / Systems Architect",
+      "domain": "IT Systems & Architecture",
+      "description": "Designs and develops solutions to complex applications problems, system administration issues, or network concerns. Performs systems management and integration functions and creates systems models.",
+      "roles_responsibilities": [
+        "Define high-level system architecture and technology stack",
+        "Create architecture diagrams, ADRs, and technical documentation",
+        "Ensure non-functional requirements (scalability, reliability, security) are met",
+        "Lead technical design reviews and architecture governance",
+        "Guide engineering teams on architectural decisions and best practices"
+      ],
+      "skills_required": [
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Active Listening",
+        "Writing",
+        "Speaking",
+        "Systems Evaluation"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "M.Tech CS",
+          "AWS / Azure Architect Certifications",
+          "TOGAF Certification"
+        ],
+        "alternative": [
+          "10+ Years Engineering with Architecture Experience"
+        ]
+      },
+      "experience_level": "Senior-Lead",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "AWS / GCP / Azure",
+        "Kubernetes",
+        "System Design Tools",
+        "TOGAF / C4 Model",
+        "Terraform",
+        "Draw.io / Lucidchart"
+      ],
+      "salary_range": {
+        "min": 3000000,
+        "max": 9000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Path to Principal Architect, CTO, or Distinguished Engineer.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SA003",
+      "onet_soc_code": "15-1299.09",
+      "title": "IT Project Manager",
+      "domain": "IT Systems & Architecture",
+      "description": "Plans, initiates, and manages information technology projects. Leads and guides the work of technical staff. Serves as liaison between business and technical aspects of projects.",
+      "roles_responsibilities": [
+        "Plan and manage IT project scope, schedule, budget, and resources",
+        "Coordinate between technical teams, business stakeholders, and vendors",
+        "Track and report on project milestones, risks, and issues",
+        "Manage change requests and ensure scope control",
+        "Lead sprint ceremonies in Agile environments"
+      ],
+      "skills_required": [
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Coordination",
+        "Writing",
+        "Time Management",
+        "Active Listening"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "PMP Certification",
+          "CSM (Scrum Master)",
+          "MBA IT"
+        ],
+        "alternative": [
+          "PRINCE2 + IT Experience"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "JIRA",
+        "MS Project",
+        "Confluence",
+        "Azure DevOps",
+        "Smartsheet",
+        "Slack"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "IT PMs are in demand across all industries. Path to Program Manager or PMO Director.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SA004",
+      "onet_soc_code": "15-1232.00",
+      "title": "IT Support Specialist / Help Desk Technician",
+      "domain": "IT Systems & Architecture",
+      "description": "Provides technical assistance to computer users. Answers questions and resolves computer problems for clients in person, via telephone, or electronically.",
+      "roles_responsibilities": [
+        "Provide L1/L2 technical support to end users via phone, email, and chat",
+        "Troubleshoot hardware, software, OS, and network issues",
+        "Manage and resolve tickets using ITSM tools within SLA",
+        "Install, configure, and maintain desktops, laptops, and peripherals",
+        "Escalate complex issues to L3 and infrastructure teams"
+      ],
+      "skills_required": [
+        "Active Listening",
+        "Speaking",
+        "Reading Comprehension",
+        "Critical Thinking",
+        "Complex Problem Solving",
+        "Writing"
+      ],
+      "educational_qualification": {
+        "minimum": "Diploma / B.Tech / BCA",
+        "preferred": [
+          "CompTIA A+",
+          "ITIL Foundation",
+          "B.Tech CSE / IT"
+        ],
+        "alternative": [
+          "2-4 Years IT Support Experience + CompTIA A+"
+        ]
+      },
+      "experience_level": "Entry",
+      "difficulty": "Entry",
+      "tools_technologies": [
+        "ServiceNow / Freshdesk",
+        "Active Directory",
+        "Remote Desktop Tools",
+        "Windows / Linux / macOS",
+        "O365 / Google Workspace"
+      ],
+      "salary_range": {
+        "min": 200000,
+        "max": 600000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Entry point into IT careers. Path to L2 Support, Systems Admin, or IT Manager.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SA005",
+      "onet_soc_code": "15-1299.01",
+      "title": "Web Administrator",
+      "domain": "IT Systems & Architecture",
+      "description": "Manages web environment design, deployment, development, and maintenance activities. Performs testing and quality assurance of web sites and web applications.",
+      "roles_responsibilities": [
+        "Manage web server configuration, performance, and availability",
+        "Deploy and maintain web applications and CMS platforms",
+        "Monitor web traffic, uptime, and performance metrics",
+        "Manage SSL certificates, DNS, and domain records",
+        "Implement web security policies and access controls"
+      ],
+      "skills_required": [
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Active Listening",
+        "Complex Problem Solving",
+        "Systems Evaluation",
+        "Monitoring"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT / BCA",
+        "preferred": [
+          "Web Server / Cloud Certifications",
+          "B.Tech CSE"
+        ],
+        "alternative": [
+          "2-4 Years Web Administration + Portfolio"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Apache / Nginx",
+        "cPanel / WHM",
+        "AWS / GCP",
+        "WordPress / Drupal",
+        "Cloudflare",
+        "Linux"
+      ],
+      "salary_range": {
+        "min": 350000,
+        "max": 1200000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Path to DevOps Engineer, Cloud Engineer, or Full Stack Developer.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HW001",
+      "onet_soc_code": "17-2061.00",
+      "title": "Computer Hardware Engineer",
+      "domain": "Hardware & Emerging Tech",
+      "description": "Researches, designs, develops, or tests computer or computer-related equipment for commercial, industrial, military, or scientific use. May supervise the manufacturing and installation of computer hardware.",
+      "roles_responsibilities": [
+        "Design and develop computer hardware components and systems",
+        "Create schematics and PCB layouts for electronic assemblies",
+        "Test and validate hardware prototypes and production units",
+        "Debug hardware failures and perform root cause analysis",
+        "Collaborate with embedded software engineers on firmware integration"
+      ],
+      "skills_required": [
+        "Reading Comprehension",
+        "Critical Thinking",
+        "Active Listening",
+        "Writing",
+        "Speaking",
+        "Complex Problem Solving"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech ECE / EEE / CSE",
+        "preferred": [
+          "B.Tech ECE",
+          "M.Tech VLSI / Embedded Systems"
+        ],
+        "alternative": [
+          "Hardware Portfolio + Relevant Industry Experience"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Altium / KiCad (PCB Design)",
+        "FPGA (Xilinx / Intel)",
+        "Oscilloscopes / Logic Analyzers",
+        "MATLAB / Simulink",
+        "VHDL / Verilog"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High demand in semiconductor, IoT, and defense industries. Path to Hardware Architect or R&D Lead.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HW002",
+      "onet_soc_code": "15-1299.07",
+      "title": "Blockchain Engineer",
+      "domain": "Hardware & Emerging Tech",
+      "description": "Maintains and supports distributed and decentralized blockchain-based networks or blockchain applications such as cryptocurrency exchange, payment processing, and smart contract platforms.",
+      "roles_responsibilities": [
+        "Design and develop smart contracts and DApps (Decentralized Applications)",
+        "Build and integrate blockchain protocols and consensus mechanisms",
+        "Ensure security and auditability of smart contracts",
+        "Develop APIs and SDKs for blockchain platform integration",
+        "Research and evaluate emerging blockchain technologies"
+      ],
+      "skills_required": [
+        "Blockchain Development",
+        "Solidity / Rust Programming",
+        "Cryptography",
+        "System Design",
+        "Critical Thinking",
+        "Problem Solving"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "Blockchain Certifications (CBDE)",
+          "B.Tech CSE with Blockchain specialization"
+        ],
+        "alternative": [
+          "Open Source Blockchain Contributions + Portfolio"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Ethereum / Solana / Polygon",
+        "Solidity / Rust",
+        "Hardhat / Truffle",
+        "Web3.js / Ethers.js",
+        "IPFS",
+        "Metamask"
+      ],
+      "salary_range": {
+        "min": 1000000,
+        "max": 4000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Growing in fintech, supply chain, and Web3 sectors. Path to Blockchain Architect or Web3 Lead.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HW003",
+      "onet_soc_code": "15-1221.00",
+      "title": "Computer & Information Research Scientist",
+      "domain": "Hardware & Emerging Tech",
+      "description": "Conducts research into fundamental computer and information science as theorists, designers, or inventors. Develops solutions to problems in the field of computing.",
+      "roles_responsibilities": [
+        "Conduct fundamental and applied research in CS/AI/Systems",
+        "Publish research findings in peer-reviewed journals and conferences",
+        "Develop new algorithms, data structures, and computing paradigms",
+        "Collaborate with industry and academic partners on research programs",
+        "Mentor PhD students and junior researchers"
+      ],
+      "skills_required": [
+        "Complex Problem Solving",
+        "Critical Thinking",
+        "Judgment and Decision Making",
+        "Reading Comprehension",
+        "Active Listening",
+        "Systems Analysis"
+      ],
+      "educational_qualification": {
+        "minimum": "M.Tech CS / AI",
+        "preferred": [
+          "PhD Computer Science / AI / Mathematics from Top Institute"
+        ],
+        "alternative": [
+          "Top Research Publications without a Full PhD"
+        ]
+      },
+      "experience_level": "Senior-Lead",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "Python / C++ / CUDA",
+        "High-Performance Computing",
+        "LaTeX",
+        "Jupyter",
+        "Research Computing Clusters",
+        "PyTorch / JAX"
+      ],
+      "salary_range": {
+        "min": 1500000,
+        "max": 8000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Critical in R&D labs at ISRO, DRDO, IITs, Google, Meta, and Microsoft Research India.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HW004",
+      "onet_soc_code": "15-1211.01",
+      "title": "Health Informatics Specialist",
+      "domain": "Hardware & Emerging Tech",
+      "description": "Applies knowledge of healthcare and informatics to assist in the design, development, and modification of computerized healthcare systems such as EHR, CDSS, and telemedicine platforms.",
+      "roles_responsibilities": [
+        "Design and implement electronic health record (EHR) systems",
+        "Integrate clinical systems with HL7 / FHIR standards",
+        "Analyze healthcare data to improve clinical workflows",
+        "Train clinical staff on health IT systems",
+        "Ensure HIPAA / DPDP Act compliance for health data"
+      ],
+      "skills_required": [
+        "Reading Comprehension",
+        "Complex Problem Solving",
+        "Active Listening",
+        "Critical Thinking",
+        "Speaking",
+        "Writing"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / Biomedical / MBBS",
+        "preferred": [
+          "M.Sc Health Informatics",
+          "MBBS + IT background",
+          "CHDA Certification"
+        ],
+        "alternative": [
+          "Healthcare IT Experience + HIMSS Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "EHR Systems (Epic, Cerner)",
+        "HL7 / FHIR",
+        "SQL",
+        "Python",
+        "Tableau",
+        "Azure Health Data Services"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Digital health is transforming India's healthcare sector. Path to Chief Health Information Officer or CISO Healthcare.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HW005",
+      "onet_soc_code": "15-2051.02",
+      "title": "Clinical Data Manager",
+      "domain": "Hardware & Emerging Tech",
+      "description": "Applies knowledge of health care and database management to analyze clinical data, and to identify and report trends for clinical research and trials.",
+      "roles_responsibilities": [
+        "Design and manage clinical trial databases and EDC systems",
+        "Develop and maintain Data Management Plans (DMP)",
+        "Perform data cleaning, validation, and query resolution",
+        "Ensure data quality and integrity for regulatory submissions",
+        "Produce data reports and summaries for clinical study teams"
+      ],
+      "skills_required": [
+        "Critical Thinking",
+        "Speaking",
+        "Reading Comprehension",
+        "Active Listening",
+        "Writing",
+        "Active Learning"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Sc / B.Pharma / BCA",
+        "preferred": [
+          "M.Sc Clinical Data Management",
+          "CCDM Certification (SCDM)"
+        ],
+        "alternative": [
+          "2-4 Years in Clinical Research Data Management"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Medidata Rave",
+        "Oracle Clinical",
+        "SAS",
+        "Excel",
+        "CDMS Tools",
+        "EDC Platforms"
+      ],
+      "salary_range": {
+        "min": 350000,
+        "max": 1500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "India is a growing hub for clinical trials. Path to Senior CDM, Data Manager Lead, or Biostatistician.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "HW006",
+      "onet_soc_code": "15-2099.01",
+      "title": "Bioinformatics Engineer / Technician",
+      "domain": "Hardware & Emerging Tech",
+      "description": "Applies principles and methods of bioinformatics to assist scientists in areas such as pharmaceuticals, medical technology, biotechnology, computational biology, and agriculture.",
+      "roles_responsibilities": [
+        "Develop and maintain bioinformatics pipelines for genomic/proteomic data",
+        "Analyze next-generation sequencing (NGS) and omics datasets",
+        "Build databases and tools for biological data storage and retrieval",
+        "Collaborate with biologists and clinical scientists on data interpretation",
+        "Apply machine learning to biological sequence and structure data"
+      ],
+      "skills_required": [
+        "Reading Comprehension",
+        "Active Listening",
+        "Writing",
+        "Critical Thinking",
+        "Complex Problem Solving",
+        "Judgment and Decision Making"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech Bioinformatics / B.Sc Biotechnology / B.Sc CS",
+        "preferred": [
+          "M.Sc Bioinformatics / Computational Biology",
+          "PhD (for research roles)"
+        ],
+        "alternative": [
+          "Genomics / NGS Portfolio + Bioinformatics Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Python / R / Perl",
+        "BLAST / HMMER",
+        "GATK / BWA",
+        "Galaxy / Bioconductor",
+        "Linux / HPC",
+        "SQL"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 2200000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Growing demand in pharma, agriculture, and genomics startups. Path to Computational Biology Lead or Research Scientist.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SD011",
+      "onet_soc_code": "15-1252.00",
+      "title": "API Developer / Integration Engineer",
+      "domain": "Software Development",
+      "description": "Designs, builds, and maintains APIs and system integrations that connect disparate software systems, platforms, and third-party services into a cohesive digital ecosystem.",
+      "roles_responsibilities": [
+        "Design RESTful and GraphQL APIs with versioning and documentation",
+        "Build middleware and integration layers between enterprise systems",
+        "Manage API gateways, rate limiting, and authentication (OAuth, JWT)",
+        "Integrate third-party services (payment gateways, SaaS, ERPs)",
+        "Monitor API performance and ensure SLA compliance"
+      ],
+      "skills_required": [
+        "API Design",
+        "REST / GraphQL",
+        "System Integration",
+        "Authentication Protocols",
+        "Programming",
+        "Documentation"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "B.Tech CSE",
+          "MCA"
+        ],
+        "alternative": [
+          "API Development Portfolio + Relevant Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Postman",
+        "Swagger / OpenAPI",
+        "AWS API Gateway",
+        "MuleSoft",
+        "Kong",
+        "Node.js / Python"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 2200000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Every digital business runs on APIs. Path to Integration Architect or Senior Backend Engineer.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SD012",
+      "onet_soc_code": "15-1252.00",
+      "title": "Game Developer",
+      "domain": "Software Development",
+      "description": "Designs and develops video game software across platforms (PC, console, mobile, VR/AR). Implements game logic, physics, graphics rendering, and multiplayer systems.",
+      "roles_responsibilities": [
+        "Develop game systems, mechanics, and engine integrations",
+        "Implement rendering, physics, and animation systems",
+        "Optimize game performance for target platforms",
+        "Build multiplayer networking and backend game services",
+        "Collaborate with designers and artists on feature implementation"
+      ],
+      "skills_required": [
+        "Game Programming",
+        "C++ / C# / GDScript",
+        "Game Engines",
+        "Graphics Programming",
+        "Optimization",
+        "Problem Solving"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / B.Sc Computer Science / BCA",
+        "preferred": [
+          "B.Tech CSE with Game Dev specialization",
+          "B.Sc Game Development"
+        ],
+        "alternative": [
+          "Published Games Portfolio + Game Jam experience"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Unity",
+        "Unreal Engine",
+        "C++ / C#",
+        "Blender",
+        "FMOD",
+        "Perforce / Git"
+      ],
+      "salary_range": {
+        "min": 400000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "India's gaming industry is growing fast with studios like Nazara, nCore, and MoonFrog. Path to Senior Game Dev or Technical Director.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SD013",
+      "onet_soc_code": "15-1252.00",
+      "title": "DevSecOps Engineer",
+      "domain": "Software Development",
+      "description": "Integrates security practices into the DevOps lifecycle \u2014 embedding security testing, vulnerability scanning, and compliance automation directly into CI/CD pipelines.",
+      "roles_responsibilities": [
+        "Integrate SAST, DAST, and SCA tools into CI/CD pipelines",
+        "Implement secrets management and container security scanning",
+        "Conduct threat modeling and security architecture reviews",
+        "Automate compliance checks for SOC2, ISO 27001, and PCI-DSS",
+        "Collaborate with developers to remediate security vulnerabilities"
+      ],
+      "skills_required": [
+        "DevOps",
+        "Application Security",
+        "CI/CD Integration",
+        "Container Security",
+        "IaC Security",
+        "Scripting"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "CEH / OSCP + DevOps Experience",
+          "AWS / GCP Security Certifications"
+        ],
+        "alternative": [
+          "DevOps Background + Security Upskilling + Certifications"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "SonarQube",
+        "Snyk",
+        "Trivy",
+        "HashiCorp Vault",
+        "Aqua Security",
+        "GitHub Actions",
+        "Terraform"
+      ],
+      "salary_range": {
+        "min": 1200000,
+        "max": 4500000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "One of the fastest growing roles in tech. Path to Security Architect or CISO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SD014",
+      "onet_soc_code": "15-1252.00",
+      "title": "Low-Code / No-Code Developer",
+      "domain": "Software Development",
+      "description": "Builds enterprise applications using visual development platforms and low-code tools, enabling rapid delivery of business solutions with minimal traditional coding.",
+      "roles_responsibilities": [
+        "Build and configure applications on low-code platforms (OutSystems, Mendix, Power Apps)",
+        "Integrate low-code apps with enterprise systems via APIs",
+        "Automate business workflows using no-code tools",
+        "Train business users on platform usage",
+        "Manage application lifecycle, updates, and governance"
+      ],
+      "skills_required": [
+        "Low-Code Platforms",
+        "Business Process Understanding",
+        "API Integration",
+        "Database Basics",
+        "Problem Solving",
+        "Communication"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "OutSystems / Mendix / Power Platform Certifications",
+          "B.Tech / BCA"
+        ],
+        "alternative": [
+          "Platform Certifications + Hands-on Projects"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Entry-Intermediate",
+      "tools_technologies": [
+        "Microsoft Power Apps",
+        "OutSystems",
+        "Mendix",
+        "Appian",
+        "Bubble",
+        "Salesforce Platform"
+      ],
+      "salary_range": {
+        "min": 400000,
+        "max": 1500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Growing rapidly as enterprises adopt citizen development strategies. Path to Solution Architect or Enterprise Application Developer.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "SD015",
+      "onet_soc_code": "15-1252.00",
+      "title": "Generative AI Engineer",
+      "domain": "Software Development",
+      "description": "Builds production applications powered by generative AI models (LLMs, diffusion models). Specializes in LLM integration, RAG architectures, prompt engineering, and AI app deployment.",
+      "roles_responsibilities": [
+        "Design and build LLM-powered applications and agents",
+        "Implement Retrieval-Augmented Generation (RAG) pipelines",
+        "Fine-tune and evaluate large language models for domain-specific use cases",
+        "Build prompt templates, chains, and AI orchestration workflows",
+        "Optimize LLM inference for cost and latency at scale"
+      ],
+      "skills_required": [
+        "LLM APIs (OpenAI / Anthropic / Gemini)",
+        "RAG Architecture",
+        "Prompt Engineering",
+        "Python",
+        "Vector Databases",
+        "Cloud Deployment"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "B.Tech CSE with ML background",
+          "Generative AI Certifications (AWS, Google)"
+        ],
+        "alternative": [
+          "Deployed GenAI Applications Portfolio + Strong Python skills"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "LangChain / LlamaIndex",
+        "OpenAI / Anthropic APIs",
+        "Pinecone / Weaviate / ChromaDB",
+        "FastAPI",
+        "HuggingFace",
+        "AWS Bedrock / GCP Vertex AI"
+      ],
+      "salary_range": {
+        "min": 1500000,
+        "max": 6000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Hottest emerging role of 2024-2026. Path to AI Lead, Head of AI, or AI Startup Founder.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "DS008",
+      "onet_soc_code": "15-2051.00",
+      "title": "Data Product Manager",
+      "domain": "Data Science & Analytics",
+      "description": "Manages the strategy, roadmap, and delivery of data products \u2014 including data platforms, analytics tools, ML systems, and data APIs \u2014 aligning them with business goals.",
+      "roles_responsibilities": [
+        "Define vision and roadmap for data products and platforms",
+        "Gather requirements from data consumers (analysts, scientists, engineers)",
+        "Prioritize data product backlog based on business impact",
+        "Collaborate with data engineering and ML teams on delivery",
+        "Define data product metrics and success criteria"
+      ],
+      "skills_required": [
+        "Product Thinking",
+        "Data Literacy",
+        "Stakeholder Management",
+        "Agile Methodologies",
+        "Communication",
+        "SQL Basics"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA Analytics",
+          "B.Tech + PM Experience",
+          "Data Science Background"
+        ],
+        "alternative": [
+          "Product Management Experience + Data Domain Knowledge"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "JIRA",
+        "Confluence",
+        "SQL",
+        "Tableau / Looker",
+        "Amplitude",
+        "Notion"
+      ],
+      "salary_range": {
+        "min": 2000000,
+        "max": 5500000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Emerging high-value role at the intersection of product and data. Path to Head of Data or VP Product.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "DS009",
+      "onet_soc_code": "15-2051.00",
+      "title": "AI / ML Product Manager",
+      "domain": "Data Science & Analytics",
+      "description": "Manages AI and ML-powered product features and systems \u2014 bridging the gap between ML research, engineering, and business stakeholders to deliver intelligent product experiences.",
+      "roles_responsibilities": [
+        "Define product strategy for AI/ML features",
+        "Work with data scientists and ML engineers on model requirements",
+        "Evaluate model performance in the context of business outcomes",
+        "Manage the lifecycle of AI features from prototype to production",
+        "Communicate AI capabilities and limitations to business stakeholders"
+      ],
+      "skills_required": [
+        "AI/ML Understanding",
+        "Product Strategy",
+        "Stakeholder Communication",
+        "Agile",
+        "Data-Driven Decision Making",
+        "Roadmapping"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA + ML background",
+          "B.Tech CSE + PM experience"
+        ],
+        "alternative": [
+          "PM Experience + AI/ML Certifications"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "JIRA",
+        "Confluence",
+        "Amplitude",
+        "SQL",
+        "Python (basic)",
+        "Tableau"
+      ],
+      "salary_range": {
+        "min": 2500000,
+        "max": 7000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "One of the most valuable emerging PM specializations. Path to VP of AI Product or CPO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ML006",
+      "onet_soc_code": "15-1221.00",
+      "title": "Prompt Engineer",
+      "domain": "Machine Learning & AI",
+      "description": "Specializes in designing, optimizing, and evaluating prompts and prompt pipelines for large language models (LLMs) to reliably produce high-quality outputs for specific use cases.",
+      "roles_responsibilities": [
+        "Design and test prompt templates for LLM-powered applications",
+        "Build and maintain prompt libraries and evaluation frameworks",
+        "Conduct systematic prompt experiments and A/B testing",
+        "Optimize prompts for accuracy, safety, latency, and cost",
+        "Collaborate with ML engineers on fine-tuning vs prompting trade-offs"
+      ],
+      "skills_required": [
+        "LLM Understanding",
+        "Prompt Design",
+        "Evaluation Frameworks",
+        "Python",
+        "Critical Thinking",
+        "Communication"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "B.Tech CSE / Linguistics / Cognitive Science",
+          "Generative AI Certifications"
+        ],
+        "alternative": [
+          "Demonstrated LLM Projects + Strong Writing & Analytical Skills"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "OpenAI API",
+        "Anthropic Claude API",
+        "LangChain",
+        "PromptFlow",
+        "Python",
+        "Weights & Biases"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 3000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "New role born from the LLM revolution. Path to AI Engineer, NLP Engineer, or AI Product Lead.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ML007",
+      "onet_soc_code": "15-1221.00",
+      "title": "AI Ethics Officer / Responsible AI Lead",
+      "domain": "Machine Learning & AI",
+      "description": "Ensures AI systems are developed and deployed responsibly \u2014 addressing fairness, bias, transparency, privacy, and regulatory compliance across the organization's AI portfolio.",
+      "roles_responsibilities": [
+        "Develop and enforce responsible AI frameworks and guidelines",
+        "Conduct AI bias audits and fairness assessments",
+        "Ensure compliance with AI regulations (EU AI Act, India DPDP Act)",
+        "Engage stakeholders on ethical AI practices",
+        "Drive AI governance and risk management programs"
+      ],
+      "skills_required": [
+        "AI Ethics Frameworks",
+        "Bias Detection",
+        "Regulatory Knowledge",
+        "Stakeholder Communication",
+        "Critical Thinking",
+        "Policy Development"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "Philosophy / Law / Social Science + AI background",
+          "MBA + AI Ethics Certifications"
+        ],
+        "alternative": [
+          "AI Experience + Ethics Policy Background"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Fairlearn / IBM AI Fairness 360",
+        "Model Cards",
+        "SHAP / LIME",
+        "GRC Tools",
+        "Policy Documentation Tools"
+      ],
+      "salary_range": {
+        "min": 2000000,
+        "max": 8000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Rapidly growing as AI regulation becomes mandatory globally. Path to Chief AI Officer or Chief Ethics Officer.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ML008",
+      "onet_soc_code": "15-1221.00",
+      "title": "Chief AI Officer (CAIO)",
+      "domain": "Machine Learning & AI",
+      "description": "The top executive responsible for the organization's end-to-end AI strategy, adoption, governance, and capability building \u2014 translating AI into business value at the enterprise level.",
+      "roles_responsibilities": [
+        "Define and execute the company's AI strategy and roadmap",
+        "Build and lead the AI Center of Excellence (CoE)",
+        "Oversee AI governance, ethics, and risk management",
+        "Represent AI to the board, investors, and regulators",
+        "Drive AI capability building across business functions"
+      ],
+      "skills_required": [
+        "AI Strategy",
+        "Executive Leadership",
+        "AI Governance",
+        "Business Acumen",
+        "Board Communication",
+        "Organizational Change Management"
+      ],
+      "educational_qualification": {
+        "minimum": "Master's Degree in CS / AI / Statistics",
+        "preferred": [
+          "PhD + Executive Experience",
+          "MBA + Deep AI Technical Background"
+        ],
+        "alternative": [
+          "Proven VP of AI or Head of AI Track Record"
+        ]
+      },
+      "experience_level": "C-Suite",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "Enterprise AI Platforms",
+        "MLOps Platforms",
+        "GRC Tools",
+        "Tableau",
+        "PowerPoint"
+      ],
+      "salary_range": {
+        "min": 15000000,
+        "max": 60000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Newest C-suite role emerging across industries. Top of the AI career ladder.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ML009",
+      "onet_soc_code": "15-1221.00",
+      "title": "Robotics Engineer",
+      "domain": "Machine Learning & AI",
+      "description": "Designs, builds, and programs robotic systems that operate autonomously or semi-autonomously, combining mechanical, electrical, and software engineering with AI and control systems.",
+      "roles_responsibilities": [
+        "Design robotic systems for industrial, medical, or consumer applications",
+        "Develop motion planning, path planning, and control algorithms",
+        "Integrate computer vision and AI for autonomous decision-making",
+        "Program robotic systems using ROS (Robot Operating System)",
+        "Test and validate robots in simulation and real-world environments"
+      ],
+      "skills_required": [
+        "Robotics Programming (ROS)",
+        "Python / C++",
+        "Control Systems",
+        "Computer Vision",
+        "Kinematics",
+        "Embedded Systems"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech ECE / EEE / Mechatronics / CSE",
+        "preferred": [
+          "M.Tech Robotics / Mechatronics",
+          "B.Tech ECE + AI experience"
+        ],
+        "alternative": [
+          "ROS Projects Portfolio + Robotics Competitions"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "ROS / ROS2",
+        "Python / C++",
+        "Gazebo (Simulation)",
+        "OpenCV",
+        "MATLAB / Simulink",
+        "Arduino / Raspberry Pi"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 3000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "High demand in manufacturing automation, ISRO, defense, and agritech. Path to Robotics Architect or R&D Lead.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CD005",
+      "onet_soc_code": "15-1244.00",
+      "title": "Cloud Security Engineer",
+      "domain": "Cloud & DevOps",
+      "description": "Designs and implements security controls specifically for cloud environments \u2014 securing cloud workloads, identities, networks, and data across AWS, Azure, and GCP.",
+      "roles_responsibilities": [
+        "Design and enforce cloud security architecture (IAM, VPC, encryption)",
+        "Implement Cloud Security Posture Management (CSPM) tools",
+        "Manage cloud identity and access management (IAM) policies",
+        "Conduct cloud security assessments and penetration tests",
+        "Ensure compliance with cloud security standards (CIS Benchmarks, AWS Well-Architected)"
+      ],
+      "skills_required": [
+        "Cloud Security",
+        "IAM",
+        "CSPM Tools",
+        "Terraform / IaC Security",
+        "Container Security",
+        "Compliance Frameworks"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "AWS Security Specialty",
+          "CCSP",
+          "GCP Professional Cloud Security Engineer"
+        ],
+        "alternative": [
+          "Cloud + Security Background + Certifications"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "AWS GuardDuty / Security Hub",
+        "Prisma Cloud",
+        "CrowdStrike Falcon",
+        "Terraform",
+        "HashiCorp Vault",
+        "Kubernetes Security (Falco)"
+      ],
+      "salary_range": {
+        "min": 1800000,
+        "max": 6000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Every cloud migration needs cloud security. Path to Principal Security Architect or CISO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CD006",
+      "onet_soc_code": "15-1244.00",
+      "title": "FinOps Engineer / Cloud Cost Analyst",
+      "domain": "Cloud & DevOps",
+      "description": "Manages and optimizes cloud spending by analyzing usage patterns, implementing cost governance frameworks, and collaborating with engineering teams to reduce cloud bills while maintaining performance.",
+      "roles_responsibilities": [
+        "Analyze cloud billing and identify cost optimization opportunities",
+        "Implement cloud cost governance policies and tagging strategies",
+        "Build cost visibility dashboards and chargeback reports",
+        "Collaborate with engineering teams on rightsizing and reserved instances",
+        "Drive FinOps culture and best practices across the organization"
+      ],
+      "skills_required": [
+        "Cloud Platforms (AWS/GCP/Azure)",
+        "Cost Analysis",
+        "SQL / Excel",
+        "FinOps Frameworks",
+        "Data Visualization",
+        "Stakeholder Communication"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT / Finance",
+        "preferred": [
+          "FinOps Certified Practitioner (FinOps Foundation)",
+          "Cloud Certifications"
+        ],
+        "alternative": [
+          "Cloud Engineering Background + FinOps Certification"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "AWS Cost Explorer / Cost and Usage Reports",
+        "GCP Billing",
+        "Apptio Cloudability",
+        "CloudHealth",
+        "Terraform",
+        "Grafana"
+      ],
+      "salary_range": {
+        "min": 1000000,
+        "max": 3500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Growing rapidly as cloud costs balloon. Path to Head of FinOps or Cloud Architect.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ERP001",
+      "onet_soc_code": "15-1211.00",
+      "title": "ERP Consultant (SAP / Oracle)",
+      "domain": "ERP & Enterprise Systems",
+      "description": "Implements, configures, and optimizes enterprise resource planning (ERP) systems like SAP or Oracle for client organizations across modules such as FICO, MM, SD, HR, and SCM.",
+      "roles_responsibilities": [
+        "Gather business requirements and map them to ERP system configuration",
+        "Configure and customize ERP modules (FICO, MM, SD, PP, HR)",
+        "Lead ERP implementation and migration projects",
+        "Conduct user training and change management",
+        "Provide post-go-live support and system optimization"
+      ],
+      "skills_required": [
+        "ERP Configuration",
+        "Business Process Knowledge",
+        "SAP / Oracle Modules",
+        "Stakeholder Communication",
+        "Problem Solving",
+        "Documentation"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "SAP Certification (relevant module)",
+          "B.Tech / B.Com + ERP Training",
+          "MBA + SAP Certification"
+        ],
+        "alternative": [
+          "ERP Implementation Project Experience + Module Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "SAP S/4HANA",
+        "Oracle ERP Cloud",
+        "SAP Fiori",
+        "ABAP (basic)",
+        "SAP BW / BEx",
+        "ServiceNow"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 3000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "India is a global SAP consulting hub. Path to SAP Solution Architect or ERP Program Manager.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ERP002",
+      "onet_soc_code": "15-1211.00",
+      "title": "SAP ABAP Developer",
+      "domain": "ERP & Enterprise Systems",
+      "description": "Develops custom programs, reports, enhancements, and interfaces within SAP systems using the ABAP programming language. Builds SAP Fiori apps and SAP BTP extensions.",
+      "roles_responsibilities": [
+        "Develop custom ABAP programs, function modules, and BAPIs",
+        "Build SAP Fiori and UI5 web applications",
+        "Create and maintain SAP interfaces (IDocs, RFC, web services)",
+        "Perform code reviews and optimize ABAP program performance",
+        "Support SAP upgrades and migration to SAP S/4HANA"
+      ],
+      "skills_required": [
+        "ABAP Programming",
+        "SAP Fiori / UI5",
+        "SAP BTP",
+        "Object-Oriented ABAP",
+        "SAP Integration",
+        "Debugging"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT / MCA",
+        "preferred": [
+          "SAP Certified Development Associate (ABAP)",
+          "B.Tech CSE"
+        ],
+        "alternative": [
+          "SAP ABAP Training + Project Experience"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "SAP ABAP Workbench",
+        "SAP Fiori / UI5",
+        "SAP BTP",
+        "Eclipse ADT",
+        "SAP HANA Studio",
+        "Git"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Strong demand from SAP S/4HANA migrations. Path to SAP Technical Architect or SAP Solution Architect.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ERP003",
+      "onet_soc_code": "15-1211.00",
+      "title": "Salesforce Developer / Administrator",
+      "domain": "ERP & Enterprise Systems",
+      "description": "Builds, configures, and customizes Salesforce CRM solutions to automate sales, marketing, and service processes for organizations.",
+      "roles_responsibilities": [
+        "Configure Salesforce objects, workflows, flows, and validation rules",
+        "Develop Apex classes, triggers, and Lightning Web Components (LWC)",
+        "Integrate Salesforce with external systems via REST/SOAP APIs",
+        "Manage user roles, profiles, and security settings",
+        "Perform data migrations and maintain Salesforce data quality"
+      ],
+      "skills_required": [
+        "Salesforce Platform",
+        "Apex / LWC",
+        "SOQL",
+        "Salesforce Flow",
+        "API Integration",
+        "CRM Administration"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "Salesforce Certified Developer / Administrator",
+          "B.Tech CSE + Salesforce Trailhead"
+        ],
+        "alternative": [
+          "Salesforce Trailhead Superbadges + Project Portfolio"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Salesforce CRM",
+        "Apex",
+        "Lightning Web Components",
+        "Salesforce Flow",
+        "VS Code",
+        "Workbench"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Salesforce is widely adopted in India. Path to Salesforce Architect or CRM Lead.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ERP004",
+      "onet_soc_code": "15-1211.00",
+      "title": "ERP Business Analyst",
+      "domain": "ERP & Enterprise Systems",
+      "description": "Bridges the gap between business stakeholders and ERP implementation teams \u2014 translating operational requirements into ERP configuration specifications and ensuring successful system adoption.",
+      "roles_responsibilities": [
+        "Gather and document business requirements for ERP modules",
+        "Map business processes to ERP system capabilities and gaps",
+        "Conduct fit-gap analysis and recommend solutions",
+        "Coordinate UAT and support change management activities",
+        "Create functional specifications and training materials"
+      ],
+      "skills_required": [
+        "Business Process Analysis",
+        "ERP Knowledge",
+        "Requirements Documentation",
+        "Stakeholder Communication",
+        "UAT Coordination",
+        "Change Management"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "MBA + ERP experience",
+          "B.Tech + SAP/Oracle Functional knowledge"
+        ],
+        "alternative": [
+          "Business Analysis Certifications + ERP Project Experience"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "SAP / Oracle ERP",
+        "JIRA",
+        "Visio",
+        "MS Office",
+        "Confluence",
+        "ServiceNow"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 2200000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "ERP modernization is ongoing across India's large enterprises. Path to ERP Functional Lead or SAP Consultant.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ITG001",
+      "onet_soc_code": "15-1212.00",
+      "title": "IT Auditor",
+      "domain": "IT Audit & Governance",
+      "description": "Examines and evaluates IT systems, controls, and processes to ensure accuracy, security, and compliance with regulatory and internal standards.",
+      "roles_responsibilities": [
+        "Conduct IT audits of applications, infrastructure, and IT processes",
+        "Assess IT general controls (ITGC) and application controls",
+        "Evaluate compliance with standards (ISO 27001, SOC 2, COBIT, GDPR)",
+        "Identify control weaknesses and recommend remediation",
+        "Prepare audit reports for management and external auditors"
+      ],
+      "skills_required": [
+        "IT Audit Methodology",
+        "COBIT / ITIL",
+        "Risk Assessment",
+        "Compliance Frameworks",
+        "Communication",
+        "Analytical Thinking"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT / B.Com",
+        "preferred": [
+          "CISA Certification",
+          "CA + IT background",
+          "CISSP"
+        ],
+        "alternative": [
+          "IT Experience + CISA Certification"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "ACL Analytics / IDEA",
+        "ServiceNow GRC",
+        "SAP Audit Tools",
+        "Excel",
+        "SQL",
+        "Audit Management Software"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Mandatory in BFSI, Big 4 consulting, and listed companies. Path to Senior IT Auditor or CISO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ITG002",
+      "onet_soc_code": "15-1212.00",
+      "title": "Data Privacy Officer (DPO)",
+      "domain": "IT Audit & Governance",
+      "description": "Ensures the organization processes personal data in compliance with data protection laws such as India's DPDP Act, GDPR, and other applicable privacy regulations.",
+      "roles_responsibilities": [
+        "Develop and maintain data privacy policies and frameworks",
+        "Conduct Data Protection Impact Assessments (DPIAs)",
+        "Act as point of contact for data subjects and regulatory authorities",
+        "Monitor compliance with DPDP Act, GDPR, and sector-specific regulations",
+        "Train staff on data privacy obligations and best practices"
+      ],
+      "skills_required": [
+        "Data Privacy Law (DPDP / GDPR)",
+        "Risk Assessment",
+        "Policy Development",
+        "Stakeholder Communication",
+        "Data Mapping",
+        "Regulatory Knowledge"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "LLB / CS + Privacy Law",
+          "CIPP/E or CIPM Certification (IAPP)"
+        ],
+        "alternative": [
+          "Legal or Compliance Background + Privacy Certifications"
+        ]
+      },
+      "experience_level": "Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "OneTrust",
+        "TrustArc",
+        "Data Mapping Tools",
+        "GRC Platforms",
+        "MS Office",
+        "ServiceNow Privacy"
+      ],
+      "salary_range": {
+        "min": 1200000,
+        "max": 5000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "India's DPDP Act 2023 is making DPOs mandatory across industries. Path to Chief Privacy Officer.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ITG003",
+      "onet_soc_code": "15-1212.00",
+      "title": "GRC Analyst (Governance, Risk & Compliance)",
+      "domain": "IT Audit & Governance",
+      "description": "Supports the governance, risk, and compliance function by identifying IT risks, maintaining control frameworks, and ensuring adherence to regulatory and policy requirements.",
+      "roles_responsibilities": [
+        "Maintain the GRC framework and risk register",
+        "Conduct risk assessments and control effectiveness reviews",
+        "Track remediation of audit findings and compliance gaps",
+        "Prepare compliance reports for regulatory submissions",
+        "Support ISO 27001, SOC 2, and other certification audits"
+      ],
+      "skills_required": [
+        "GRC Frameworks",
+        "Risk Assessment",
+        "Compliance Monitoring",
+        "Reporting",
+        "Analytical Thinking",
+        "Communication"
+      ],
+      "educational_qualification": {
+        "minimum": "Bachelor's Degree",
+        "preferred": [
+          "CISA / CRISC / GRCP Certification",
+          "B.Tech + MBA Risk Management"
+        ],
+        "alternative": [
+          "IT Audit or Legal Background + GRC Certifications"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "RSA Archer",
+        "ServiceNow GRC",
+        "MetricStream",
+        "Excel",
+        "PowerPoint",
+        "Audit Tools"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 1800000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Growing demand across BFSI, tech, and healthcare. Path to GRC Manager or Chief Risk Officer.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ITS001",
+      "onet_soc_code": "15-1211.00",
+      "title": "Pre-Sales / Solutions Engineer",
+      "domain": "IT Sales & Presales",
+      "description": "Acts as the technical bridge between the sales team and prospective clients \u2014 demonstrating product capabilities, designing solutions, answering technical questions, and creating winning proposals.",
+      "roles_responsibilities": [
+        "Lead technical demonstrations and proof-of-concept (PoC) engagements",
+        "Design solution architectures tailored to client needs",
+        "Respond to RFPs/RFIs with technical proposals",
+        "Build trusted relationships with client technical stakeholders",
+        "Support sales teams in deal qualification and closing"
+      ],
+      "skills_required": [
+        "Technical Communication",
+        "Solution Design",
+        "Product Knowledge",
+        "Presentation Skills",
+        "Stakeholder Engagement",
+        "Problem Solving"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "B.Tech CSE + Sales / Customer-facing Experience",
+          "AWS / GCP / Azure Certifications"
+        ],
+        "alternative": [
+          "Technical Background + Proven Customer Engagement Skills"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Salesforce CRM",
+        "Demo Environments",
+        "PowerPoint",
+        "AWS / GCP / Azure",
+        "Visio / Lucidchart",
+        "Slack / Teams"
+      ],
+      "salary_range": {
+        "min": 1000000,
+        "max": 3500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High-demand in SaaS, cloud, and enterprise software companies. Path to Solutions Architect or Sales Director.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ITS002",
+      "onet_soc_code": "15-1211.00",
+      "title": "Technical Account Manager (TAM)",
+      "domain": "IT Sales & Presales",
+      "description": "Manages post-sales technical relationships with key enterprise clients \u2014 ensuring successful product adoption, resolving technical issues, and identifying upsell and expansion opportunities.",
+      "roles_responsibilities": [
+        "Serve as primary technical point of contact for enterprise clients",
+        "Drive product adoption and ensure customer success",
+        "Identify and resolve technical blockers and escalations",
+        "Conduct regular business reviews with customer leadership",
+        "Identify opportunities for upsell and product expansion"
+      ],
+      "skills_required": [
+        "Technical Communication",
+        "Customer Success",
+        "Product Knowledge",
+        "Relationship Management",
+        "Problem Solving",
+        "Account Planning"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "B.Tech + Customer-facing Experience",
+          "AWS / GCP / Azure Certifications"
+        ],
+        "alternative": [
+          "Technical Support + Account Management Background"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Salesforce CRM",
+        "Gainsight",
+        "JIRA",
+        "Slack / Teams",
+        "Zendesk",
+        "AWS / GCP Console"
+      ],
+      "salary_range": {
+        "min": 1000000,
+        "max": 3000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "In demand at SaaS, cloud, and enterprise tech companies. Path to Customer Success Director or Solutions Architect.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ITS003",
+      "onet_soc_code": "15-1211.00",
+      "title": "IT Sales Executive / Technology Sales Consultant",
+      "domain": "IT Sales & Presales",
+      "description": "Sources and closes new IT product and services deals \u2014 managing the full sales cycle from prospecting and qualification through negotiation and closure.",
+      "roles_responsibilities": [
+        "Prospect and qualify new enterprise and SMB clients",
+        "Understand client IT needs and recommend appropriate solutions",
+        "Manage the full sales cycle from first call to contract closure",
+        "Negotiate pricing, contracts, and service terms",
+        "Collaborate with pre-sales, implementation, and support teams"
+      ],
+      "skills_required": [
+        "B2B Sales",
+        "Technical Product Knowledge",
+        "Negotiation",
+        "CRM Tools",
+        "Communication",
+        "Lead Generation"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "BBA / MBA Sales",
+          "B.Tech + Sales Aptitude"
+        ],
+        "alternative": [
+          "Strong Sales Track Record in IT / Tech Domain"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Salesforce / HubSpot CRM",
+        "LinkedIn Sales Navigator",
+        "Outreach / Salesloft",
+        "Zoom / Teams",
+        "Excel"
+      ],
+      "salary_range": {
+        "min": 400000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Growing IT services market in India. Path to Regional Sales Manager or VP Sales.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CS006",
+      "onet_soc_code": "15-1212.00",
+      "title": "Threat Intelligence Analyst",
+      "domain": "Cybersecurity",
+      "description": "Collects, analyzes, and disseminates cyber threat intelligence to help organizations understand adversary tactics, techniques, and procedures (TTPs) and proactively defend against attacks.",
+      "roles_responsibilities": [
+        "Collect threat intelligence from OSINT, dark web, and threat feeds",
+        "Analyze adversary TTPs using MITRE ATT&CK framework",
+        "Produce threat intelligence reports for security and leadership teams",
+        "Correlate threat data with organizational exposure and assets",
+        "Support incident response with threat context and attribution"
+      ],
+      "skills_required": [
+        "Threat Intelligence Frameworks (MITRE ATT&CK)",
+        "OSINT Research",
+        "Malware Analysis Basics",
+        "Report Writing",
+        "Critical Thinking",
+        "Network Security"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "GCTI / CTI Certifications",
+          "Cybersecurity Background"
+        ],
+        "alternative": [
+          "SOC Analyst Experience + Threat Intel Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Recorded Future",
+        "ThreatConnect",
+        "MISP",
+        "VirusTotal",
+        "Shodan",
+        "SIEM (Splunk)"
+      ],
+      "salary_range": {
+        "min": 800000,
+        "max": 3000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Critical in BFSI, defense, and large enterprises. Path to Cyber Threat Intelligence Lead or CISO.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CS007",
+      "onet_soc_code": "15-1212.00",
+      "title": "SOC Analyst (Security Operations Center)",
+      "domain": "Cybersecurity",
+      "description": "Monitors, detects, investigates, and responds to cybersecurity events and incidents in real-time from a Security Operations Center, working across L1 / L2 / L3 tiers.",
+      "roles_responsibilities": [
+        "Monitor SIEM dashboards and security alerts (L1/L2/L3)",
+        "Triage and investigate security incidents and anomalies",
+        "Perform initial containment and escalation of confirmed incidents",
+        "Document incident details and maintain case management records",
+        "Tune SIEM rules and reduce false positives"
+      ],
+      "skills_required": [
+        "SIEM Tools",
+        "Incident Response",
+        "Network Security",
+        "Log Analysis",
+        "Critical Thinking",
+        "Communication"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "CompTIA Security+",
+          "CEH",
+          "BTL1 / SC-200 Certifications"
+        ],
+        "alternative": [
+          "Cybersecurity Bootcamp + Home Lab + Certifications"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Splunk / IBM QRadar / Microsoft Sentinel",
+        "CrowdStrike",
+        "Wireshark",
+        "SOAR Platforms",
+        "VirusTotal",
+        "Tenable / Qualys"
+      ],
+      "salary_range": {
+        "min": 400000,
+        "max": 1500000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Entry point into cybersecurity. Path to Senior SOC Analyst, Threat Hunter, or Incident Response Lead.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "CS008",
+      "onet_soc_code": "15-1212.00",
+      "title": "Application Security (AppSec) Engineer",
+      "domain": "Cybersecurity",
+      "description": "Secures software applications throughout the SDLC \u2014 embedding security reviews, automated scanning, and developer security training into the development process.",
+      "roles_responsibilities": [
+        "Perform secure code reviews and security architecture assessments",
+        "Integrate SAST and DAST tools into CI/CD pipelines",
+        "Conduct web application penetration tests (OWASP Top 10)",
+        "Train development teams on secure coding practices",
+        "Manage vulnerability disclosure and bug bounty programs"
+      ],
+      "skills_required": [
+        "Web Application Security",
+        "OWASP Top 10",
+        "SAST / DAST Tools",
+        "Secure Code Review",
+        "API Security",
+        "Programming"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / IT",
+        "preferred": [
+          "OSCP / GWEB / CASE Certifications",
+          "Software Development Background + Security Training"
+        ],
+        "alternative": [
+          "Development Experience + Security Certifications + Bug Bounty Track Record"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Burp Suite",
+        "SonarQube",
+        "OWASP ZAP",
+        "Snyk",
+        "Checkmarx",
+        "GitHub Advanced Security"
+      ],
+      "salary_range": {
+        "min": 1000000,
+        "max": 4000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "High demand as every company ships software. Path to AppSec Lead or Security Architect.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "UX003",
+      "onet_soc_code": "15-1255.00",
+      "title": "UX Researcher",
+      "domain": "UI/UX & Product Design",
+      "description": "Conducts qualitative and quantitative research to understand user behavior, needs, and pain points \u2014 informing design and product decisions with user evidence.",
+      "roles_responsibilities": [
+        "Plan and conduct user interviews, surveys, and usability tests",
+        "Perform contextual inquiry, diary studies, and field research",
+        "Analyze qualitative data and synthesize findings into insights",
+        "Create research artifacts: personas, journey maps, and research reports",
+        "Advocate for user needs in product and design decisions"
+      ],
+      "skills_required": [
+        "User Research Methods",
+        "Qualitative Analysis",
+        "Usability Testing",
+        "Survey Design",
+        "Insight Synthesis",
+        "Communication"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "Psychology",
+          "HCI / Cognitive Science",
+          "B.Des + UX Research experience"
+        ],
+        "alternative": [
+          "Google UX Certificate + Strong Research Portfolio"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Dovetail / Aurelius",
+        "Lookback / UserZoom",
+        "Figma",
+        "Optimal Workshop",
+        "SurveyMonkey / Typeform",
+        "Hotjar"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Growing as product companies adopt research-driven design. Path to Lead UX Researcher or Head of Design.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "UX004",
+      "onet_soc_code": "15-1255.00",
+      "title": "Product Designer",
+      "domain": "UI/UX & Product Design",
+      "description": "Takes end-to-end ownership of the design of digital products \u2014 combining UX research, information architecture, interaction design, and visual design to create user-centered products.",
+      "roles_responsibilities": [
+        "Own end-to-end design of product features from research to production",
+        "Conduct user research and usability testing",
+        "Create information architecture, flows, wireframes, and high-fidelity prototypes",
+        "Maintain and evolve the product design system",
+        "Collaborate with PMs and engineers throughout the product lifecycle"
+      ],
+      "skills_required": [
+        "End-to-End Product Design",
+        "User Research",
+        "Prototyping",
+        "Design Systems",
+        "Visual Design",
+        "Cross-functional Collaboration"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "B.Des",
+          "HCI / Cognitive Science",
+          "B.Tech + Strong Design Portfolio"
+        ],
+        "alternative": [
+          "Strong Portfolio + Design Bootcamp + Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Figma",
+        "Principle / ProtoPie",
+        "Maze",
+        "Hotjar",
+        "Notion",
+        "Zeplin"
+      ],
+      "salary_range": {
+        "min": 700000,
+        "max": 3000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "High demand at product companies. Path to Senior Product Designer, Design Lead, or Head of Design.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "UX005",
+      "onet_soc_code": "15-1255.00",
+      "title": "Web / SEO Developer",
+      "domain": "UI/UX & Product Design",
+      "description": "Builds and maintains websites with a dual focus on technical implementation and search engine optimization \u2014 combining web development skills with SEO strategy.",
+      "roles_responsibilities": [
+        "Build and optimize websites for performance and SEO",
+        "Implement on-page SEO (metadata, schema, URL structure, Core Web Vitals)",
+        "Develop technical SEO solutions (site architecture, crawlability, indexing)",
+        "Integrate analytics and tag management tools",
+        "Collaborate with content teams on keyword strategy and landing page design"
+      ],
+      "skills_required": [
+        "HTML / CSS / JavaScript",
+        "Technical SEO",
+        "Google Search Console",
+        "Core Web Vitals",
+        "CMS Platforms",
+        "Analytics"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "B.Tech CSE / IT + SEO knowledge",
+          "Google SEO Certifications"
+        ],
+        "alternative": [
+          "Web Dev Portfolio + SEO Certifications + Demonstrated Rankings"
+        ]
+      },
+      "experience_level": "Entry-Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "WordPress / Webflow",
+        "Google Search Console",
+        "SEMrush / Ahrefs",
+        "GA4",
+        "Google Tag Manager",
+        "Screaming Frog"
+      ],
+      "salary_range": {
+        "min": 300000,
+        "max": 1500000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High demand in digital agencies, D2C brands, and media companies. Path to SEO Manager or Digital Marketing Lead.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "NI005",
+      "onet_soc_code": "15-1241.00",
+      "title": "Wireless Network Engineer",
+      "domain": "Networking & Infrastructure",
+      "description": "Designs, implements, and optimizes wireless network infrastructure including Wi-Fi, 4G/5G, and enterprise wireless LAN solutions.",
+      "roles_responsibilities": [
+        "Design and deploy enterprise Wi-Fi and wireless LAN infrastructure",
+        "Plan and optimize 5G / LTE network coverage and capacity",
+        "Perform RF site surveys and signal analysis",
+        "Troubleshoot wireless performance issues and interference",
+        "Manage wireless controllers and cloud-managed access points"
+      ],
+      "skills_required": [
+        "Wireless Networking",
+        "RF Engineering",
+        "Wi-Fi Standards (802.11 a/b/g/n/ac/ax)",
+        "Network Security",
+        "Troubleshooting",
+        "Vendor Tools"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech ECE / CSE / IT",
+        "preferred": [
+          "CWNA / CWSP Certification",
+          "Cisco CCNA Wireless",
+          "B.Tech ECE"
+        ],
+        "alternative": [
+          "Network Engineering Experience + Wireless Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Cisco Catalyst / Meraki",
+        "Aruba Networks",
+        "Ekahau (RF Survey)",
+        "Wireshark",
+        "Spectrum Analyzers",
+        "Cloud Wi-Fi Platforms"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "5G expansion and enterprise Wi-Fi 6 rollouts are driving demand. Path to Network Architect or Wireless Lead.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "NI006",
+      "onet_soc_code": "15-1244.00",
+      "title": "IT Infrastructure Engineer",
+      "domain": "Networking & Infrastructure",
+      "description": "Designs, builds, and maintains the foundational IT infrastructure \u2014 servers, storage, networks, virtualization, and data center systems \u2014 that supports all business operations.",
+      "roles_responsibilities": [
+        "Plan and manage on-premise and hybrid IT infrastructure",
+        "Administer virtualization platforms (VMware, Hyper-V)",
+        "Manage SAN / NAS storage and backup systems",
+        "Handle hardware provisioning, patching, and lifecycle management",
+        "Plan and execute infrastructure migration and modernization projects"
+      ],
+      "skills_required": [
+        "Server Administration",
+        "VMware / Hyper-V",
+        "Storage Management",
+        "Networking",
+        "Windows / Linux",
+        "Backup & Recovery"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / ECE / IT",
+        "preferred": [
+          "VCP (VMware Certified Professional)",
+          "MCSE / MCSA",
+          "CompTIA Server+"
+        ],
+        "alternative": [
+          "6-8 Years IT Infrastructure Experience + Certifications"
+        ]
+      },
+      "experience_level": "Intermediate-Senior",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "VMware vSphere",
+        "Hyper-V",
+        "NetApp / Dell EMC Storage",
+        "Veeam Backup",
+        "Microsoft SCCM",
+        "Active Directory"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Stable demand in large enterprises and data centers. Path to Infrastructure Architect or Cloud Engineer.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ET001",
+      "onet_soc_code": "15-1221.00",
+      "title": "IoT Engineer",
+      "domain": "Hardware & Emerging Tech",
+      "description": "Designs and develops Internet of Things (IoT) solutions \u2014 connecting physical devices to the cloud through sensors, firmware, communication protocols, and cloud data platforms.",
+      "roles_responsibilities": [
+        "Design IoT system architecture (device, connectivity, cloud)",
+        "Develop firmware for IoT devices and microcontrollers",
+        "Implement IoT communication protocols (MQTT, CoAP, Zigbee, LoRaWAN)",
+        "Build cloud data pipelines for IoT telemetry processing",
+        "Ensure IoT device security and OTA update mechanisms"
+      ],
+      "skills_required": [
+        "Embedded C / C++",
+        "IoT Protocols (MQTT / LoRaWAN)",
+        "Cloud IoT Platforms",
+        "Microcontrollers",
+        "Networking Basics",
+        "Data Pipelines"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech ECE / EEE / CSE",
+        "preferred": [
+          "M.Tech ECE / Embedded Systems",
+          "AWS IoT / Azure IoT Certifications"
+        ],
+        "alternative": [
+          "IoT Projects Portfolio + Arduino / Raspberry Pi Experience"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Arduino / STM32 / ESP32",
+        "AWS IoT Core / Azure IoT Hub",
+        "MQTT / COAP",
+        "Python / C++",
+        "Node-RED",
+        "Grafana"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 2500000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "IoT is transforming manufacturing, agriculture, and smart cities in India. Path to IoT Architect or Product Lead.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ET002",
+      "onet_soc_code": "15-1221.00",
+      "title": "AR/VR Developer",
+      "domain": "Hardware & Emerging Tech",
+      "description": "Builds augmented reality (AR) and virtual reality (VR) applications and experiences for gaming, training, healthcare, retail, and industrial use cases.",
+      "roles_responsibilities": [
+        "Develop immersive AR/VR experiences using Unity or Unreal Engine",
+        "Implement 3D rendering, spatial audio, and physics simulations",
+        "Integrate AR frameworks (ARKit, ARCore, Vuforia) for mobile AR",
+        "Optimize XR applications for performance on target hardware",
+        "Collaborate with 3D artists and UX designers on immersive experiences"
+      ],
+      "skills_required": [
+        "Unity / Unreal Engine",
+        "C# / C++",
+        "XR Development Frameworks",
+        "3D Math",
+        "Performance Optimization",
+        "UX for XR"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech CSE / B.Sc Computer Science",
+        "preferred": [
+          "B.Tech CSE with Game Dev / XR experience",
+          "Unity / Unreal Certifications"
+        ],
+        "alternative": [
+          "Strong XR Portfolio + Published AR/VR Applications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "Unity",
+        "Unreal Engine",
+        "ARKit / ARCore",
+        "Vuforia",
+        "OpenXR",
+        "Meta Quest SDK"
+      ],
+      "salary_range": {
+        "min": 600000,
+        "max": 3000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "Growing in gaming, training, retail, and industrial use. Path to XR Lead or Technical Director.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ET003",
+      "onet_soc_code": "15-1221.00",
+      "title": "Quantum Computing Researcher",
+      "domain": "Hardware & Emerging Tech",
+      "description": "Researches and develops algorithms, software, and systems for quantum computers \u2014 exploring quantum supremacy, error correction, and practical quantum applications.",
+      "roles_responsibilities": [
+        "Develop quantum algorithms for optimization, cryptography, and simulation",
+        "Implement quantum circuits using Qiskit, Cirq, or Braket",
+        "Research quantum error correction and fault-tolerant computing",
+        "Collaborate with physicists, mathematicians, and engineers",
+        "Publish research findings in quantum computing journals and conferences"
+      ],
+      "skills_required": [
+        "Quantum Mechanics Basics",
+        "Qiskit / Cirq",
+        "Linear Algebra",
+        "Python",
+        "Quantum Algorithms",
+        "Research Methodology"
+      ],
+      "educational_qualification": {
+        "minimum": "M.Tech / M.Sc in Physics / CS / Mathematics",
+        "preferred": [
+          "PhD in Quantum Computing / Quantum Physics / CS"
+        ],
+        "alternative": [
+          "Top Quantum Computing Research Publications without Full PhD"
+        ]
+      },
+      "experience_level": "Senior-Lead",
+      "difficulty": "Expert",
+      "tools_technologies": [
+        "Qiskit (IBM)",
+        "Cirq (Google)",
+        "Amazon Braket",
+        "PennyLane",
+        "Python",
+        "MATLAB"
+      ],
+      "salary_range": {
+        "min": 2000000,
+        "max": 15000000,
+        "currency": "INR"
+      },
+      "growth_level": "Very High",
+      "future_scope": "Pre-commercial but rapidly growing. High demand from IBM, Google, IISc, DRDO, and TCS Research.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ET004",
+      "onet_soc_code": "15-1299.02",
+      "title": "GIS Specialist / Geospatial Developer",
+      "domain": "Hardware & Emerging Tech",
+      "description": "Uses geographic information systems, spatial data, and geospatial programming to build maps, location intelligence tools, and spatial analysis systems.",
+      "roles_responsibilities": [
+        "Develop GIS applications and geospatial data pipelines",
+        "Perform spatial analysis and map visualization",
+        "Manage geospatial databases and spatial data formats",
+        "Build location-based APIs and map integrations",
+        "Support urban planning, logistics, and environmental monitoring use cases"
+      ],
+      "skills_required": [
+        "GIS Software (ArcGIS / QGIS)",
+        "Python / R (Geospatial Libraries)",
+        "Spatial Databases (PostGIS)",
+        "Remote Sensing",
+        "Data Visualization",
+        "Map APIs"
+      ],
+      "educational_qualification": {
+        "minimum": "B.Tech Geoinformatics / CSE / Civil",
+        "preferred": [
+          "M.Tech Remote Sensing / GIS",
+          "Esri Technical Certification"
+        ],
+        "alternative": [
+          "GIS Projects Portfolio + Esri Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Advanced",
+      "tools_technologies": [
+        "ArcGIS / QGIS",
+        "PostGIS",
+        "Python (GeoPandas, Folium)",
+        "Google Maps API",
+        "Mapbox",
+        "OpenStreetMap"
+      ],
+      "salary_range": {
+        "min": 500000,
+        "max": 2000000,
+        "currency": "INR"
+      },
+      "growth_level": "High",
+      "future_scope": "High demand in urban planning, defense, agriculture, and logistics. Path to GIS Architect or Geospatial Lead.",
+      "last_updated": "2026-03"
+    },
+    {
+      "id": "ET005",
+      "onet_soc_code": "15-1299.03",
+      "title": "Document Management Specialist",
+      "domain": "IT Systems & Architecture",
+      "description": "Implements and administers enterprise document management systems (DMS) that allow organizations to capture, store, retrieve, share, and manage information throughout its lifecycle.",
+      "roles_responsibilities": [
+        "Implement and configure enterprise DMS and ECM platforms",
+        "Define document taxonomy, metadata, and retention policies",
+        "Migrate legacy documents to new DMS platforms",
+        "Train users on document management processes",
+        "Ensure compliance with regulatory document retention requirements"
+      ],
+      "skills_required": [
+        "Document Management Systems",
+        "Information Architecture",
+        "Workflow Configuration",
+        "Compliance Knowledge",
+        "Training",
+        "Problem Solving"
+      ],
+      "educational_qualification": {
+        "minimum": "Any Bachelor's Degree",
+        "preferred": [
+          "B.Tech / BCA + DMS experience",
+          "CIP Certification (AIIM)"
+        ],
+        "alternative": [
+          "ECM / DMS Project Experience + AIIM Certifications"
+        ]
+      },
+      "experience_level": "Intermediate",
+      "difficulty": "Intermediate",
+      "tools_technologies": [
+        "Microsoft SharePoint",
+        "OpenText / Documentum",
+        "M-Files",
+        "Laserfiche",
+        "Box / Google Drive Enterprise",
+        "SQL"
+      ],
+      "salary_range": {
+        "min": 400000,
+        "max": 1500000,
+        "currency": "INR"
+      },
+      "growth_level": "Moderate",
+      "future_scope": "Demand driven by digital transformation and compliance mandates. Path to Information Manager or Solutions Architect.",
+      "last_updated": "2026-03"
+    }
+  ]
+}

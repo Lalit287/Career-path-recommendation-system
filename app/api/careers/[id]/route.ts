@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server"
 import { store } from "@/lib/store"
 import { getAuthCookie, verifyToken } from "@/lib/jwt"
+import { connectToDatabase } from "@/lib/mongodb"
+import { User } from "@/models/User"
 import {
   getCareerById,
   invalidateCareersCache,
@@ -58,7 +60,8 @@ export async function PUT(
       )
     }
 
-    const user = store.users.find((u) => u.id === decoded.userId)
+    await connectToDatabase()
+    const user = await User.findById(decoded.userId)
 
     if (!user?.isAdmin) {
       return NextResponse.json(
@@ -163,7 +166,8 @@ export async function DELETE(
       )
     }
 
-    const user = store.users.find((u) => u.id === decoded.userId)
+    await connectToDatabase()
+    const user = await User.findById(decoded.userId)
 
     if (!user?.isAdmin) {
       return NextResponse.json(
